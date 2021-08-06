@@ -18,7 +18,7 @@ CREATE TABLE IF NOT EXISTS `login_world_servers` (
   `tag_description` varchar(50) NOT NULL DEFAULT '',
   `login_server_list_type_id` int(11) NOT NULL,
   `last_login_date` datetime DEFAULT NULL,
-  `last_ip_address` varchar(15) DEFAULT NULL,
+  `last_ip_address` varchar(50) DEFAULT NULL,
   `login_server_admin_id` int(11) NOT NULL,
   `is_server_trusted` int(11) NOT NULL,
   `note` varchar(255) DEFAULT NULL,
