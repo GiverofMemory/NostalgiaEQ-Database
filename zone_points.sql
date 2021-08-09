@@ -41,7 +41,7 @@ CREATE TABLE IF NOT EXISTS `zone_points` (
   KEY `zone_points_target_idx` (`target_zone_id`) USING BTREE
 ) ENGINE=InnoDB AUTO_INCREMENT=2371 DEFAULT CHARSET=latin1;
 
--- Dumping data for table peq.zone_points: ~1,768 rows (approximately)
+-- Dumping data for table peq.zone_points: ~1,766 rows (approximately)
 /*!40000 ALTER TABLE `zone_points` DISABLE KEYS */;
 INSERT INTO `zone_points` (`id`, `zone`, `version`, `number`, `y`, `x`, `z`, `heading`, `target_y`, `target_x`, `target_z`, `target_heading`, `zoneinst`, `target_zone_id`, `target_instance`, `buffer`, `client_version_mask`, `min_expansion`, `max_expansion`, `content_flags`, `content_flags_disabled`, `is_virtual`, `height`, `width`) VALUES
 	(1, 'qeynos', 0, 1, 464, -442, 1.5, 0, -151, -5, 1.5, 0, 0, 2, 0, 0, 4294967295, 0, 0, NULL, NULL, 0, 0, 0),
@@ -69,7 +69,6 @@ INSERT INTO `zone_points` (`id`, `zone`, `version`, `number`, `y`, `x`, `z`, `he
 	(49, 'ecommons', 0, 2, 999999, 5050, 999999, 0, 999999, -1651.22, 999999, 126.3, 0, 21, 0, 0, 4294967295, 0, 0, NULL, NULL, 0, 0, 0),
 	(51, 'ecommons', 0, 3, 9, -1600, -51, 0, 999999, 798.56, -24.25, 384.5, 0, 9, 0, 0, 4294967295, 0, 0, NULL, NULL, 0, 0, 0),
 	(53, 'ecommons', 0, 4, 1553, 641, -18, 0, -2679.36, -514.8, -19.34, 50, 0, 25, 0, 0, 3, 0, 0, NULL, NULL, 0, 0, 0),
-	(71, 'zgukbottom', 0, 7, 0, 0, 0, 0, 1630, 359, -88, 65, 0, 65, 0, 0, 4294967295, 0, 0, NULL, NULL, 0, 0, 0),
 	(94, 'feerrott', 0, 1, -1130, -3130, -9, 0, -1135.7, 1900.64, -8.59, 428.3, 0, 46, 0, 0, 4294967295, 0, 0, NULL, NULL, 0, 0, 0),
 	(97, 'feerrott', 0, 2, 364.44, 3415.17, 3.13, 0, 1007.7, -2864.3, 17, 59.1, 0, 50, 0, 0, 4294967295, 0, 0, NULL, NULL, 0, 0, 0),
 	(99, 'feerrott', 0, 4, 1667, 808, 60, 0, -385.27, -96.32, 3.5, 2.5, 0, 49, 0, 0, 4294967295, 0, 0, NULL, NULL, 0, 0, 0),
@@ -1787,7 +1786,6 @@ INSERT INTO `zone_points` (`id`, `zone`, `version`, `number`, `y`, `x`, `z`, `he
 	(2334, 'xorbb', 0, 101, 0, 0, 0, 0, 539, 402, 4, 183, 0, 752, 0, 0, 4294967295, 0, 0, NULL, NULL, 0, 0, 0),
 	(2335, 'xorbb', 0, 2935, 0, 0, 0, 0, 1249, -572, 7, 160.5, 0, 16, 0, 0, 4294967295, 0, 0, NULL, NULL, 0, 0, 0),
 	(2339, 'nektulos', 0, 30, 0, 0, 0, 0, 1492, 611.52, -1778, 101.5, 0, 22, 0, 0, 4294967292, 0, 0, NULL, NULL, 0, 0, 0),
-	(2343, 'zfeerrott', 0, 1, -1130, -3130, -9, 0, -1099.88, 1842.46, -10.15, 247, 0, 46, 0, 0, 4294967295, 0, 0, NULL, NULL, 0, 0, 0),
 	(2344, 'paineel', 0, 1, 890, 100, 3.8, 0, -1976, -229, 50, 254.5, 0, 414, 0, 0, 0, 0, 0, NULL, NULL, 0, 0, 0),
 	(2345, 'erudnext', 0, 3, -1559, -186, -44, 0, 2284, -871, 43, 999, 0, 414, 0, 0, 0, 0, 0, NULL, NULL, 0, 0, 0),
 	(2346, 'akanon', 0, 1000, 52, -80, 4, 0, -1898.71, 557.66, -107.51, 255, 0, 56, 0, 0, 4294967295, 0, 0, NULL, NULL, 0, 0, 0),
