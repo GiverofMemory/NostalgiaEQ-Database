@@ -17,9 +17,9 @@ CREATE TABLE IF NOT EXISTS `character_languages` (
   `value` smallint(11) unsigned NOT NULL DEFAULT '0',
   PRIMARY KEY (`id`,`lang_id`),
   KEY `id` (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=7128 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=7129 DEFAULT CHARSET=latin1;
 
--- Dumping data for table peq.character_languages: ~14,736 rows (approximately)
+-- Dumping data for table peq.character_languages: ~14,738 rows (approximately)
 /*!40000 ALTER TABLE `character_languages` DISABLE KEYS */;
 INSERT INTO `character_languages` (`id`, `lang_id`, `value`) VALUES
 	(1, 0, 100),
@@ -14738,7 +14738,7 @@ INSERT INTO `character_languages` (`id`, `lang_id`, `value`) VALUES
 	(7116, 3, 100),
 	(7117, 0, 100),
 	(7118, 0, 100),
-	(7119, 0, 100),
+	(7119, 0, 1),
 	(7119, 3, 100),
 	(7120, 0, 100),
 	(7120, 3, 100),
@@ -14757,7 +14757,9 @@ INSERT INTO `character_languages` (`id`, `lang_id`, `value`) VALUES
 	(7126, 0, 100),
 	(7126, 9, 100),
 	(7127, 0, 100),
-	(7127, 3, 100);
+	(7127, 3, 100),
+	(7128, 0, 1),
+	(7128, 3, 100);
 /*!40000 ALTER TABLE `character_languages` ENABLE KEYS */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
 /*!40014 SET FOREIGN_KEY_CHECKS=IF(@OLD_FOREIGN_KEY_CHECKS IS NULL, 1, @OLD_FOREIGN_KEY_CHECKS) */;

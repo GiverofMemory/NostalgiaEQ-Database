@@ -20,7 +20,7 @@ CREATE TABLE IF NOT EXISTS `rule_values` (
   KEY `ruleset_id` (`ruleset_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
--- Dumping data for table peq.rule_values: ~582 rows (approximately)
+-- Dumping data for table peq.rule_values: ~583 rows (approximately)
 /*!40000 ALTER TABLE `rule_values` DISABLE KEYS */;
 INSERT INTO `rule_values` (`ruleset_id`, `rule_name`, `rule_value`, `notes`) VALUES
 	(1, 'AA:ExpPerPoint', '23976503', 'Amount of experience per AA. Is the same as the amount of experience to go from level 51 to level 52'),
@@ -140,6 +140,7 @@ INSERT INTO `rule_values` (`ruleset_id`, `rule_name`, `rule_value`, `notes`) VAL
 	(1, 'Character:LeaveNakedCorpses', 'FALSE', 'Setting whether you leave a corpse without items'),
 	(1, 'Character:LightBlueModifier', '20', 'The experience obtained for light-blue con mobs is multiplied by value/100'),
 	(1, 'Character:MaintainIntoxicationAcrossZones', 'FALSE', 'If true, alcohol effects are maintained across zoning and logging out/in'),
+	(1, 'Character:ManaOnLevel', 'false', 'Restore player\'s full mana on level up'),
 	(1, 'Character:ManaRegenMultiplier', '100', 'The mana regeneration is multiplied by value/100 (up to the caps)'),
 	(1, 'Character:MarqueeHPUpdates', 'FALSE', 'Will show health percentage in center of screen if health lesser than 100%'),
 	(1, 'Character:MaxCharmDurationForPlayerCharacter', '15', 'Maximum number of tics a player can be charmed. 1 tic equls 6 seconds'),

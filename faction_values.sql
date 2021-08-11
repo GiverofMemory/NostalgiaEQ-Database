@@ -19,7 +19,7 @@ CREATE TABLE IF NOT EXISTS `faction_values` (
   PRIMARY KEY (`char_id`,`faction_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
--- Dumping data for table peq.faction_values: ~54,639 rows (approximately)
+-- Dumping data for table peq.faction_values: ~54,642 rows (approximately)
 /*!40000 ALTER TABLE `faction_values` DISABLE KEYS */;
 INSERT INTO `faction_values` (`char_id`, `faction_id`, `current_value`, `temp`) VALUES
 	(4, 219, 2, 0),
@@ -54071,11 +54071,14 @@ INSERT INTO `faction_values` (`char_id`, `faction_id`, `current_value`, `temp`) 
 	(7091, 309, 2, 0),
 	(7091, 342, 100, 0),
 	(7091, 378, -2, 0),
+	(7092, 225, 1, 0),
 	(7092, 262, 15, 0),
 	(7092, 272, 15, 0),
 	(7092, 291, 15, 0),
 	(7092, 306, -63, 0),
 	(7092, 309, 15, 0),
+	(7092, 365, 1, 0),
+	(7092, 475, -1, 0),
 	(7093, 221, 100, 0),
 	(7093, 230, 5, 0),
 	(7093, 262, -15, 0),

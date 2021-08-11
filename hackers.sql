@@ -19,9 +19,9 @@ CREATE TABLE IF NOT EXISTS `hackers` (
   `zone` text,
   `date` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=13 DEFAULT CHARSET=latin1;
 
--- Dumping data for table peq.hackers: ~10 rows (approximately)
+-- Dumping data for table peq.hackers: ~12 rows (approximately)
 /*!40000 ALTER TABLE `hackers` DISABLE KEYS */;
 INSERT INTO `hackers` (`id`, `account`, `name`, `hacked`, `zone`, `date`) VALUES
 	(1, 'marcusd', 'Giverof', '/MQInstantCamp: Possible instant camp disconnect.', 'tutorial', '2021-07-22 00:28:21'),
@@ -33,7 +33,9 @@ INSERT INTO `hackers` (`id`, `account`, `name`, `hacked`, `zone`, `date`) VALUES
 	(7, 'marcusd', 'Giverof', '/MQInstantCamp: Possible instant camp disconnect.', 'tutorial', '2021-07-22 00:28:56'),
 	(8, 'marcusd', 'Giverof', '/MQInstantCamp: Possible instant camp disconnect.', 'tutorial', '2021-07-22 00:29:00'),
 	(9, 'marcusd', 'Giverof', '/MQInstantCamp: Possible instant camp disconnect.', 'tutorial', '2021-07-22 00:29:05'),
-	(10, 'notmarcusd', 'Giver', 'Giver attempting to target something beyond the clip plane of 9000000.00 units, from (-430.00, -209.00, 6.00) to a_plains_lioness010 (-4702.10, -1039.27, 35.41)', 'qey2hh1', '2021-07-23 06:41:28');
+	(10, 'notmarcusd', 'Giver', 'Giver attempting to target something beyond the clip plane of 9000000.00 units, from (-430.00, -209.00, 6.00) to a_plains_lioness010 (-4702.10, -1039.27, 35.41)', 'qey2hh1', '2021-07-23 06:41:28'),
+	(11, 'marcusd', 'Giverof', '/MQInstantCamp: Possible instant camp disconnect.', 'kithicor', '2021-08-08 14:28:17'),
+	(12, 'marcusd', 'Giverof', 'Giverof attempting to target something beyond the clip plane of 1960000.00 units, from (-430.00, -209.00, 6.00) to a_scareling000 (1044.70, -777.40, 106.36)', 'fearplane', '2021-08-10 00:40:56');
 /*!40000 ALTER TABLE `hackers` ENABLE KEYS */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
 /*!40014 SET FOREIGN_KEY_CHECKS=IF(@OLD_FOREIGN_KEY_CHECKS IS NULL, 1, @OLD_FOREIGN_KEY_CHECKS) */;

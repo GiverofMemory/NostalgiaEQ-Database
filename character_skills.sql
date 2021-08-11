@@ -17,9 +17,9 @@ CREATE TABLE IF NOT EXISTS `character_skills` (
   `value` smallint(11) unsigned NOT NULL DEFAULT '0',
   PRIMARY KEY (`id`,`skill_id`),
   KEY `id` (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=7128 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=7129 DEFAULT CHARSET=latin1;
 
--- Dumping data for table peq.character_skills: ~85,377 rows (approximately)
+-- Dumping data for table peq.character_skills: ~85,393 rows (approximately)
 /*!40000 ALTER TABLE `character_skills` DISABLE KEYS */;
 INSERT INTO `character_skills` (`id`, `skill_id`, `value`) VALUES
 	(1, 0, 200),
@@ -84013,28 +84013,28 @@ INSERT INTO `character_skills` (`id`, `skill_id`, `value`) VALUES
 	(7091, 51, 6),
 	(7091, 55, 10),
 	(7091, 67, 10),
-	(7092, 0, 16),
+	(7092, 0, 17),
 	(7092, 1, 8),
 	(7092, 2, 8),
 	(7092, 4, 22),
-	(7092, 5, 79),
+	(7092, 5, 87),
 	(7092, 9, 1),
-	(7092, 13, 114),
+	(7092, 13, 120),
 	(7092, 14, 16),
-	(7092, 15, 20),
+	(7092, 15, 28),
 	(7092, 18, 10),
-	(7092, 19, 38),
-	(7092, 24, 40),
+	(7092, 19, 75),
+	(7092, 24, 42),
 	(7092, 28, 10),
-	(7092, 31, 85),
-	(7092, 33, 16),
-	(7092, 40, 1),
+	(7092, 31, 88),
+	(7092, 33, 18),
+	(7092, 40, 4),
 	(7092, 43, 10),
-	(7092, 44, 74),
+	(7092, 44, 83),
 	(7092, 45, 7),
 	(7092, 46, 1),
-	(7092, 47, 34),
-	(7092, 50, 54),
+	(7092, 47, 35),
+	(7092, 50, 105),
 	(7092, 55, 10),
 	(7092, 60, 1),
 	(7092, 61, 1),
@@ -84093,7 +84093,7 @@ INSERT INTO `character_skills` (`id`, `skill_id`, `value`) VALUES
 	(7095, 5, 55),
 	(7095, 9, 1),
 	(7095, 13, 55),
-	(7095, 14, 18),
+	(7095, 14, 24),
 	(7095, 15, 48),
 	(7095, 18, 27),
 	(7095, 24, 60),
@@ -84936,7 +84936,23 @@ INSERT INTO `character_skills` (`id`, `skill_id`, `value`) VALUES
 	(7127, 40, 1),
 	(7127, 50, 1),
 	(7127, 55, 10),
-	(7127, 67, 10);
+	(7127, 67, 10),
+	(7128, 0, 10),
+	(7128, 1, 10),
+	(7128, 2, 10),
+	(7128, 3, 10),
+	(7128, 7, 10),
+	(7128, 15, 10),
+	(7128, 28, 10),
+	(7128, 33, 10),
+	(7128, 36, 10),
+	(7128, 40, 1),
+	(7128, 50, 1),
+	(7128, 51, 10),
+	(7128, 53, 10),
+	(7128, 55, 10),
+	(7128, 67, 10),
+	(7128, 73, 10);
 /*!40000 ALTER TABLE `character_skills` ENABLE KEYS */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
 /*!40014 SET FOREIGN_KEY_CHECKS=IF(@OLD_FOREIGN_KEY_CHECKS IS NULL, 1, @OLD_FOREIGN_KEY_CHECKS) */;

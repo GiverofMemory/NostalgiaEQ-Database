@@ -23,7 +23,7 @@ CREATE TABLE IF NOT EXISTS `qs_merchant_transaction_record_entries` (
   `aug_5` int(11) DEFAULT '0'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Dumping data for table peq.qs_merchant_transaction_record_entries: ~72,000 rows (approximately)
+-- Dumping data for table peq.qs_merchant_transaction_record_entries: ~72,003 rows (approximately)
 /*!40000 ALTER TABLE `qs_merchant_transaction_record_entries` DISABLE KEYS */;
 INSERT INTO `qs_merchant_transaction_record_entries` (`event_id`, `char_slot`, `item_id`, `charges`, `aug_1`, `aug_2`, `aug_3`, `aug_4`, `aug_5`) VALUES
 	(1, 28, 15036, 1, 0, 0, 0, 0, 0),
@@ -71971,7 +71971,10 @@ INSERT INTO `qs_merchant_transaction_record_entries` (`event_id`, `char_slot`, `
 	(71940, 29, 1005, 1, 0, 0, 0, 0, 0),
 	(71941, 30, 1004, 1, 0, 0, 0, 0, 0),
 	(71942, 251, 1002, 1, 0, 0, 0, 0, 0),
-	(71943, 252, 1009, 1, 0, 0, 0, 0, 0);
+	(71943, 252, 1009, 1, 0, 0, 0, 0, 0),
+	(71944, 30, 18196, 1, 0, 0, 0, 0, 0),
+	(71945, 30, 18196, 1, 0, 0, 0, 0, 0),
+	(71946, 30, 18143, 1, 0, 0, 0, 0, 0);
 /*!40000 ALTER TABLE `qs_merchant_transaction_record_entries` ENABLE KEYS */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
 /*!40014 SET FOREIGN_KEY_CHECKS=IF(@OLD_FOREIGN_KEY_CHECKS IS NULL, 1, @OLD_FOREIGN_KEY_CHECKS) */;

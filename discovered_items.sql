@@ -19,7 +19,7 @@ CREATE TABLE IF NOT EXISTS `discovered_items` (
   PRIMARY KEY (`item_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
--- Dumping data for table peq.discovered_items: ~5,145 rows (approximately)
+-- Dumping data for table peq.discovered_items: ~5,146 rows (approximately)
 /*!40000 ALTER TABLE `discovered_items` DISABLE KEYS */;
 INSERT INTO `discovered_items` (`item_id`, `char_name`, `discovered_date`, `account_status`) VALUES
 	(1001, 'Bewm', 1536973612, 0),
@@ -4357,6 +4357,7 @@ INSERT INTO `discovered_items` (`item_id`, `char_name`, `discovered_date`, `acco
 	(18137, 'Reomir', 1537170064, 0),
 	(18138, 'Reomir', 1537166311, 0),
 	(18139, 'Reomir', 1537170797, 0),
+	(18143, 'Giverof', 1628483187, 255),
 	(18148, 'Thrombosis', 1537027212, 0),
 	(18149, 'Bangin', 1541909955, 0),
 	(18150, 'Juvenal', 1536974747, 0),

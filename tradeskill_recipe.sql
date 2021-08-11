@@ -30,7 +30,7 @@ CREATE TABLE IF NOT EXISTS `tradeskill_recipe` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=25155 DEFAULT CHARSET=latin1;
 
--- Dumping data for table peq.tradeskill_recipe: ~7,185 rows (approximately)
+-- Dumping data for table peq.tradeskill_recipe: ~7,174 rows (approximately)
 /*!40000 ALTER TABLE `tradeskill_recipe` DISABLE KEYS */;
 INSERT INTO `tradeskill_recipe` (`id`, `name`, `tradeskill`, `skillneeded`, `trivial`, `nofail`, `replace_container`, `notes`, `must_learn`, `quest`, `enabled`, `min_expansion`, `max_expansion`, `content_flags`, `content_flags_disabled`) VALUES
 	(1, 'Blessed Fishing Rod', 55, 0, 202, 0, 0, '\\N', 0, 0, 1, 0, 0, NULL, NULL),

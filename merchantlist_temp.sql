@@ -21,7 +21,7 @@ CREATE TABLE IF NOT EXISTS `merchantlist_temp` (
   KEY `npcid_2` (`npcid`,`itemid`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
--- Dumping data for table peq.merchantlist_temp: ~40,312 rows (approximately)
+-- Dumping data for table peq.merchantlist_temp: ~40,308 rows (approximately)
 /*!40000 ALTER TABLE `merchantlist_temp` DISABLE KEYS */;
 INSERT INTO `merchantlist_temp` (`npcid`, `slot`, `itemid`, `charges`, `itemcharges`) VALUES
 	(1004, 82, 7008, 1, ''),
@@ -6482,7 +6482,7 @@ INSERT INTO `merchantlist_temp` (`npcid`, `slot`, `itemid`, `charges`, `itemchar
 	(9105, 97, 13417, 1, ''),
 	(9105, 98, 14018, 2, ''),
 	(9105, 99, 11745, 1, ''),
-	(9123, 82, 6018, 1, ''),
+	(9123, 82, 18196, 1, ''),
 	(9123, 83, 13885, 2, ''),
 	(9126, 84, 11753, 2, ''),
 	(9126, 85, 4211, 1, '1'),
