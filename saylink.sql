@@ -16,9 +16,9 @@ CREATE TABLE IF NOT EXISTS `saylink` (
   `phrase` varchar(64) NOT NULL DEFAULT '',
   PRIMARY KEY (`id`),
   KEY `phrase_index` (`phrase`) USING BTREE
-) ENGINE=InnoDB AUTO_INCREMENT=6001 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=6011 DEFAULT CHARSET=latin1;
 
--- Dumping data for table peq.saylink: ~5,216 rows (approximately)
+-- Dumping data for table peq.saylink: ~5,592 rows (approximately)
 /*!40000 ALTER TABLE `saylink` DISABLE KEYS */;
 INSERT INTO `saylink` (`id`, `phrase`) VALUES
 	(2608, '#dev'),
@@ -2640,6 +2640,10 @@ INSERT INTO `saylink` (`id`, `phrase`) VALUES
 	(5778, '#si 15278'),
 	(3656, '#si 1536'),
 	(3657, '#si 1540'),
+	(6001, '#si 15425'),
+	(6002, '#si 15426'),
+	(6005, '#si 15427'),
+	(6003, '#si 15428'),
 	(3295, '#si 1548'),
 	(3296, '#si 1552'),
 	(3658, '#si 1575'),
@@ -2692,6 +2696,7 @@ INSERT INTO `saylink` (`id`, `phrase`) VALUES
 	(3215, '#si 17350'),
 	(3659, '#si 1752'),
 	(3216, '#si 17609'),
+	(6006, '#si 17614'),
 	(3311, '#si 1766'),
 	(3660, '#si 1784'),
 	(3217, '#si 17969'),
@@ -2706,6 +2711,8 @@ INSERT INTO `saylink` (`id`, `phrase`) VALUES
 	(3662, '#si 1890'),
 	(4638, '#si 19045'),
 	(3663, '#si 1910'),
+	(6007, '#si 19244'),
+	(6008, '#si 19260'),
 	(5714, '#si 2004'),
 	(5455, '#si 20092'),
 	(5456, '#si 20092 100'),
@@ -2828,6 +2835,7 @@ INSERT INTO `saylink` (`id`, `phrase`) VALUES
 	(3682, '#si 2690'),
 	(3683, '#si 2693'),
 	(3684, '#si 2693 100'),
+	(6009, '#si 26966'),
 	(3503, '#si 27258'),
 	(3332, '#si 2743'),
 	(5706, '#si 27791'),
@@ -2845,6 +2853,7 @@ INSERT INTO `saylink` (`id`, `phrase`) VALUES
 	(3650, '#si 30250'),
 	(3531, '#si 30350'),
 	(3532, '#si 30351'),
+	(6010, '#si 30431'),
 	(4643, '#si 30622'),
 	(4644, '#si 30622 100'),
 	(5460, '#si 30809'),
@@ -3213,6 +3222,7 @@ INSERT INTO `saylink` (`id`, `phrase`) VALUES
 	(5535, '#si 7407'),
 	(5536, '#si 7459'),
 	(3581, '#si 7617'),
+	(6004, '#si 7623'),
 	(3582, '#si 7624'),
 	(3583, '#si 7625'),
 	(3584, '#si 7644'),

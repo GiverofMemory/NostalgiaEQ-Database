@@ -24,7 +24,7 @@ CREATE TABLE IF NOT EXISTS `character_bind` (
   KEY `id` (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=7129 DEFAULT CHARSET=latin1;
 
--- Dumping data for table peq.character_bind: ~22,397 rows (approximately)
+-- Dumping data for table peq.character_bind: ~22,968 rows (approximately)
 /*!40000 ALTER TABLE `character_bind` DISABLE KEYS */;
 INSERT INTO `character_bind` (`id`, `slot`, `zone_id`, `instance_id`, `x`, `y`, `z`, `heading`) VALUES
 	(1, 0, 180, 0, 412, -8, 22, 128),

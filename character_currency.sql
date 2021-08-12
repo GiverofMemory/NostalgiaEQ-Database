@@ -34,7 +34,7 @@ CREATE TABLE IF NOT EXISTS `character_currency` (
   KEY `id` (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
--- Dumping data for table peq.character_currency: ~4,559 rows (approximately)
+-- Dumping data for table peq.character_currency: ~4,558 rows (approximately)
 /*!40000 ALTER TABLE `character_currency` DISABLE KEYS */;
 INSERT INTO `character_currency` (`id`, `platinum`, `gold`, `silver`, `copper`, `platinum_bank`, `gold_bank`, `silver_bank`, `copper_bank`, `platinum_cursor`, `gold_cursor`, `silver_cursor`, `copper_cursor`, `radiant_crystals`, `career_radiant_crystals`, `ebon_crystals`, `career_ebon_crystals`, `platinum_shared`) VALUES
 	(1, 0, 0, 8, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0),
@@ -4516,7 +4516,7 @@ INSERT INTO `character_currency` (`id`, `platinum`, `gold`, `silver`, `copper`, 
 	(7089, 6, 9, 3, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0),
 	(7090, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0),
 	(7091, 73, 3, 9, 8, 0, 2, 23, 43, 0, 0, 0, 0, 0, 0, 0, 0, 0),
-	(7092, 19, 49, 90, 63, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0),
+	(7092, 19, 51, 92, 80, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0),
 	(7093, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0),
 	(7094, 558, 9, 6, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0),
 	(7095, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0),

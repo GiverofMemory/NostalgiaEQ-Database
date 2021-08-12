@@ -18,7 +18,7 @@ CREATE TABLE IF NOT EXISTS `db_str` (
   PRIMARY KEY (`id`,`type`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
--- Dumping data for table peq.db_str: ~8,413 rows (approximately)
+-- Dumping data for table peq.db_str: ~8,393 rows (approximately)
 /*!40000 ALTER TABLE `db_str` DISABLE KEYS */;
 INSERT INTO `db_str` (`id`, `type`, `value`) VALUES
 	(0, 12, 'UNKNOWN RACE\r'),

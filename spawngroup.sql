@@ -29,7 +29,7 @@ CREATE TABLE IF NOT EXISTS `spawngroup` (
   UNIQUE KEY `name` (`name`)
 ) ENGINE=InnoDB AUTO_INCREMENT=275050 DEFAULT CHARSET=latin1;
 
--- Dumping data for table peq.spawngroup: ~11,826 rows (approximately)
+-- Dumping data for table peq.spawngroup: ~11,472 rows (approximately)
 /*!40000 ALTER TABLE `spawngroup` DISABLE KEYS */;
 INSERT INTO `spawngroup` (`id`, `name`, `spawn_limit`, `dist`, `max_x`, `min_x`, `max_y`, `min_y`, `delay`, `mindelay`, `despawn`, `despawn_timer`, `wp_spawns`) VALUES
 	(1002, 'qeynos_Guard_Jerith14', 0, 0, 0, 0, 0, 0, 0, 15000, 0, 100, 0),
