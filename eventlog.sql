@@ -23,9 +23,9 @@ CREATE TABLE IF NOT EXISTS `eventlog` (
   `description` text NOT NULL,
   `event_nid` int(11) NOT NULL DEFAULT '0',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=1756 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=1787 DEFAULT CHARSET=latin1;
 
--- Dumping data for table peq.eventlog: ~1,755 rows (approximately)
+-- Dumping data for table peq.eventlog: ~1,761 rows (approximately)
 /*!40000 ALTER TABLE `eventlog` DISABLE KEYS */;
 INSERT INTO `eventlog` (`id`, `accountname`, `accountid`, `status`, `charname`, `target`, `time`, `descriptiontype`, `description`, `event_nid`) VALUES
 	(1, 'marcusd', 2234, 255, 'Giverof', 'None', '2021-08-06 03:07:51', 'Command', '#zone gfaydark', 1),
@@ -1782,7 +1782,38 @@ INSERT INTO `eventlog` (`id`, `accountname`, `accountid`, `status`, `charname`, 
 	(1752, 'marcusd', 2234, 255, 'Giverof', 'Giverof', '2021-08-12 23:13:37', 'Command', '##repop', 1),
 	(1753, 'marcusd', 2234, 255, 'Giverof', 'Giverof', '2021-08-12 23:13:47', 'Command', '#list npcs', 1),
 	(1754, 'marcusd', 2234, 255, 'Giverof', 'Giverof', '2021-08-12 23:14:03', 'Command', '#goto 2530 428 -70', 1),
-	(1755, 'marcusd', 2234, 255, 'Giverof', 'Giverof', '2021-08-12 23:14:37', 'Command', '#repop', 1);
+	(1755, 'marcusd', 2234, 255, 'Giverof', 'Giverof', '2021-08-12 23:14:37', 'Command', '#repop', 1),
+	(1756, 'marcusd', 2234, 255, 'Giverof', 'Giverof', '2021-08-13 00:20:43', 'Command', '#zone eastkarana', 1),
+	(1757, 'marcusd', 2234, 255, 'Giverof', 'None', '2021-08-13 00:22:21', 'Command', '#zone nro', 1),
+	(1758, 'marcusd', 2234, 255, 'Giverof', 'None', '2021-08-13 00:23:27', 'Command', '#zone mistmore', 1),
+	(1759, 'marcusd', 2234, 255, 'Giverof', 'None', '2021-08-13 00:23:35', 'Command', '#zone mistmoore', 1),
+	(1760, 'marcusd', 2234, 255, 'Giverof', 'None', '2021-08-13 00:23:45', 'Command', '#list npcs', 1),
+	(1761, 'marcusd', 2234, 255, 'Giverof', 'None', '2021-08-13 00:23:53', 'Command', '#goto -177 96 -221', 1),
+	(1762, 'marcusd', 2234, 255, 'Giverof', 'None', '2021-08-13 00:25:58', 'Command', '#zone qey2hh1', 1),
+	(1763, 'marcusd', 2234, 255, 'Giverof', 'None', '2021-08-13 00:26:09', 'Command', '#list npcs', 1),
+	(1764, 'marcusd', 2234, 255, 'Giverof', 'None', '2021-08-13 00:26:26', 'Command', '#goto -7099 -3458 14', 1),
+	(1765, 'marcusd', 2234, 255, 'Giverof', 'None', '2021-08-13 00:26:53', 'Command', '#goto -4314 -1206 21', 1),
+	(1766, 'marcusd', 2234, 255, 'Giverof', 'None', '2021-08-13 00:27:49', 'Command', '#zone qey2qrg', 1),
+	(1767, 'marcusd', 2234, 255, 'Giverof', 'None', '2021-08-13 00:28:14', 'Command', '#zone qrytoqrg', 1),
+	(1768, 'marcusd', 2234, 255, 'Giverof', 'None', '2021-08-13 00:28:25', 'Command', '#zone qeytoqrg', 1),
+	(1769, 'marcusd', 2234, 255, 'Giverof', 'None', '2021-08-13 00:28:47', 'Command', '#list npcs', 1),
+	(1770, 'marcusd', 2234, 255, 'Giverof', 'None', '2021-08-13 00:28:50', 'Command', '#goto -421 1780 48', 1),
+	(1771, 'marcusd', 2234, 255, 'Giverof', 'None', '2021-08-13 00:29:04', 'Command', '#time 6 00', 1),
+	(1772, 'marcusd', 2234, 255, 'Giverof', 'None', '2021-08-13 00:29:11', 'Command', '#goto 626 1077 75', 1),
+	(1773, 'marcusd', 2234, 255, 'Giverof', 'a_rabid_wolf000', '2021-08-13 00:29:53', 'Command', '#goto 864 1577 -33', 1),
+	(1774, 'marcusd', 2234, 255, 'Giverof', 'a_rabid_wolf000', '2021-08-13 00:29:55', 'Command', '#goto -518 1046 17', 1),
+	(1775, 'marcusd', 2234, 255, 'Giverof', 'a_rabid_wolf000', '2021-08-13 00:29:56', 'Command', '#goto -518 1046 17', 1),
+	(1776, 'marcusd', 2234, 255, 'Giverof', 'None', '2021-08-13 00:31:18', 'Command', '#zone everfrost', 1),
+	(1777, 'marcusd', 2234, 255, 'Giverof', 'None', '2021-08-13 00:31:28', 'Command', '#list npcs', 1),
+	(1778, 'marcusd', 2234, 255, 'Giverof', 'None', '2021-08-13 00:31:37', 'Command', '#goto -2486 2505 -51', 1),
+	(1779, 'marcusd', 2234, 255, 'Giverof', 'None', '2021-08-13 00:32:14', 'Command', '#zone eastkarana', 1),
+	(1780, 'marcusd', 2234, 255, 'Giverof', 'None', '2021-08-13 00:32:23', 'Command', '#list npcs', 1),
+	(1781, 'marcusd', 2234, 255, 'Giverof', 'None', '2021-08-13 00:32:28', 'Command', '#goto 431 -762 1', 1),
+	(1782, 'marcusd', 2234, 255, 'Giverof', 'None', '2021-08-13 00:32:34', 'Command', '#goto -818 -1665 251', 1),
+	(1783, 'marcusd', 2234, 255, 'Giverof', 'Chief_SaNre`Rexsa000', '2021-08-13 00:32:56', 'Command', '#goto -351 305 6', 1),
+	(1784, 'marcusd', 2234, 255, 'Giverof', 'Chief_SaNre`Rexsa000', '2021-08-13 00:33:12', 'Command', '#goto 58 -2590 28', 1),
+	(1785, 'marcusd', 2234, 255, 'Giverof', 'Chief_SaNre`Rexsa000', '2021-08-13 00:33:29', 'Command', '#goto 537 -3430 7', 1),
+	(1786, 'marcusd', 2234, 255, 'Giverof', 'Chief_SaNre`Rexsa000', '2021-08-13 00:33:51', 'Command', '#goto -1585 -3657 -19', 1);
 /*!40000 ALTER TABLE `eventlog` ENABLE KEYS */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
 /*!40014 SET FOREIGN_KEY_CHECKS=IF(@OLD_FOREIGN_KEY_CHECKS IS NULL, 1, @OLD_FOREIGN_KEY_CHECKS) */;
