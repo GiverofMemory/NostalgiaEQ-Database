@@ -19,7 +19,7 @@ CREATE TABLE IF NOT EXISTS `character_skills` (
   KEY `id` (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=7129 DEFAULT CHARSET=latin1;
 
--- Dumping data for table peq.character_skills: ~85,377 rows (approximately)
+-- Dumping data for table peq.character_skills: ~85,378 rows (approximately)
 /*!40000 ALTER TABLE `character_skills` DISABLE KEYS */;
 INSERT INTO `character_skills` (`id`, `skill_id`, `value`) VALUES
 	(1, 0, 200),
@@ -84017,9 +84017,9 @@ INSERT INTO `character_skills` (`id`, `skill_id`, `value`) VALUES
 	(7092, 1, 8),
 	(7092, 2, 8),
 	(7092, 4, 22),
-	(7092, 5, 143),
+	(7092, 5, 154),
 	(7092, 9, 1),
-	(7092, 13, 170),
+	(7092, 13, 181),
 	(7092, 14, 16),
 	(7092, 15, 28),
 	(7092, 18, 10),
@@ -84028,9 +84028,10 @@ INSERT INTO `character_skills` (`id`, `skill_id`, `value`) VALUES
 	(7092, 28, 10),
 	(7092, 31, 235),
 	(7092, 33, 18),
+	(7092, 35, 130),
 	(7092, 40, 4),
 	(7092, 43, 10),
-	(7092, 44, 125),
+	(7092, 44, 137),
 	(7092, 45, 7),
 	(7092, 46, 1),
 	(7092, 47, 35),

@@ -19,7 +19,7 @@ CREATE TABLE IF NOT EXISTS `character_memmed_spells` (
   KEY `id` (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
--- Dumping data for table peq.character_memmed_spells: ~11,551 rows (approximately)
+-- Dumping data for table peq.character_memmed_spells: ~11,552 rows (approximately)
 /*!40000 ALTER TABLE `character_memmed_spells` DISABLE KEYS */;
 INSERT INTO `character_memmed_spells` (`id`, `slot_id`, `spell_id`) VALUES
 	(1, 0, 2621),
@@ -11535,6 +11535,7 @@ INSERT INTO `character_memmed_spells` (`id`, `slot_id`, `spell_id`) VALUES
 	(7091, 4, 590),
 	(7092, 0, 1776),
 	(7092, 1, 425),
+	(7092, 2, 261),
 	(7092, 3, 426),
 	(7092, 5, 428),
 	(7092, 6, 1563),

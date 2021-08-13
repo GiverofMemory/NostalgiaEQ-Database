@@ -604,7 +604,7 @@ INSERT INTO `rule_values` (`ruleset_id`, `rule_name`, `rule_value`, `notes`) VAL
 	(1, 'Zone:SecondsBeforeIdle', '60', 'Seconds before IDLE_WHEN_EMPTY define kicks in'),
 	(1, 'Zone:SpawnEventMin', '3', 'When strict is set in spawn_events, specifies the max EQ minutes into the trigger hour a spawn_event will fire. Going below 3 may cause the spawn_event to not fire.'),
 	(1, 'Zone:UsePEQZoneDebuffs', 'FALSE', 'Setting if the command #peqzone applies the defined debuffs'),
-	(1, 'Zone:UseZoneController', 'TRUE', 'Enables the ability to use persistent quest based zone controllers (zone_controller.pl/lua)'),
+	(1, 'Zone:UseZoneController', 'FALSE', 'Enables the ability to use persistent quest based zone controllers (zone_controller.pl/lua)'),
 	(1, 'Zone:WeatherTimer', '600', 'Weather timer when no duration is available');
 /*!40000 ALTER TABLE `rule_values` ENABLE KEYS */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;

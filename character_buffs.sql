@@ -33,7 +33,7 @@ CREATE TABLE IF NOT EXISTS `character_buffs` (
   KEY `character_id` (`character_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
--- Dumping data for table peq.character_buffs: ~3,975 rows (approximately)
+-- Dumping data for table peq.character_buffs: ~3,976 rows (approximately)
 /*!40000 ALTER TABLE `character_buffs` DISABLE KEYS */;
 INSERT INTO `character_buffs` (`character_id`, `slot_id`, `spell_id`, `caster_level`, `caster_name`, `ticsremaining`, `counters`, `numhits`, `melee_rune`, `magic_rune`, `persistent`, `dot_rune`, `caston_x`, `caston_y`, `caston_z`, `ExtraDIChance`, `instrument_mod`) VALUES
 	(2, 0, 1214, 50, 'Plastic', 1442, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10),
@@ -4000,7 +4000,8 @@ INSERT INTO `character_buffs` (`character_id`, `slot_id`, `spell_id`, `caster_le
 	(7089, 0, 1391, 50, 'Mercyy', 262, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10),
 	(7089, 2, 67, 50, 'Mercyy', 345, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10),
 	(7091, 0, 66, 34, 'Zandelm', 446, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10),
-	(7092, 0, 427, 60, 'Giverof', 1232, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10),
+	(7092, 0, 261, 60, 'Giverof', 117, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10),
+	(7092, 1, 1563, 60, 'Giverof', 1780, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10),
 	(7094, 0, 1391, 50, '', 285, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10),
 	(7094, 1, 26, 9, 'Mercykiller', 232, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10),
 	(7101, 0, 278, 19, 'Noxe', 84, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10),
