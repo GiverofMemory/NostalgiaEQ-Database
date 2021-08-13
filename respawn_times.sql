@@ -19,7 +19,7 @@ CREATE TABLE IF NOT EXISTS `respawn_times` (
   PRIMARY KEY (`id`,`instance_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
--- Dumping data for table peq.respawn_times: ~75 rows (approximately)
+-- Dumping data for table peq.respawn_times: ~76 rows (approximately)
 /*!40000 ALTER TABLE `respawn_times` DISABLE KEYS */;
 INSERT INTO `respawn_times` (`id`, `start`, `duration`, `instance_id`) VALUES
 	(330141, 1628837146, 640, 0),
