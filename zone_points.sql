@@ -39,7 +39,7 @@ CREATE TABLE IF NOT EXISTS `zone_points` (
   PRIMARY KEY (`id`),
   KEY `NewIndex` (`number`,`zone`),
   KEY `zone_points_target_idx` (`target_zone_id`) USING BTREE
-) ENGINE=InnoDB AUTO_INCREMENT=2368 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=2571 DEFAULT CHARSET=latin1;
 
 -- Dumping data for table peq.zone_points: ~1,764 rows (approximately)
 /*!40000 ALTER TABLE `zone_points` DISABLE KEYS */;
@@ -1370,8 +1370,8 @@ INSERT INTO `zone_points` (`id`, `zone`, `version`, `number`, `y`, `x`, `z`, `he
 	(1869, 'underquarry', 0, 10, 0, 0, 0, 0, 782.89, -655.54, -24.95, 123, 0, 488, 0, 0, 4294967295, 0, 0, NULL, NULL, 0, 0, 0),
 	(1870, 'underquarry', 0, 20, 0, 0, 0, 0, -1111.42, 1163, -207.27, 18, 0, 486, 0, 0, 4294967295, 0, 0, NULL, NULL, 0, 0, 0),
 	(1871, 'underquarry', 0, 30, 0, 0, 0, 0, -1633.82, 521.18, 200, 270, 0, 485, 0, 0, 4294967295, 0, 0, NULL, NULL, 0, 0, 0),
-	(1872, 'arena', 0, 1, 0, 0, 0, 0, 2346.53, 2699.61, 96.69, 387.8, 0, 51, 0, 0, 4294967295, 0, 0, NULL, NULL, 0, 0, 0),
-	(1873, 'arena', 0, 10, 0, 0, 0, 0, 2346.53, 2699.61, 96.69, 387.8, 0, 51, 0, 0, 4294967295, 0, 0, NULL, NULL, 0, 0, 0),
+	(1872, 'arena', 0, 10, 0, 0, 0, 0, 2346.53, 2699.61, 96.69, 387.8, 0, 51, 0, 0, 4294967295, 0, 0, NULL, NULL, 0, 0, 0),
+	(1873, 'arena', 0, 1, 0, 0, 0, 0, 2346.53, 2699.61, 96.69, 387.8, 0, 51, 0, 0, 4294967295, 0, 0, NULL, NULL, 0, 0, 0),
 	(1874, 'arena', 0, 77, 0, 0, 0, 0, -430, 140, -152, 520, 0, 202, 0, 0, 4294967295, 0, 0, NULL, NULL, 0, 0, 0),
 	(1876, 'lavastorm', 0, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4294967295, 0, 0, NULL, NULL, 0, 0, 0),
 	(1877, 'lavastorm', 0, 20, 0, 0, 0, 0, 250, 56, 3, 65, 0, 80, 0, 0, 4294967295, 0, 0, NULL, NULL, 0, 0, 0),
