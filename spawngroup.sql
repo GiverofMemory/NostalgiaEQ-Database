@@ -27,9 +27,9 @@ CREATE TABLE IF NOT EXISTS `spawngroup` (
   `wp_spawns` tinyint(1) unsigned NOT NULL DEFAULT '0',
   PRIMARY KEY (`id`),
   UNIQUE KEY `name` (`name`)
-) ENGINE=InnoDB AUTO_INCREMENT=275050 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=275051 DEFAULT CHARSET=latin1;
 
--- Dumping data for table peq.spawngroup: ~11,472 rows (approximately)
+-- Dumping data for table peq.spawngroup: ~11,473 rows (approximately)
 /*!40000 ALTER TABLE `spawngroup` DISABLE KEYS */;
 INSERT INTO `spawngroup` (`id`, `name`, `spawn_limit`, `dist`, `max_x`, `min_x`, `max_y`, `min_y`, `delay`, `mindelay`, `despawn`, `despawn_timer`, `wp_spawns`) VALUES
 	(1002, 'qeynos_Guard_Jerith14', 0, 0, 0, 0, 0, 0, 0, 15000, 0, 100, 0),
@@ -11571,7 +11571,8 @@ INSERT INTO `spawngroup` (`id`, `name`, `spawn_limit`, `dist`, `max_x`, `min_x`,
 	(275046, 'qeynos-Translocator_Sedina000', 0, 0, 0, 0, 0, 0, 45000, 15000, 0, 100, 0),
 	(275047, 'freporte-Translocator_Setikan000', 0, 0, 0, 0, 0, 0, 45000, 15000, 0, 100, 0),
 	(275048, 'oot-Translocator_Narrik000', 0, 0, 0, 0, 0, 0, 45000, 15000, 0, 100, 0),
-	(275049, 'butcher-Translocator_Fithop000', 0, 0, 0, 0, 0, 0, 45000, 15000, 0, 100, 0);
+	(275049, 'butcher-Translocator_Fithop000', 0, 0, 0, 0, 0, 0, 45000, 15000, 0, 100, 0),
+	(275050, '#LRZoner', 0, 0, 0, 0, 0, 0, 45000, 15000, 0, 100, 0);
 /*!40000 ALTER TABLE `spawngroup` ENABLE KEYS */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
 /*!40014 SET FOREIGN_KEY_CHECKS=IF(@OLD_FOREIGN_KEY_CHECKS IS NULL, 1, @OLD_FOREIGN_KEY_CHECKS) */;

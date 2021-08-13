@@ -23,7 +23,7 @@ CREATE TABLE IF NOT EXISTS `eqtime` (
 -- Dumping data for table peq.eqtime: ~0 rows (approximately)
 /*!40000 ALTER TABLE `eqtime` DISABLE KEYS */;
 INSERT INTO `eqtime` (`minute`, `hour`, `day`, `month`, `year`, `realtime`) VALUES
-	(0, 17, 19, 4, 3894, 1628884510);
+	(59, 22, 20, 4, 3894, 1628894675);
 /*!40000 ALTER TABLE `eqtime` ENABLE KEYS */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
 /*!40014 SET FOREIGN_KEY_CHECKS=IF(@OLD_FOREIGN_KEY_CHECKS IS NULL, 1, @OLD_FOREIGN_KEY_CHECKS) */;

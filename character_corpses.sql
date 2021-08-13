@@ -62,9 +62,9 @@ CREATE TABLE IF NOT EXISTS `character_corpses` (
   PRIMARY KEY (`id`),
   KEY `zoneid` (`zone_id`),
   KEY `instanceid` (`instance_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=17622 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=17624 DEFAULT CHARSET=latin1;
 
--- Dumping data for table peq.character_corpses: ~1,376 rows (approximately)
+-- Dumping data for table peq.character_corpses: ~1,377 rows (approximately)
 /*!40000 ALTER TABLE `character_corpses` DISABLE KEYS */;
 INSERT INTO `character_corpses` (`id`, `charid`, `charname`, `zone_id`, `instance_id`, `x`, `y`, `z`, `heading`, `time_of_death`, `guild_consent_id`, `is_rezzed`, `is_buried`, `was_at_graveyard`, `is_locked`, `exp`, `size`, `level`, `race`, `gender`, `class`, `deity`, `texture`, `helm_texture`, `copper`, `silver`, `gold`, `platinum`, `hair_color`, `beard_color`, `eye_color_1`, `eye_color_2`, `hair_style`, `face`, `beard`, `drakkin_heritage`, `drakkin_tattoo`, `drakkin_details`, `wc_1`, `wc_2`, `wc_3`, `wc_4`, `wc_5`, `wc_6`, `wc_7`, `wc_8`, `wc_9`) VALUES
 	(1, 3, 'Asswhole', 44, 0, 858.2, -76, 3.8, 0, '2018-09-14 12:13:46', 0, 0, 1, 0, 0, 0, 6, 1, 128, 0, 10, 203, 255, 255, 0, 0, 0, 0, 255, 255, 0, 255, 255, 6, 255, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0),
@@ -1442,7 +1442,8 @@ INSERT INTO `character_corpses` (`id`, `charid`, `charname`, `zone_id`, `instanc
 	(17614, 7090, 'Mercyboy', 56, 0, 1434.8, -1169.9, -143.7, 158.2, '2021-07-28 18:44:36', 0, 0, 1, 0, 0, 0, 3, 2, 12, 0, 1, 201, 255, 255, 8, 6, 2, 0, 0, 0, 0, 0, 0, 2, 0, 1919251553, 1617715561, 1162368800, 0, 0, 0, 0, 0, 0, 0, 0, 0),
 	(17615, 7090, 'Mercyboy', 56, 0, -806, 667.3, -84.6, 37.2, '2021-07-28 18:47:49', 0, 0, 1, 0, 0, 0, 3, 2, 12, 0, 1, 201, 255, 255, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 1919251553, 1617715561, 1162368800, 0, 0, 0, 0, 0, 0, 0, 0, 0),
 	(17616, 7125, 'Tyffendy', 19, 0, -115.7, -4.2, 2.2, 401, '2021-07-29 06:13:25', 0, 0, 1, 0, 0, 0, 4, 1, 11, 0, 4, 207, 255, 255, 0, 0, 0, 0, 255, 255, 0, 255, 255, 4, 255, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0),
-	(17617, 7095, 'Giver', 13, 0, 832.8, -284.1, -7.5, 154, '2021-07-31 04:35:23', 0, 0, 1, 0, 0, 18243, 6, 11, 1, 0, 6, 215, 255, 255, 9, 4, 1, 0, 0, 0, 0, 0, 0, 3, 0, 2161568029, 849622555, 1138269323, 0, 0, 0, 0, 0, 0, 0, 0, 0);
+	(17617, 7095, 'Giver', 13, 0, 832.8, -284.1, -7.5, 154, '2021-07-31 04:35:23', 0, 0, 1, 0, 0, 18243, 6, 11, 1, 0, 6, 215, 255, 255, 9, 4, 1, 0, 0, 0, 0, 0, 0, 3, 0, 2161568029, 849622555, 1138269323, 0, 0, 0, 0, 0, 0, 0, 0, 0),
+	(17623, 7092, 'Giverof', 51, 0, 2643, 51, 306.2, 481.3, '2021-08-13 14:29:23', 0, 0, 0, 0, 0, 875000, 6, 50, 1, 0, 6, 215, 255, 255, 98, 98, 51, 19, 0, 0, 0, 0, 0, 0, 0, 2147483647, 102033005, 2147483647, 0, 0, 0, 0, 0, 0, 0, 0, 0);
 /*!40000 ALTER TABLE `character_corpses` ENABLE KEYS */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
 /*!40014 SET FOREIGN_KEY_CHECKS=IF(@OLD_FOREIGN_KEY_CHECKS IS NULL, 1, @OLD_FOREIGN_KEY_CHECKS) */;

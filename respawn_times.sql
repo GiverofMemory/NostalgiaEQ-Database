@@ -19,18 +19,8 @@ CREATE TABLE IF NOT EXISTS `respawn_times` (
   PRIMARY KEY (`id`,`instance_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
--- Dumping data for table peq.respawn_times: ~9 rows (approximately)
+-- Dumping data for table peq.respawn_times: ~0 rows (approximately)
 /*!40000 ALTER TABLE `respawn_times` DISABLE KEYS */;
-INSERT INTO `respawn_times` (`id`, `start`, `duration`, `instance_id`) VALUES
-	(330177, 1628884543, 641, 0),
-	(330199, 1628884081, 640, 0),
-	(330206, 1628884072, 640, 0),
-	(330212, 1628884020, 640, 0),
-	(330240, 1628883736, 640, 0),
-	(330273, 1628884031, 640, 0),
-	(330324, 1628884031, 640, 0),
-	(332329, 1628883359, 653, 0),
-	(365112, 1628883412, 640, 0);
 /*!40000 ALTER TABLE `respawn_times` ENABLE KEYS */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
 /*!40014 SET FOREIGN_KEY_CHECKS=IF(@OLD_FOREIGN_KEY_CHECKS IS NULL, 1, @OLD_FOREIGN_KEY_CHECKS) */;

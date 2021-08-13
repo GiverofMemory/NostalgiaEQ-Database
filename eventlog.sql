@@ -23,9 +23,9 @@ CREATE TABLE IF NOT EXISTS `eventlog` (
   `description` text NOT NULL,
   `event_nid` int(11) NOT NULL DEFAULT '0',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=1896 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=1942 DEFAULT CHARSET=latin1;
 
--- Dumping data for table peq.eventlog: ~1,895 rows (approximately)
+-- Dumping data for table peq.eventlog: ~1,941 rows (approximately)
 /*!40000 ALTER TABLE `eventlog` DISABLE KEYS */;
 INSERT INTO `eventlog` (`id`, `accountname`, `accountid`, `status`, `charname`, `target`, `time`, `descriptiontype`, `description`, `event_nid`) VALUES
 	(1, 'marcusd', 2234, 255, 'Giverof', 'None', '2021-08-06 03:07:51', 'Command', '#zone gfaydark', 1),
@@ -1922,7 +1922,53 @@ INSERT INTO `eventlog` (`id`, `accountname`, `accountid`, `status`, `charname`, 
 	(1892, 'marcusd', 2234, 255, 'Giverof', 'None', '2021-08-13 12:46:56', 'Command', '#zone ecommons', 1),
 	(1893, 'marcusd', 2234, 255, 'Giverof', 'None', '2021-08-13 12:47:07', 'Command', '#zone freportw', 1),
 	(1894, 'marcusd', 2234, 255, 'Giverof', 'None', '2021-08-13 12:47:26', 'Command', '#goto 0 0 0', 1),
-	(1895, 'marcusd', 2234, 255, 'Giverof', 'None', '2021-08-13 12:47:46', 'Command', '#goto -730 500 -30', 1);
+	(1895, 'marcusd', 2234, 255, 'Giverof', 'None', '2021-08-13 12:47:46', 'Command', '#goto -730 500 -30', 1),
+	(1896, 'marcusd', 2234, 255, 'Giverof', 'Giverof', '2021-08-13 13:37:27', 'Command', '#size 1', 1),
+	(1897, 'marcusd', 2234, 255, 'Giverof', 'None', '2021-08-13 13:38:57', 'Command', '#zone freportw', 1),
+	(1898, 'marcusd', 2234, 255, 'Giverof', 'None', '2021-08-13 13:39:14', 'Command', '#goto -730 500 -30', 1),
+	(1899, 'marcusd', 2234, 255, 'Giverof', 'None', '2021-08-13 14:20:34', 'Command', '#zone freportn', 1),
+	(1900, 'marcusd', 2234, 255, 'Giverof', 'None', '2021-08-13 14:20:50', 'Command', '#time 6 00', 1),
+	(1901, 'marcusd', 2234, 255, 'Giverof', 'None', '2021-08-13 14:20:54', 'Command', '#flymode 1', 1),
+	(1902, 'marcusd', 2234, 255, 'Giverof', 'None', '2021-08-13 14:22:02', 'Command', '#flymode 0', 1),
+	(1903, 'marcusd', 2234, 255, 'Giverof', 'None', '2021-08-13 14:25:05', 'Command', '#zone freportn', 1),
+	(1904, 'marcusd', 2234, 255, 'Giverof', 'None', '2021-08-13 14:25:13', 'Command', '#flymode 1', 1),
+	(1905, 'marcusd', 2234, 255, 'Giverof', 'None', '2021-08-13 14:25:50', 'Command', '#flymode 0', 1),
+	(1906, 'marcusd', 2234, 255, 'Giverof', 'None', '2021-08-13 14:25:59', 'Command', '#loc', 1),
+	(1907, 'marcusd', 2234, 255, 'Giverof', 'None', '2021-08-13 14:27:04', 'Command', '#loc', 1),
+	(1908, 'marcusd', 2234, 255, 'Giverof', 'None', '2021-08-13 14:28:10', 'Command', '#zone lakerathe', 1),
+	(1909, 'marcusd', 2234, 255, 'Giverof', 'None', '2021-08-13 14:28:46', 'Command', '#goto 51 2643 2419', 1),
+	(1910, 'marcusd', 2234, 255, 'Giverof', 'None', '2021-08-13 14:29:14', 'Command', '#goto 2643 51 2419', 1),
+	(1911, 'marcusd', 2234, 255, 'Giverof', 'None', '2021-08-13 14:29:34', 'Command', '#zone lakerathe', 1),
+	(1912, 'marcusd', 2234, 255, 'Giverof', 'None', '2021-08-13 14:29:42', 'Command', '#zone arena', 1),
+	(1913, 'marcusd', 2234, 255, 'Giverof', 'None', '2021-08-13 14:30:23', 'Command', '#loc', 1),
+	(1914, 'marcusd', 2234, 255, 'Giverof', 'None', '2021-08-13 14:47:24', 'Command', '#zone freportw', 1),
+	(1915, 'marcusd', 2234, 255, 'Giverof', 'None', '2021-08-13 14:47:36', 'Command', '#goto -730 500 -30', 1),
+	(1916, 'marcusd', 2234, 255, 'Giverof', 'None', '2021-08-13 14:48:31', 'Command', '#npctypespawn 2000032', 1),
+	(1917, 'marcusd', 2234, 255, 'Giverof', 'Giverof', '2021-08-13 14:50:12', 'Command', '#loc', 1),
+	(1918, 'marcusd', 2234, 255, 'Giverof', 'Giverof', '2021-08-13 14:50:17', 'Command', '#repop', 1),
+	(1919, 'marcusd', 2234, 255, 'Giverof', 'None', '2021-08-13 14:56:35', 'Command', '#time 6 00', 1),
+	(1920, 'marcusd', 2234, 255, 'Giverof', 'None', '2021-08-13 14:56:44', 'Command', '#goto -730 500 -30', 1),
+	(1921, 'marcusd', 2234, 255, 'Giverof', 'None', '2021-08-13 14:57:07', 'Command', '#loc', 1),
+	(1922, 'marcusd', 2234, 255, 'Giverof', 'None', '2021-08-13 14:58:03', 'Command', '#repop', 1),
+	(1923, 'marcusd', 2234, 255, 'Giverof', 'None', '2021-08-13 14:59:26', 'Command', '#repop', 1),
+	(1924, 'marcusd', 2234, 255, 'Giverof', 'None', '2021-08-13 15:03:08', 'Command', '#goto -730 500 -30', 1),
+	(1925, 'marcusd', 2234, 255, 'Giverof', 'None', '2021-08-13 15:09:32', 'Command', '#zone freportw', 1),
+	(1926, 'marcusd', 2234, 255, 'Giverof', 'None', '2021-08-13 15:09:44', 'Command', '#goto -730 500 -30', 1),
+	(1927, 'marcusd', 2234, 255, 'Giverof', 'None', '2021-08-13 15:10:06', 'Command', '#loc', 1),
+	(1928, 'marcusd', 2234, 255, 'Giverof', 'None', '2021-08-13 15:10:49', 'Command', '#repop', 1),
+	(1929, 'marcusd', 2234, 255, 'Giverof', 'None', '2021-08-13 15:11:09', 'Command', '#zone freportw', 1),
+	(1930, 'marcusd', 2234, 255, 'Giverof', 'None', '2021-08-13 15:11:30', 'Command', '#goto -730 500 -30', 1),
+	(1931, 'marcusd', 2234, 255, 'Giverof', 'None', '2021-08-13 15:12:08', 'Command', '#loc', 1),
+	(1932, 'marcusd', 2234, 255, 'Giverof', 'None', '2021-08-13 15:15:10', 'Command', '#zone freportw', 1),
+	(1933, 'marcusd', 2234, 255, 'Giverof', 'None', '2021-08-13 15:15:25', 'Command', '#goto -730 500 -30', 1),
+	(1934, 'marcusd', 2234, 255, 'Giverof', 'None', '2021-08-13 15:15:53', 'Command', '#loc', 1),
+	(1935, 'marcusd', 2234, 255, 'Giverof', 'None', '2021-08-13 15:23:39', 'Command', '#loc', 1),
+	(1936, 'marcusd', 2234, 255, 'Giverof', 'None', '2021-08-13 15:24:24', 'Command', '#loc', 1),
+	(1937, 'marcusd', 2234, 255, 'Giverof', 'None', '2021-08-13 15:28:16', 'Command', '#loc', 1),
+	(1938, 'marcusd', 2234, 255, 'Giverof', 'None', '2021-08-13 15:29:19', 'Command', '#loc', 1),
+	(1939, 'marcusd', 2234, 255, 'Giverof', 'None', '2021-08-13 15:31:10', 'Command', '#loc', 1),
+	(1940, 'marcusd', 2234, 255, 'Giverof', 'None', '2021-08-13 15:33:00', 'Command', '#loc', 1),
+	(1941, 'marcusd', 2234, 255, 'Giverof', 'None', '2021-08-13 15:33:12', 'Command', '#loc', 1);
 /*!40000 ALTER TABLE `eventlog` ENABLE KEYS */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
 /*!40014 SET FOREIGN_KEY_CHECKS=IF(@OLD_FOREIGN_KEY_CHECKS IS NULL, 1, @OLD_FOREIGN_KEY_CHECKS) */;
