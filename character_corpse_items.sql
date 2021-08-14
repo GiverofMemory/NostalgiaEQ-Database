@@ -27,7 +27,7 @@ CREATE TABLE IF NOT EXISTS `character_corpse_items` (
   PRIMARY KEY (`corpse_id`,`equip_slot`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
--- Dumping data for table peq.character_corpse_items: ~4,493 rows (approximately)
+-- Dumping data for table peq.character_corpse_items: ~4,494 rows (approximately)
 /*!40000 ALTER TABLE `character_corpse_items` DISABLE KEYS */;
 INSERT INTO `character_corpse_items` (`corpse_id`, `equip_slot`, `item_id`, `charges`, `aug_1`, `aug_2`, `aug_3`, `aug_4`, `aug_5`, `aug_6`, `attuned`, `scalerate`) VALUES
 	(1, 23, 9990, 20, 0, 0, 0, 0, 0, 0, 0, 100),
@@ -4522,7 +4522,8 @@ INSERT INTO `character_corpse_items` (`corpse_id`, `equip_slot`, `item_id`, `cha
 	(17623, 288, 13068, 20, 0, 0, 0, 0, 0, 0, 0, 100),
 	(17623, 301, 13252, 1, 0, 0, 0, 0, 0, 0, 0, 100),
 	(17623, 303, 9915, 1, 0, 0, 0, 0, 0, 0, 0, 100),
-	(17623, 304, 12350, 0, 0, 0, 0, 0, 0, 0, 0, 100);
+	(17623, 304, 12350, 0, 0, 0, 0, 0, 0, 0, 0, 100),
+	(17624, 13, 10400, 0, 0, 0, 0, 0, 0, 0, 0, 100);
 /*!40000 ALTER TABLE `character_corpse_items` ENABLE KEYS */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
 /*!40014 SET FOREIGN_KEY_CHECKS=IF(@OLD_FOREIGN_KEY_CHECKS IS NULL, 1, @OLD_FOREIGN_KEY_CHECKS) */;

@@ -16,9 +16,9 @@ CREATE TABLE IF NOT EXISTS `saylink` (
   `phrase` varchar(64) NOT NULL DEFAULT '',
   PRIMARY KEY (`id`),
   KEY `phrase_index` (`phrase`) USING BTREE
-) ENGINE=InnoDB AUTO_INCREMENT=7770 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=7774 DEFAULT CHARSET=latin1;
 
--- Dumping data for table peq.saylink: ~8,273 rows (approximately)
+-- Dumping data for table peq.saylink: ~8,277 rows (approximately)
 /*!40000 ALTER TABLE `saylink` DISABLE KEYS */;
 INSERT INTO `saylink` (`id`, `phrase`) VALUES
 	(2608, '#dev'),
@@ -115,6 +115,7 @@ INSERT INTO `saylink` (`id`, `phrase`) VALUES
 	(2632, '#emotesearch 1268'),
 	(3546, '#emotesearch 1270'),
 	(5999, '#emotesearch 1282'),
+	(7773, '#emotesearch 132'),
 	(5157, '#emotesearch 135'),
 	(6000, '#emotesearch 141'),
 	(2950, '#emotesearch 142'),
@@ -4062,8 +4063,11 @@ INSERT INTO `saylink` (`id`, `phrase`) VALUES
 	(2598, '#showzonepoints'),
 	(3510, '#si 10036'),
 	(3511, '#si 10036 100'),
+	(7770, '#si 10299'),
+	(7771, '#si 10300'),
 	(5542, '#si 10342'),
 	(3185, '#si 10391'),
+	(7772, '#si 10400'),
 	(2551, '#si 10516'),
 	(2552, '#si 10516 100'),
 	(2553, '#si 10517'),
