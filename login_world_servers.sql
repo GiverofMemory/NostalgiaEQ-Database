@@ -33,7 +33,7 @@ INSERT INTO `login_world_servers` (`id`, `long_name`, `short_name`, `tag_descrip
 	(3, 'Mercys Custom', 'MercysCustom', '', 3, '2021-07-21 06:10:05', '45.79.208.163', 0, 0, NULL),
 	(4, 'Mercys PvP', 'MercysPvP', '', 3, '2021-08-02 21:45:26', '45.79.208.163', 0, 0, NULL),
 	(5, 'Xire\'s testbed', 'Xire\'s testbed', '', 3, '2021-07-21 19:46:20', '124.171.146.251', 0, 0, NULL),
-	(6, 'Xire\'s testbed - [NEQ]', 'xire', '', 3, '2021-08-13 18:08:31', 'login.nostalgiaeq.com', 0, 0, NULL);
+	(6, 'Xire\'s testbed - [NEQ]', 'xire', '', 3, '2021-08-14 01:48:15', 'login.nostalgiaeq.com', 0, 0, NULL);
 /*!40000 ALTER TABLE `login_world_servers` ENABLE KEYS */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
 /*!40014 SET FOREIGN_KEY_CHECKS=IF(@OLD_FOREIGN_KEY_CHECKS IS NULL, 1, @OLD_FOREIGN_KEY_CHECKS) */;
