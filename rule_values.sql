@@ -20,7 +20,7 @@ CREATE TABLE IF NOT EXISTS `rule_values` (
   KEY `ruleset_id` (`ruleset_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
--- Dumping data for table peq.rule_values: ~583 rows (approximately)
+-- Dumping data for table peq.rule_values: ~584 rows (approximately)
 /*!40000 ALTER TABLE `rule_values` DISABLE KEYS */;
 INSERT INTO `rule_values` (`ruleset_id`, `rule_name`, `rule_value`, `notes`) VALUES
 	(1, 'AA:ExpPerPoint', '23976503', 'Amount of experience per AA. Is the same as the amount of experience to go from level 51 to level 52'),
@@ -509,6 +509,7 @@ INSERT INTO `rule_values` (`ruleset_id`, `rule_name`, `rule_value`, `notes`) VAL
 	(1, 'Spells:FRProjectileItem_SOF', '80684', 'Item id for SOF clients for Fire \'spell projectile\''),
 	(1, 'Spells:FRProjectileItem_Titanium', '80684', 'Item id for Titanium clients for Fire \'spell projectile\''),
 	(1, 'Spells:IgnoreSpellDmgLvlRestriction', 'TRUE', 'Ignore the 5 level spread on applying SpellDmg'),
+	(1, 'Spells:InvisRequiresGroup', 'FALSE', 'Invis requires the the target to be in group.'),
 	(1, 'Spells:July242002PetResists', 'FALSE', 'Enable Pets using PCs resist change from July 24 2002'),
 	(1, 'Spells:Jun182014HundredHandsRevamp', 'FALSE', 'This should be true for if you import a spell file newer than June 18, 2014'),
 	(1, 'Spells:LiveLikeFocusEffects', 'TRUE', 'Determines whether specific healing, dmg and mana reduction focuses are randomized'),

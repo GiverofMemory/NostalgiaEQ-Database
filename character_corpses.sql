@@ -62,7 +62,7 @@ CREATE TABLE IF NOT EXISTS `character_corpses` (
   PRIMARY KEY (`id`),
   KEY `zoneid` (`zone_id`),
   KEY `instanceid` (`instance_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=17625 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=17626 DEFAULT CHARSET=latin1;
 
 -- Dumping data for table peq.character_corpses: ~1,378 rows (approximately)
 /*!40000 ALTER TABLE `character_corpses` DISABLE KEYS */;
