@@ -20,7 +20,7 @@ CREATE TABLE IF NOT EXISTS `zone_hot_zem` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1 ROW_FORMAT=COMPACT;
 
--- Dumping data for table peq.zone_hot_zem: ~0 rows (approximately)
+-- Dumping data for table peq.zone_hot_zem: ~83 rows (approximately)
 /*!40000 ALTER TABLE `zone_hot_zem` DISABLE KEYS */;
 INSERT INTO `zone_hot_zem` (`short_name`, `id`, `min_zem`, `max_zem`, `canhotzone`) VALUES
 	('airplane', 3, 1.13, 1.13, 0),

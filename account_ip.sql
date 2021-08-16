@@ -19,8 +19,10 @@ CREATE TABLE IF NOT EXISTS `account_ip` (
   UNIQUE KEY `ip` (`accid`,`ip`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Dumping data for table peq.account_ip: ~3 rows (approximately)
+-- Dumping data for table peq.account_ip: ~1 rows (approximately)
 /*!40000 ALTER TABLE `account_ip` DISABLE KEYS */;
+INSERT INTO `account_ip` (`accid`, `ip`, `count`, `lastused`) VALUES
+	(2234, '192.168.1.101', 6, '2021-08-16 12:28:57');
 /*!40000 ALTER TABLE `account_ip` ENABLE KEYS */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
 /*!40014 SET FOREIGN_KEY_CHECKS=IF(@OLD_FOREIGN_KEY_CHECKS IS NULL, 1, @OLD_FOREIGN_KEY_CHECKS) */;

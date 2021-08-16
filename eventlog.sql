@@ -23,9 +23,9 @@ CREATE TABLE IF NOT EXISTS `eventlog` (
   `description` text NOT NULL,
   `event_nid` int(11) NOT NULL DEFAULT '0',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=2580 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=2614 DEFAULT CHARSET=latin1;
 
--- Dumping data for table peq.eventlog: ~2,579 rows (approximately)
+-- Dumping data for table peq.eventlog: ~2,613 rows (approximately)
 /*!40000 ALTER TABLE `eventlog` DISABLE KEYS */;
 INSERT INTO `eventlog` (`id`, `accountname`, `accountid`, `status`, `charname`, `target`, `time`, `descriptiontype`, `description`, `event_nid`) VALUES
 	(1, 'marcusd', 2234, 255, 'Giverof', 'None', '2021-08-06 03:07:51', 'Command', '#zone gfaydark', 1),
@@ -2606,7 +2606,41 @@ INSERT INTO `eventlog` (`id`, `accountname`, `accountid`, `status`, `charname`, 
 	(2576, 'marcusd', 2234, 255, 'Teyexycebi', 'Teyexycebi', '2021-08-16 01:33:43', 'Command', '#list npcs', 1),
 	(2577, 'marcusd', 2234, 255, 'Teyexycebi', 'Teyexycebi', '2021-08-16 01:33:46', 'Command', '#goto -188 147 -51', 1),
 	(2578, 'marcusd', 2234, 255, 'Teyexycebi', 'Teyexycebi', '2021-08-16 01:34:53', 'Command', '#goto 3386 495 -59', 1),
-	(2579, 'marcusd', 2234, 255, 'Teyexycebi', 'orc_pawn002', '2021-08-16 01:35:14', 'Command', '#npcloot show', 1);
+	(2579, 'marcusd', 2234, 255, 'Teyexycebi', 'orc_pawn002', '2021-08-16 01:35:14', 'Command', '#npcloot show', 1),
+	(2580, 'marcusd', 2234, 255, 'Teyexycebi', 'None', '2021-08-16 12:10:49', 'Command', '#search spider silk', 1),
+	(2581, 'marcusd', 2234, 255, 'Teyexycebi', 'None', '2021-08-16 12:10:59', 'Command', '#search spider legs', 1),
+	(2582, 'marcusd', 2234, 255, 'Teyexycebi', 'None', '2021-08-16 12:17:35', 'Command', '#hotfix', 1),
+	(2583, 'marcusd', 2234, 255, 'Teyexycebi', 'None', '2021-08-16 12:17:57', 'Command', '#zone freportw', 1),
+	(2584, 'marcusd', 2234, 255, 'Teyexycebi', 'a_decaying_skeleton008', '2021-08-16 12:18:12', 'Command', '#npcloot show', 1),
+	(2585, 'marcusd', 2234, 255, 'Teyexycebi', 'a_decaying_skeleton001', '2021-08-16 12:19:10', 'Command', '#npcloot show', 1),
+	(2586, 'marcusd', 2234, 255, 'Teyexycebi', 'Guard_Ledshin000', '2021-08-16 12:20:57', 'Command', '#npcloot show', 1),
+	(2587, 'marcusd', 2234, 255, 'Teyexycebi', 'Guard_Jacsen000', '2021-08-16 12:21:02', 'Command', '#npcloot show', 1),
+	(2588, 'marcusd', 2234, 255, 'Teyexycebi', 'Guard_Doolin000', '2021-08-16 12:21:05', 'Command', '#npcloot show', 1),
+	(2589, 'marcusd', 2234, 255, 'Teyexycebi', 'Guard_Munden000', '2021-08-16 12:21:10', 'Command', '#npcloot show', 1),
+	(2590, 'marcusd', 2234, 255, 'Teyexycebi', 'Guard_Effel000', '2021-08-16 12:21:45', 'Command', '#npcloot show', 1),
+	(2591, 'marcusd', 2234, 255, 'Teyexycebi', 'Guard_Mizraen000', '2021-08-16 12:21:56', 'Command', '#npcloot show', 1),
+	(2592, 'marcusd', 2234, 255, 'Teyexycebi', 'Guard_Ledshin000', '2021-08-16 12:22:00', 'Command', '#npcloot show', 1),
+	(2593, 'marcusd', 2234, 255, 'Teyexycebi', 'Guard_Kroon000', '2021-08-16 12:22:03', 'Command', '#npcloot show', 1),
+	(2594, 'marcusd', 2234, 255, 'Teyexycebi', 'Guard_Kroon000', '2021-08-16 12:22:05', 'Command', '#npcloot show', 1),
+	(2595, 'marcusd', 2234, 255, 'Teyexycebi', 'None', '2021-08-16 12:29:44', 'Command', '#zone qrg', 1),
+	(2596, 'marcusd', 2234, 255, 'Teyexycebi', 'None', '2021-08-16 12:29:59', 'Command', '#zone czhome', 1),
+	(2597, 'marcusd', 2234, 255, 'Teyexycebi', 'None', '2021-08-16 12:30:09', 'Command', '#zone cshome', 1),
+	(2598, 'marcusd', 2234, 255, 'Teyexycebi', 'Meadaw_Firlen000', '2021-08-16 12:31:19', 'Command', '#proximity show', 1),
+	(2599, 'marcusd', 2234, 255, 'Teyexycebi', 'None', '2021-08-16 12:32:08', 'Command', '#zone qeynos', 1),
+	(2600, 'marcusd', 2234, 255, 'Teyexycebi', 'None', '2021-08-16 12:32:55', 'Command', '#zone ecommons', 1),
+	(2601, 'marcusd', 2234, 255, 'Teyexycebi', 'Rinna_Lightshadow000', '2021-08-16 12:34:49', 'Command', '#loc', 1),
+	(2602, 'marcusd', 2234, 255, 'Teyexycebi', 'Rinna_Lightshadow000', '2021-08-16 12:36:42', 'Command', '#repop', 1),
+	(2603, 'marcusd', 2234, 255, 'Teyexycebi', 'None', '2021-08-16 12:36:51', 'Command', '#repop', 1),
+	(2604, 'marcusd', 2234, 255, 'Teyexycebi', 'Rinna_Lightshadow000', '2021-08-16 12:37:26', 'Command', '#loc', 1),
+	(2605, 'marcusd', 2234, 255, 'Teyexycebi', 'Rinna_Lightshadow000', '2021-08-16 12:37:29', 'Command', '#loc', 1),
+	(2606, 'marcusd', 2234, 255, 'Teyexycebi', 'Rinna_Lightshadow000', '2021-08-16 12:37:45', 'Command', '#loc', 1),
+	(2607, 'marcusd', 2234, 255, 'Teyexycebi', 'Teyexycebi', '2021-08-16 12:38:02', 'Command', '#loc', 1),
+	(2608, 'marcusd', 2234, 255, 'Teyexycebi', 'Teyexycebi', '2021-08-16 12:38:29', 'Command', '#repop', 1),
+	(2609, 'marcusd', 2234, 255, 'Teyexycebi', 'Teyexycebi', '2021-08-16 12:40:29', 'Command', '#zone mistmore', 1),
+	(2610, 'marcusd', 2234, 255, 'Teyexycebi', 'Teyexycebi', '2021-08-16 12:40:36', 'Command', '#zone mistmoore', 1),
+	(2611, 'marcusd', 2234, 255, 'Teyexycebi', 'None', '2021-08-16 12:40:49', 'Command', '#list npcs', 1),
+	(2612, 'marcusd', 2234, 255, 'Teyexycebi', 'None', '2021-08-16 12:41:03', 'Command', '#goto -177 96 -221', 1),
+	(2613, 'marcusd', 2234, 255, 'Teyexycebi', 'None', '2021-08-16 12:41:33', 'Command', '#zone ecommons', 1);
 /*!40000 ALTER TABLE `eventlog` ENABLE KEYS */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
 /*!40014 SET FOREIGN_KEY_CHECKS=IF(@OLD_FOREIGN_KEY_CHECKS IS NULL, 1, @OLD_FOREIGN_KEY_CHECKS) */;

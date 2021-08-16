@@ -41,7 +41,7 @@ CREATE TABLE IF NOT EXISTS `zone_points` (
   KEY `zone_points_target_idx` (`target_zone_id`) USING BTREE
 ) ENGINE=InnoDB AUTO_INCREMENT=2592 DEFAULT CHARSET=latin1;
 
--- Dumping data for table peq.zone_points: ~0 rows (approximately)
+-- Dumping data for table peq.zone_points: ~1,764 rows (approximately)
 /*!40000 ALTER TABLE `zone_points` DISABLE KEYS */;
 INSERT INTO `zone_points` (`id`, `zone`, `version`, `number`, `y`, `x`, `z`, `heading`, `target_y`, `target_x`, `target_z`, `target_heading`, `zoneinst`, `target_zone_id`, `target_instance`, `buffer`, `client_version_mask`, `min_expansion`, `max_expansion`, `content_flags`, `content_flags_disabled`, `is_virtual`, `height`, `width`) VALUES
 	(1, 'qeynos', 0, 1, 464, -442, 1.5, 0, -160.75, -6.71, 2.75, 0, 0, 2, 0, 0, 4294967295, 0, 0, NULL, NULL, 0, 0, 0),
