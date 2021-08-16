@@ -35,7 +35,7 @@ CREATE TABLE IF NOT EXISTS `account` (
   PRIMARY KEY (`id`),
   UNIQUE KEY `name_ls_id` (`name`,`ls_id`),
   UNIQUE KEY `ls_id_lsaccount_id` (`ls_id`,`lsaccount_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=2261 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=2264 DEFAULT CHARSET=latin1;
 
 -- Dumping data for table peq.account: ~2,245 rows (approximately)
 /*!40000 ALTER TABLE `account` DISABLE KEYS */;
@@ -2257,8 +2257,8 @@ INSERT INTO `account` (`id`, `name`, `charname`, `sharedplat`, `password`, `stat
 	(2218, 'predmercy', 'Mercy', 0, 'Benjamin', 255, 'eqemu', 491225, 0, 0, 2, '', 0, 0, '0000-00-00 00:00:00', 1626213505, 0, NULL, NULL, 0),
 	(2231, 'predmercy', 'Mercyy', 0, '', 255, 'local', 1, 1, 0, 65, '', 0, 0, '0000-00-00 00:00:00', 1626276178, 0, NULL, NULL, 0),
 	(2232, 'TacoBiscuit', 'Quipoliz', 0, '', 255, 'local', 2, 1, 0, 9, '', 0, 0, '0000-00-00 00:00:00', 1626276228, 0, NULL, NULL, 0),
-	(2233, 'TacoBiscuit2', 'Zandelm', 0, '', 0, 'local', 3, 0, 0, 12, '', 0, 0, '0000-00-00 00:00:00', 1626290701, 0, NULL, NULL, 0),
-	(2234, 'marcusd', 'Giverof', 0, '', 255, 'local', 4, 0, 0, 104, '', 0, 0, '0000-00-00 00:00:00', 1626293901, 0, NULL, NULL, 0),
+	(2233, 'TacoBiscuit2', 'Ungelo', 0, '', 0, 'local', 3, 0, 0, 12, '', 0, 0, '0000-00-00 00:00:00', 1626290701, 0, NULL, NULL, 0),
+	(2234, 'marcusd', 'Teyexycebi', 0, '', 255, 'local', 4, 0, 0, 117, '', 0, 0, '0000-00-00 00:00:00', 1626293901, 0, NULL, NULL, 0),
 	(2235, 'mercy', 'Mercykiller', 0, '', 0, 'local', 5, 0, 0, 46, '', 0, 0, '0000-00-00 00:00:00', 1626313558, 0, NULL, NULL, 0),
 	(2236, 'notmarcusd', 'Giver', 0, '', 0, 'local', 6, 0, 0, 38, '', 0, 0, '0000-00-00 00:00:00', 1626314954, 0, NULL, NULL, 0),
 	(2237, 'Solemnus', 'Onada', 0, '', 255, 'local', 7, 1, 0, 23, '', 0, 0, '0000-00-00 00:00:00', 1626424432, 0, NULL, NULL, 0),

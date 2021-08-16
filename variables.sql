@@ -40,7 +40,7 @@ INSERT INTO `variables` (`varname`, `value`, `information`, `ts`) VALUES
 	('GroupEXPBonus', '0.60', 'Experience multipler. Increase to increase group exp rate', '2010-09-06 15:03:51'),
 	('GuildWars', '0', 'Enable Guild Wars Type Server | 0 - off | 1 - on |', '2010-09-06 15:03:51'),
 	('holdzones', '1', 'Restart Crashed Zone Servers | 0 - off | 1 - on |', '2018-05-09 09:51:20'),
-	('hotfix_name', '', '', '2021-08-13 00:18:30'),
+	('hotfix_name', '', '', '2021-08-16 12:19:42'),
 	('leavecorpses', '1', 'Players leave corpses | 0 - off | 1 - on |', '2018-05-10 07:58:47'),
 	('loglevel', '6111', 'Commands,Merchants,Trades,Loot', '2018-06-09 12:10:54'),
 	('LootCoin', 'false', 'Player coin loot', '2018-10-02 08:49:34'),

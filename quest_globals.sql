@@ -22,7 +22,7 @@ CREATE TABLE IF NOT EXISTS `quest_globals` (
   UNIQUE KEY `qname` (`name`,`charid`,`npcid`,`zoneid`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
--- Dumping data for table peq.quest_globals: ~4,292 rows (approximately)
+-- Dumping data for table peq.quest_globals: ~4,297 rows (approximately)
 /*!40000 ALTER TABLE `quest_globals` DISABLE KEYS */;
 INSERT INTO `quest_globals` (`charid`, `npcid`, `zoneid`, `name`, `value`, `expdate`) VALUES
 	(0, 0, 0, 'ladyvoxdeath', '1', NULL),
@@ -4315,8 +4315,13 @@ INSERT INTO `quest_globals` (`charid`, `npcid`, `zoneid`, `name`, `value`, `expd
 	(7095, 0, 0, 'firstwelcome', '1', NULL),
 	(7119, 0, 0, 'firstwelcome', '1', NULL),
 	(7119, 0, 0, 'newbiecommon', '1', NULL),
+	(7120, 0, 0, 'firstwelcome', '1', NULL),
+	(7120, 0, 0, 'newbiecommon', '1', NULL),
 	(7128, 0, 0, 'firstwelcome', '1', NULL),
-	(7128, 0, 0, 'newbiecommon', '1', NULL);
+	(7128, 0, 0, 'newbiecommon', '1', NULL),
+	(7129, 0, 0, 'firstwelcome', '1', NULL),
+	(7129, 0, 0, 'newbiecommon', '1', NULL),
+	(7130, 0, 0, 'firstwelcome', '1', NULL);
 /*!40000 ALTER TABLE `quest_globals` ENABLE KEYS */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
 /*!40014 SET FOREIGN_KEY_CHECKS=IF(@OLD_FOREIGN_KEY_CHECKS IS NULL, 1, @OLD_FOREIGN_KEY_CHECKS) */;

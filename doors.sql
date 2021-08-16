@@ -51,7 +51,7 @@ CREATE TABLE IF NOT EXISTS `doors` (
   UNIQUE KEY `DoorIndex` (`zone`,`doorid`,`version`)
 ) ENGINE=InnoDB AUTO_INCREMENT=35956 DEFAULT CHARSET=latin1;
 
--- Dumping data for table peq.doors: ~6,182 rows (approximately)
+-- Dumping data for table peq.doors: ~6,179 rows (approximately)
 /*!40000 ALTER TABLE `doors` DISABLE KEYS */;
 INSERT INTO `doors` (`id`, `doorid`, `zone`, `version`, `name`, `pos_y`, `pos_x`, `pos_z`, `heading`, `opentype`, `guild`, `lockpick`, `keyitem`, `nokeyring`, `triggerdoor`, `triggertype`, `disable_timer`, `doorisopen`, `door_param`, `dest_zone`, `dest_instance`, `dest_x`, `dest_y`, `dest_z`, `dest_heading`, `invert_state`, `incline`, `size`, `buffer`, `client_version_mask`, `is_ldon_door`, `min_expansion`, `max_expansion`, `content_flags`, `content_flags_disabled`) VALUES
 	(10, 132, 'PoKnowledge', 0, 'VTCHAIR302', 846.144, 664.317, -163.999, 104, 58, 0, 0, 0, 1, 0, 0, 0, 0, 0, 'NONE', 0, 0, 0, 0, 0, 0, 0, 100, 0, 4294967295, 0, 0, 0, NULL, NULL),
