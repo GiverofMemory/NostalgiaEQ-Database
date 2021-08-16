@@ -19,7 +19,7 @@ CREATE TABLE IF NOT EXISTS `command_settings` (
   UNIQUE KEY `UK_command_settings_1` (`command`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
--- Dumping data for table peq.command_settings: ~288 rows (approximately)
+-- Dumping data for table peq.command_settings: ~289 rows (approximately)
 /*!40000 ALTER TABLE `command_settings` DISABLE KEYS */;
 INSERT INTO `command_settings` (`command`, `access`, `aliases`) VALUES
 	('acceptrules', 90, ''),
@@ -208,6 +208,7 @@ INSERT INTO `command_settings` (`command`, `access`, `aliases`) VALUES
 	('repop', 90, ''),
 	('resetaa', 150, ''),
 	('resetaa_timer', 200, ''),
+	('resetdisc_timer', 200, ''),
 	('revoke', 200, ''),
 	('roambox', 200, ''),
 	('rules', 200, ''),

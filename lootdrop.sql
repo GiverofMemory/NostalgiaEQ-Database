@@ -21,7 +21,7 @@ CREATE TABLE IF NOT EXISTS `lootdrop` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=110050 DEFAULT CHARSET=latin1 PACK_KEYS=0;
 
--- Dumping data for table peq.lootdrop: ~30,740 rows (approximately)
+-- Dumping data for table peq.lootdrop: ~30,962 rows (approximately)
 /*!40000 ALTER TABLE `lootdrop` DISABLE KEYS */;
 INSERT INTO `lootdrop` (`id`, `name`, `min_expansion`, `max_expansion`, `content_flags`, `content_flags_disabled`) VALUES
 	(177, '70_A_Cold_Spectre_Wear', 0, 0, NULL, NULL),

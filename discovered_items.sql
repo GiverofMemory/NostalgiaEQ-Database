@@ -19,7 +19,7 @@ CREATE TABLE IF NOT EXISTS `discovered_items` (
   PRIMARY KEY (`item_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
--- Dumping data for table peq.discovered_items: ~5,148 rows (approximately)
+-- Dumping data for table peq.discovered_items: ~5,154 rows (approximately)
 /*!40000 ALTER TABLE `discovered_items` DISABLE KEYS */;
 INSERT INTO `discovered_items` (`item_id`, `char_name`, `discovered_date`, `account_status`) VALUES
 	(1001, 'Bewm', 1536973612, 0),
@@ -553,6 +553,7 @@ INSERT INTO `discovered_items` (`item_id`, `char_name`, `discovered_date`, `acco
 	(2501, 'Creedence', 1540154915, 0),
 	(2502, 'Fear', 1538706225, 0),
 	(2644, 'Taniswolf', 1537524991, 0),
+	(2695, 'Teyexycebi', 1629100987, 255),
 	(2702, 'Runord', 1540699497, 0),
 	(2703, 'Spike', 1542590510, 0),
 	(2705, 'Creedence', 1540602890, 0),
@@ -1030,6 +1031,7 @@ INSERT INTO `discovered_items` (`item_id`, `char_name`, `discovered_date`, `acco
 	(5120, 'Godzilla', 1536973973, 0),
 	(5130, 'Feelde', 1536982231, 0),
 	(5140, 'Stinker', 1536973432, 0),
+	(5221, 'Teyexycebi', 1629100828, 255),
 	(5228, 'Valkelm', 1538770774, 0),
 	(5231, 'Mcshank', 1538795521, 0),
 	(5232, 'Mcshank', 1538015305, 0),
@@ -1265,6 +1267,7 @@ INSERT INTO `discovered_items` (`item_id`, `char_name`, `discovered_date`, `acco
 	(7882, 'Grave', 1537082931, 0),
 	(7885, 'Chad', 1537251015, 0),
 	(7886, 'Pretty', 1537145034, 0),
+	(7893, 'Teyexycebi', 1629100792, 255),
 	(8001, 'Apostate', 1537090246, 0),
 	(8002, 'Fhury', 1541170257, 0),
 	(8003, 'Nenuvun', 1537067231, 0),
@@ -2165,6 +2168,7 @@ INSERT INTO `discovered_items` (`item_id`, `char_name`, `discovered_date`, `acco
 	(12157, 'Kylo', 1536976665, 0),
 	(12158, 'Jace', 1536995343, 0),
 	(12160, 'Seniden', 1536990178, 0),
+	(12161, 'Teyexycebi', 1629100740, 255),
 	(12168, 'Moxley', 1540234300, 0),
 	(12170, 'Amadagu', 1537424148, 0),
 	(12171, 'Ritual', 1537155092, 0),
@@ -4559,6 +4563,7 @@ INSERT INTO `discovered_items` (`item_id`, `char_name`, `discovered_date`, `acco
 	(19662, 'Soandso', 1537140797, 0),
 	(19688, 'Pretty', 1537107229, 0),
 	(19697, 'Oracle', 1536978231, 0),
+	(19800, 'Teyexycebi', 1629101511, 255),
 	(19843, 'Sovz', 1537120146, 0),
 	(19844, 'Sovz', 1537120297, 0),
 	(19845, 'Banergin', 1537038740, 0),
@@ -4946,6 +4951,7 @@ INSERT INTO `discovered_items` (`item_id`, `char_name`, `discovered_date`, `acco
 	(24651, 'Badabing', 1536996495, 0),
 	(24655, 'Badabing', 1537067892, 0),
 	(25153, 'Loqe', 1537721814, 0),
+	(25605, 'Teyexycebi', 1629101551, 255),
 	(25716, 'Dwelyn', 1538369583, 0),
 	(25717, 'Dwelyn', 1538369382, 0),
 	(25718, 'Dwelyn', 1538369285, 0),

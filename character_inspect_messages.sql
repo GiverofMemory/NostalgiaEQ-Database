@@ -18,7 +18,7 @@ CREATE TABLE IF NOT EXISTS `character_inspect_messages` (
   KEY `id` (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
--- Dumping data for table peq.character_inspect_messages: ~105 rows (approximately)
+-- Dumping data for table peq.character_inspect_messages: ~106 rows (approximately)
 /*!40000 ALTER TABLE `character_inspect_messages` DISABLE KEYS */;
 INSERT INTO `character_inspect_messages` (`id`, `inspect_message`) VALUES
 	(10, ''),
@@ -125,7 +125,8 @@ INSERT INTO `character_inspect_messages` (`id`, `inspect_message`) VALUES
 	(7099, ''),
 	(7104, ''),
 	(7110, ''),
-	(7120, '');
+	(7120, ''),
+	(7130, '');
 /*!40000 ALTER TABLE `character_inspect_messages` ENABLE KEYS */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
 /*!40014 SET FOREIGN_KEY_CHECKS=IF(@OLD_FOREIGN_KEY_CHECKS IS NULL, 1, @OLD_FOREIGN_KEY_CHECKS) */;

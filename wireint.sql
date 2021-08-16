@@ -20,7 +20,7 @@ CREATE TABLE IF NOT EXISTS `wireint` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=1913 DEFAULT CHARSET=utf8mb4;
 
--- Dumping data for table peq.wireint: ~1,912 rows (approximately)
+-- Dumping data for table peq.wireint: ~0 rows (approximately)
 /*!40000 ALTER TABLE `wireint` DISABLE KEYS */;
 INSERT INTO `wireint` (`id`, `_from`, `_to`, `message`, `date`) VALUES
 	(1, 'Skeeter', 'Renly', 'Renly <> has been killed by Skeeter <> in Oasis of Marr!', '2018-06-29 16:45:53'),

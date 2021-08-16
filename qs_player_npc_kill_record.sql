@@ -20,7 +20,7 @@ CREATE TABLE IF NOT EXISTS `qs_player_npc_kill_record` (
   PRIMARY KEY (`fight_id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=51306 DEFAULT CHARSET=utf8;
 
--- Dumping data for table peq.qs_player_npc_kill_record: ~50,162 rows (approximately)
+-- Dumping data for table peq.qs_player_npc_kill_record: ~51,456 rows (approximately)
 /*!40000 ALTER TABLE `qs_player_npc_kill_record` DISABLE KEYS */;
 INSERT INTO `qs_player_npc_kill_record` (`fight_id`, `npc_id`, `type`, `zone_id`, `time`) VALUES
 	(1, 63092, 1, 63, '2018-09-18 17:39:52'),

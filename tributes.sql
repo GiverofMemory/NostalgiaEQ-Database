@@ -20,7 +20,7 @@ CREATE TABLE IF NOT EXISTS `tributes` (
   PRIMARY KEY (`id`,`isguild`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
--- Dumping data for table peq.tributes: ~52 rows (approximately)
+-- Dumping data for table peq.tributes: ~0 rows (approximately)
 /*!40000 ALTER TABLE `tributes` DISABLE KEYS */;
 INSERT INTO `tributes` (`id`, `unknown`, `name`, `descr`, `isguild`) VALUES
 	(0, 5, 'Aura of Clarity', 'Fills you with inner peace increasing the rate you regain mana.<br>Benefit -<br>Tier 1: Flowing Thought I<br>Tier 2: Flowing Thought II<br>Tier 3: Flowing Thought III<br>Tier 4: Flowing Thought IV<br>Tier 5: Flowing Thought V.', 0),
