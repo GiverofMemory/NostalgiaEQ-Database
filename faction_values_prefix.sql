@@ -18,7 +18,7 @@ CREATE TABLE IF NOT EXISTS `faction_values_prefix` (
   `temp` int(4) NOT NULL DEFAULT '0'
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
--- Dumping data for table peq.faction_values_prefix: ~53,005 rows (approximately)
+-- Dumping data for table peq.faction_values_prefix: ~54,372 rows (approximately)
 /*!40000 ALTER TABLE `faction_values_prefix` DISABLE KEYS */;
 INSERT INTO `faction_values_prefix` (`char_id`, `faction_id`, `current_value`, `temp`) VALUES
 	(12, 21, 93, 0),

@@ -30,7 +30,7 @@ CREATE TABLE IF NOT EXISTS `loginserver_world_server_registration` (
 INSERT INTO `loginserver_world_server_registration` (`ServerID`, `ServerLongName`, `ServerTagDescription`, `ServerShortName`, `ServerListTypeID`, `ServerLastLoginDate`, `ServerLastIPAddr`, `ServerAdminID`, `ServerTrusted`, `Note`) VALUES
 	(1, 'Legacy of Norrath [Launching Friday, 9:00PM EST]', 'Titties and beer', 'LoNorrathP', 1, '2018-09-13 08:49:46', '127.0.0.1', 1, 1, NULL),
 	(2, 'Akkas Windows PEQ Installer (v1EHBq)', '', 'Akkas PEQ Installer', 3, '2021-08-15 14:52:13', '127.0.0.1', 0, 0, NULL),
-	(3, 'Xire\'s testbed - [NEQ]', '', 'xire', 3, '2021-08-15 14:57:22', '68.231.69.235', 0, 0, NULL);
+	(3, 'Xire\'s testbed - [NEQ]', '', 'xire', 3, '2021-08-18 11:55:42', '68.231.69.235', 0, 0, NULL);
 /*!40000 ALTER TABLE `loginserver_world_server_registration` ENABLE KEYS */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
 /*!40014 SET FOREIGN_KEY_CHECKS=IF(@OLD_FOREIGN_KEY_CHECKS IS NULL, 1, @OLD_FOREIGN_KEY_CHECKS) */;

@@ -29,7 +29,7 @@ CREATE TABLE IF NOT EXISTS `merchantlist` (
   KEY `item` (`item`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
--- Dumping data for table peq.merchantlist: ~25,106 rows (approximately)
+-- Dumping data for table peq.merchantlist: ~25,754 rows (approximately)
 /*!40000 ALTER TABLE `merchantlist` DISABLE KEYS */;
 INSERT INTO `merchantlist` (`merchantid`, `slot`, `item`, `faction_required`, `level_required`, `alt_currency_cost`, `classes_required`, `probability`, `min_expansion`, `max_expansion`, `content_flags`, `content_flags_disabled`) VALUES
 	(1008, 1, 15710, -1100, 0, 0, 65535, 100, 0, 0, NULL, NULL),

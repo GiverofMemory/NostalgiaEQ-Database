@@ -20,7 +20,7 @@ CREATE TABLE IF NOT EXISTS `cust_obj_data` (
   PRIMARY KEY (`zonesn`,`object_name`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Dumping data for table peq.cust_obj_data: ~53,147 rows (approximately)
+-- Dumping data for table peq.cust_obj_data: ~50,828 rows (approximately)
 /*!40000 ALTER TABLE `cust_obj_data` DISABLE KEYS */;
 INSERT INTO `cust_obj_data` (`zoneid`, `zonesn`, `object_name`, `file_from`, `is_global`) VALUES
 	(0, '', 'ACRUBY301', 'qrg_2_obj', 0),

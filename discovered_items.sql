@@ -2079,6 +2079,7 @@ INSERT INTO `discovered_items` (`item_id`, `char_name`, `discovered_date`, `acco
 	(11880, 'Firble', 1538020213, 0),
 	(11881, 'Firble', 1538020213, 0),
 	(11882, 'Faye', 1537152672, 0),
+	(12000, 'Giverof', 1629271653, 255),
 	(12002, 'Troynado', 1537230052, 0),
 	(12003, 'Banergin', 1537038033, 0),
 	(12004, 'Zephyr', 1537407987, 0),

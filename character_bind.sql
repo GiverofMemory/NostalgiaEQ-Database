@@ -22,9 +22,9 @@ CREATE TABLE IF NOT EXISTS `character_bind` (
   `heading` float NOT NULL DEFAULT '0',
   PRIMARY KEY (`id`,`slot`),
   KEY `id` (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=7131 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=7132 DEFAULT CHARSET=latin1;
 
--- Dumping data for table peq.character_bind: ~22,968 rows (approximately)
+-- Dumping data for table peq.character_bind: ~22,973 rows (approximately)
 /*!40000 ALTER TABLE `character_bind` DISABLE KEYS */;
 INSERT INTO `character_bind` (`id`, `slot`, `zone_id`, `instance_id`, `x`, `y`, `z`, `heading`) VALUES
 	(1, 0, 180, 0, 412, -8, 22, 128),
@@ -22701,7 +22701,12 @@ INSERT INTO `character_bind` (`id`, `slot`, `zone_id`, `instance_id`, `x`, `y`, 
 	(7130, 1, 9, 0, -42, -309, -10, 0),
 	(7130, 2, 9, 0, -42, -309, -10, 0),
 	(7130, 3, 9, 0, -42, -309, -10, 0),
-	(7130, 4, 9, 0, -42, -309, -10, 0);
+	(7130, 4, 9, 0, -42, -309, -10, 0),
+	(7131, 0, 10, 0, -864, -321, -108, 0),
+	(7131, 1, 10, 0, -864, -321, -108, 0),
+	(7131, 2, 10, 0, -864, -321, -108, 0),
+	(7131, 3, 10, 0, -864, -321, -108, 0),
+	(7131, 4, 10, 0, -864, -321, -108, 0);
 /*!40000 ALTER TABLE `character_bind` ENABLE KEYS */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
 /*!40014 SET FOREIGN_KEY_CHECKS=IF(@OLD_FOREIGN_KEY_CHECKS IS NULL, 1, @OLD_FOREIGN_KEY_CHECKS) */;

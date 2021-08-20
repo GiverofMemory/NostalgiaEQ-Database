@@ -24,7 +24,7 @@ CREATE TABLE IF NOT EXISTS `character_pet_info` (
   PRIMARY KEY (`char_id`,`pet`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
--- Dumping data for table peq.character_pet_info: ~13,928 rows (approximately)
+-- Dumping data for table peq.character_pet_info: ~13,930 rows (approximately)
 /*!40000 ALTER TABLE `character_pet_info` DISABLE KEYS */;
 INSERT INTO `character_pet_info` (`char_id`, `pet`, `petname`, `petpower`, `spell_id`, `hp`, `mana`, `size`, `taunting`) VALUES
 	(1, 0, '', 0, 0, 0, 0, 0, 1),
@@ -14204,7 +14204,9 @@ INSERT INTO `character_pet_info` (`char_id`, `pet`, `petname`, `petpower`, `spel
 	(7129, 0, '', 0, 0, 0, 0, 0, 0),
 	(7129, 1, '', 0, 0, 0, 0, 0, 0),
 	(7130, 0, '', 0, 0, 0, 0, 0, 0),
-	(7130, 1, '', 0, 0, 0, 0, 0, 0);
+	(7130, 1, '', 0, 0, 0, 0, 0, 0),
+	(7131, 0, '', 0, 0, 0, 0, 0, 0),
+	(7131, 1, '', 0, 0, 0, 0, 0, 0);
 /*!40000 ALTER TABLE `character_pet_info` ENABLE KEYS */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
 /*!40014 SET FOREIGN_KEY_CHECKS=IF(@OLD_FOREIGN_KEY_CHECKS IS NULL, 1, @OLD_FOREIGN_KEY_CHECKS) */;

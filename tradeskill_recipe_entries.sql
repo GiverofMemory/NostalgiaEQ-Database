@@ -25,7 +25,7 @@ CREATE TABLE IF NOT EXISTS `tradeskill_recipe_entries` (
   KEY `item_id` (`item_id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=252076 DEFAULT CHARSET=latin1;
 
--- Dumping data for table peq.tradeskill_recipe_entries: ~67,856 rows (approximately)
+-- Dumping data for table peq.tradeskill_recipe_entries: ~69,601 rows (approximately)
 /*!40000 ALTER TABLE `tradeskill_recipe_entries` DISABLE KEYS */;
 INSERT INTO `tradeskill_recipe_entries` (`id`, `recipe_id`, `item_id`, `successcount`, `failcount`, `componentcount`, `salvagecount`, `iscontainer`) VALUES
 	(1, 1, 9650, 0, 0, 1, 1, 0),

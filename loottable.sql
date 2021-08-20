@@ -25,7 +25,7 @@ CREATE TABLE IF NOT EXISTS `loottable` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=110028 DEFAULT CHARSET=latin1 PACK_KEYS=0;
 
--- Dumping data for table peq.loottable: ~12,675 rows (approximately)
+-- Dumping data for table peq.loottable: ~12,664 rows (approximately)
 /*!40000 ALTER TABLE `loottable` DISABLE KEYS */;
 INSERT INTO `loottable` (`id`, `name`, `mincash`, `maxcash`, `avgcoin`, `done`, `min_expansion`, `max_expansion`, `content_flags`, `content_flags_disabled`) VALUES
 	(1, 'a_froglok_repairer', 54, 180, 0, 0, 0, 0, NULL, NULL),

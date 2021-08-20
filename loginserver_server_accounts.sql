@@ -14,15 +14,15 @@
 CREATE TABLE IF NOT EXISTS `loginserver_server_accounts` (
   `LoginServerID` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `AccountName` varchar(30) NOT NULL,
-  `AccountPassword` varchar(50) NOT NULL,
+  `AccountPassword` varchar(200) NOT NULL,
   `AccountCreateDate` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `AccountEmail` varchar(100) NOT NULL,
   `LastLoginDate` datetime NOT NULL,
   `LastIPAddress` varchar(15) NOT NULL,
   PRIMARY KEY (`LoginServerID`,`AccountName`)
-) ENGINE=InnoDB AUTO_INCREMENT=16 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=18 DEFAULT CHARSET=latin1;
 
--- Dumping data for table peq.loginserver_server_accounts: ~14 rows (approximately)
+-- Dumping data for table peq.loginserver_server_accounts: ~16 rows (approximately)
 /*!40000 ALTER TABLE `loginserver_server_accounts` DISABLE KEYS */;
 INSERT INTO `loginserver_server_accounts` (`LoginServerID`, `AccountName`, `AccountPassword`, `AccountCreateDate`, `AccountEmail`, `LastLoginDate`, `LastIPAddress`) VALUES
 	(1, 'maze0213', 'bfc1abd78752e7c3f073f19c73263fdd1b22b306', '2018-09-13 07:41:38', 'local_creation', '2018-09-13 07:41:48', '1'),
@@ -38,7 +38,9 @@ INSERT INTO `loginserver_server_accounts` (`LoginServerID`, `AccountName`, `Acco
 	(11, 'marcusd', 'c32a62244c99b27d8a3a5f742212f9844e338b4c', '2020-03-01 07:29:11', 'local_creation', '2021-08-15 14:57:55', '1'),
 	(12, 'TacoBiscuit', '477177eea9bf01e71a647daad5a43c37f857e552', '2021-07-09 18:51:48', 'local_creation', '2021-07-13 13:31:30', '1'),
 	(13, 'TacoBiscuit3', '477177eea9bf01e71a647daad5a43c37f857e552', '2021-07-11 19:11:34', 'local_creation', '2021-07-12 19:57:13', '1'),
-	(14, 'TacoBiscuit2', '477177eea9bf01e71a647daad5a43c37f857e552', '2021-07-12 17:02:48', 'local_creation', '2021-07-12 17:03:01', '1');
+	(14, 'TacoBiscuit2', '477177eea9bf01e71a647daad5a43c37f857e552', '2021-07-12 17:02:48', 'local_creation', '2021-07-12 17:03:01', '1'),
+	(15, 'Solemnus', '26523cb6cc2297d445c399312b1c90c6e95ed534', '2021-08-18 11:57:21', 'local_creation', '2021-08-18 11:57:21', '181.214.215.120'),
+	(17, 'tester', '$7$C6..../....sSNwoA4MTaWXSOKWwXCJtUFofhUxZL2gVR7qhwbHj93$UOUbOWNIwvRw10jevrcQ63BtK9Usv62htykj01/2TVC', '2021-08-18 11:57:21', 'local_creation', '2021-08-18 11:57:21', '181.214.215.120');
 /*!40000 ALTER TABLE `loginserver_server_accounts` ENABLE KEYS */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
 /*!40014 SET FOREIGN_KEY_CHECKS=IF(@OLD_FOREIGN_KEY_CHECKS IS NULL, 1, @OLD_FOREIGN_KEY_CHECKS) */;

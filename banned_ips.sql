@@ -19,8 +19,6 @@ CREATE TABLE IF NOT EXISTS `banned_ips` (
 
 -- Dumping data for table peq.banned_ips: ~0 rows (approximately)
 /*!40000 ALTER TABLE `banned_ips` DISABLE KEYS */;
-INSERT INTO `banned_ips` (`ip_address`, `notes`) VALUES
-	('76.17.67.252', 'yami crazy');
 /*!40000 ALTER TABLE `banned_ips` ENABLE KEYS */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
 /*!40014 SET FOREIGN_KEY_CHECKS=IF(@OLD_FOREIGN_KEY_CHECKS IS NULL, 1, @OLD_FOREIGN_KEY_CHECKS) */;
