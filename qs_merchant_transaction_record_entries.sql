@@ -2,13 +2,15 @@
 -- Host:                         127.0.0.1
 -- Server version:               10.0.21-MariaDB - mariadb.org binary distribution
 -- Server OS:                    Win64
--- HeidiSQL Version:             9.1.0.4867
+-- HeidiSQL Version:             11.3.0.6295
 -- --------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
-/*!40101 SET NAMES utf8mb4 */;
+/*!40101 SET NAMES utf8 */;
+/*!50503 SET NAMES utf8mb4 */;
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 -- Dumping structure for table peq.qs_merchant_transaction_record_entries
 CREATE TABLE IF NOT EXISTS `qs_merchant_transaction_record_entries` (
@@ -10025,7 +10027,8 @@ INSERT INTO `qs_merchant_transaction_record_entries` (`event_id`, `char_slot`, `
 	(9997, 258, 10500, 20, 0, 0, 0, 0, 0),
 	(9998, 261, 10500, 20, 0, 0, 0, 0, 0),
 	(9999, 262, 10500, 20, 0, 0, 0, 0, 0),
-	(10000, 263, 10500, 20, 0, 0, 0, 0, 0),
+	(10000, 263, 10500, 20, 0, 0, 0, 0, 0);
+INSERT INTO `qs_merchant_transaction_record_entries` (`event_id`, `char_slot`, `item_id`, `charges`, `aug_1`, `aug_2`, `aug_3`, `aug_4`, `aug_5`) VALUES
 	(10001, 264, 10500, 20, 0, 0, 0, 0, 0),
 	(10002, 265, 10500, 20, 0, 0, 0, 0, 0),
 	(10003, 266, 10500, 20, 0, 0, 0, 0, 0),
@@ -20025,7 +20028,8 @@ INSERT INTO `qs_merchant_transaction_record_entries` (`event_id`, `char_slot`, `
 	(19997, 263, 6017, 1, 0, 0, 0, 0, 0),
 	(19998, 293, 13015, 2, 0, 0, 0, 0, 0),
 	(19999, 27, 13025, 2, 0, 0, 0, 0, 0),
-	(20000, 26, 17005, 1, 0, 0, 0, 0, 0),
+	(20000, 26, 17005, 1, 0, 0, 0, 0, 0);
+INSERT INTO `qs_merchant_transaction_record_entries` (`event_id`, `char_slot`, `item_id`, `charges`, `aug_1`, `aug_2`, `aug_3`, `aug_4`, `aug_5`) VALUES
 	(20001, 17, 2140, 1, 0, 0, 0, 0, 0),
 	(20002, 29, 2281, 1, 0, 0, 0, 0, 0),
 	(20003, 3, 2102, 1, 0, 0, 0, 0, 0),
@@ -23639,8 +23643,7 @@ INSERT INTO `qs_merchant_transaction_record_entries` (`event_id`, `char_slot`, `
 	(23611, 276, 2113, 1, 0, 0, 0, 0, 0),
 	(23612, 277, 2118, 1, 0, 0, 0, 0, 0),
 	(23613, 278, 2119, 1, 0, 0, 0, 0, 0),
-	(23614, 262, 10014, 4, 0, 0, 0, 0, 0);
-INSERT INTO `qs_merchant_transaction_record_entries` (`event_id`, `char_slot`, `item_id`, `charges`, `aug_1`, `aug_2`, `aug_3`, `aug_4`, `aug_5`) VALUES
+	(23614, 262, 10014, 4, 0, 0, 0, 0, 0),
 	(23615, 252, 11747, 1, 0, 0, 0, 0, 0),
 	(23616, 274, 7350, 1, 0, 0, 0, 0, 0),
 	(23617, 272, 11756, 1, 0, 0, 0, 0, 0),
@@ -30026,7 +30029,8 @@ INSERT INTO `qs_merchant_transaction_record_entries` (`event_id`, `char_slot`, `
 	(29997, 25, 2113, 1, 0, 0, 0, 0, 0),
 	(29998, 26, 2118, 1, 0, 0, 0, 0, 0),
 	(29999, 29, 2122, 1, 0, 0, 0, 0, 0),
-	(30000, 31, 1016, 1, 0, 0, 0, 0, 0),
+	(30000, 31, 1016, 1, 0, 0, 0, 0, 0);
+INSERT INTO `qs_merchant_transaction_record_entries` (`event_id`, `char_slot`, `item_id`, `charges`, `aug_1`, `aug_2`, `aug_3`, `aug_4`, `aug_5`) VALUES
 	(30001, 342, 2118, 1, 0, 0, 0, 0, 0),
 	(30002, 29, 13002, 1, 0, 0, 0, 0, 0),
 	(30003, 304, 7351, 1, 0, 0, 0, 0, 0),
@@ -40026,7 +40030,8 @@ INSERT INTO `qs_merchant_transaction_record_entries` (`event_id`, `char_slot`, `
 	(39997, 273, 13067, 3, 0, 0, 0, 0, 0),
 	(39998, 27, 5019, 1, 0, 0, 0, 0, 0),
 	(39999, 25, 1004, 1, 0, 0, 0, 0, 0),
-	(40000, 28, 9897, 2, 0, 0, 0, 0, 0),
+	(40000, 28, 9897, 2, 0, 0, 0, 0, 0);
+INSERT INTO `qs_merchant_transaction_record_entries` (`event_id`, `char_slot`, `item_id`, `charges`, `aug_1`, `aug_2`, `aug_3`, `aug_4`, `aug_5`) VALUES
 	(40001, 29, 13132, 1, 0, 0, 0, 0, 0),
 	(40002, 30, 6011, 1, 0, 0, 0, 0, 0),
 	(40003, 32, 1030, 1, 0, 0, 0, 0, 0),
@@ -46972,8 +46977,7 @@ INSERT INTO `qs_merchant_transaction_record_entries` (`event_id`, `char_slot`, `
 	(46943, 31, 17005, 1, 0, 0, 0, 0, 0),
 	(46944, 32, 17005, 1, 0, 0, 0, 0, 0),
 	(46945, 288, 6019, 1, 0, 0, 0, 0, 0),
-	(46946, 253, 8052, 13, 0, 0, 0, 0, 0);
-INSERT INTO `qs_merchant_transaction_record_entries` (`event_id`, `char_slot`, `item_id`, `charges`, `aug_1`, `aug_2`, `aug_3`, `aug_4`, `aug_5`) VALUES
+	(46946, 253, 8052, 13, 0, 0, 0, 0, 0),
 	(46947, 255, 8065, 13, 0, 0, 0, 0, 0),
 	(46948, 256, 8055, 13, 0, 0, 0, 0, 0),
 	(46949, 258, 8061, 13, 0, 0, 0, 0, 0),
@@ -50027,7 +50031,8 @@ INSERT INTO `qs_merchant_transaction_record_entries` (`event_id`, `char_slot`, `
 	(49997, 254, 3108, 1, 0, 0, 0, 0, 0),
 	(49998, 255, 3125, 1, 0, 0, 0, 0, 0),
 	(49999, 1, 10041, 1, 0, 0, 0, 0, 0),
-	(50000, 265, 15664, 1, 0, 0, 0, 0, 0),
+	(50000, 265, 15664, 1, 0, 0, 0, 0, 0);
+INSERT INTO `qs_merchant_transaction_record_entries` (`event_id`, `char_slot`, `item_id`, `charges`, `aug_1`, `aug_2`, `aug_3`, `aug_4`, `aug_5`) VALUES
 	(50001, 266, 15429, 1, 0, 0, 0, 0, 0),
 	(50002, 267, 15418, 1, 0, 0, 0, 0, 0),
 	(50003, 272, 15406, 1, 0, 0, 0, 0, 0),
@@ -60027,7 +60032,8 @@ INSERT INTO `qs_merchant_transaction_record_entries` (`event_id`, `char_slot`, `
 	(59997, 263, 11767, 1, 0, 0, 0, 0, 0),
 	(59998, 268, 11838, 1, 0, 0, 0, 0, 0),
 	(59999, 264, 16091, 1, 0, 0, 0, 0, 0),
-	(60000, 281, 6352, 1, 0, 0, 0, 0, 0),
+	(60000, 281, 6352, 1, 0, 0, 0, 0, 0);
+INSERT INTO `qs_merchant_transaction_record_entries` (`event_id`, `char_slot`, `item_id`, `charges`, `aug_1`, `aug_2`, `aug_3`, `aug_4`, `aug_5`) VALUES
 	(60001, 282, 11759, 1, 0, 0, 0, 0, 0),
 	(60002, 283, 16087, 1, 0, 0, 0, 0, 0),
 	(60003, 263, 11816, 1, 0, 0, 0, 0, 0),
@@ -70027,7 +70033,8 @@ INSERT INTO `qs_merchant_transaction_record_entries` (`event_id`, `char_slot`, `
 	(69997, 26, 9021, 1, 0, 0, 0, 0, 0),
 	(69998, 332, 5013, 1, 0, 0, 0, 0, 0),
 	(69999, 331, 5016, 1, 0, 0, 0, 0, 0),
-	(70000, 251, 10307, 1, 0, 0, 0, 0, 0),
+	(70000, 251, 10307, 1, 0, 0, 0, 0, 0);
+INSERT INTO `qs_merchant_transaction_record_entries` (`event_id`, `char_slot`, `item_id`, `charges`, `aug_1`, `aug_2`, `aug_3`, `aug_4`, `aug_5`) VALUES
 	(70001, 334, 7009, 1, 0, 0, 0, 0, 0),
 	(70002, 262, 13085, 1, 0, 0, 0, 0, 0),
 	(70003, 261, 1034, 1, 0, 0, 0, 0, 0),
@@ -70307,8 +70314,7 @@ INSERT INTO `qs_merchant_transaction_record_entries` (`event_id`, `char_slot`, `
 	(70277, 303, 11748, 1, 0, 0, 0, 0, 0),
 	(70278, 278, 3115, 1, 0, 0, 0, 0, 0),
 	(70279, 304, 22124, 1, 0, 0, 0, 0, 0),
-	(70280, 277, 3122, 1, 0, 0, 0, 0, 0);
-INSERT INTO `qs_merchant_transaction_record_entries` (`event_id`, `char_slot`, `item_id`, `charges`, `aug_1`, `aug_2`, `aug_3`, `aug_4`, `aug_5`) VALUES
+	(70280, 277, 3122, 1, 0, 0, 0, 0, 0),
 	(70281, 305, 16081, 1, 0, 0, 0, 0, 0),
 	(70282, 296, 7351, 1, 0, 0, 0, 0, 0),
 	(70283, 306, 11747, 1, 0, 0, 0, 0, 0),
@@ -71985,6 +71991,8 @@ INSERT INTO `qs_merchant_transaction_record_entries` (`event_id`, `char_slot`, `
 	(71954, 28, 13009, 20, 0, 0, 0, 0, 0),
 	(71955, 29, 15239, 1, 0, 0, 0, 0, 0);
 /*!40000 ALTER TABLE `qs_merchant_transaction_record_entries` ENABLE KEYS */;
+
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
-/*!40014 SET FOREIGN_KEY_CHECKS=IF(@OLD_FOREIGN_KEY_CHECKS IS NULL, 1, @OLD_FOREIGN_KEY_CHECKS) */;
+/*!40014 SET FOREIGN_KEY_CHECKS=IFNULL(@OLD_FOREIGN_KEY_CHECKS, 1) */;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40111 SET SQL_NOTES=IFNULL(@OLD_SQL_NOTES, 1) */;

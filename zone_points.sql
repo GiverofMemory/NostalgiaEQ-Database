@@ -2,13 +2,15 @@
 -- Host:                         127.0.0.1
 -- Server version:               10.0.21-MariaDB - mariadb.org binary distribution
 -- Server OS:                    Win64
--- HeidiSQL Version:             9.1.0.4867
+-- HeidiSQL Version:             11.3.0.6295
 -- --------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
-/*!40101 SET NAMES utf8mb4 */;
+/*!40101 SET NAMES utf8 */;
+/*!50503 SET NAMES utf8mb4 */;
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 -- Dumping structure for table peq.zone_points
 CREATE TABLE IF NOT EXISTS `zone_points` (
@@ -41,7 +43,7 @@ CREATE TABLE IF NOT EXISTS `zone_points` (
   KEY `zone_points_target_idx` (`target_zone_id`) USING BTREE
 ) ENGINE=InnoDB AUTO_INCREMENT=2368 DEFAULT CHARSET=latin1;
 
--- Dumping data for table peq.zone_points: ~1,758 rows (approximately)
+-- Dumping data for table peq.zone_points: ~1,764 rows (approximately)
 /*!40000 ALTER TABLE `zone_points` DISABLE KEYS */;
 INSERT INTO `zone_points` (`id`, `zone`, `version`, `number`, `y`, `x`, `z`, `heading`, `target_y`, `target_x`, `target_z`, `target_heading`, `zoneinst`, `target_zone_id`, `target_instance`, `buffer`, `client_version_mask`, `min_expansion`, `max_expansion`, `content_flags`, `content_flags_disabled`, `is_virtual`, `height`, `width`) VALUES
 	(1, 'qeynos', 0, 1, 464, -442, 1.5, 0, -160.75, -6.71, 2.75, 0, 0, 2, 0, 0, 4294967295, 0, 0, NULL, NULL, 0, 0, 0),
@@ -1085,7 +1087,6 @@ INSERT INTO `zone_points` (`id`, `zone`, `version`, `number`, `y`, `x`, `z`, `he
 	(1583, 'highpasshold', 0, 400, -145, -360, -21, 0, -90, 90, 3, 0, 0, 6, 0, 0, 4294967295, 0, 0, NULL, NULL, 0, 0, 0),
 	(1584, 'highpasshold', 0, 500, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4294967295, 0, 0, NULL, NULL, 0, 0, 0),
 	(1587, 'poknowledge', 0, 17, 0, 0, 0, 0, -814.6, -833.7, 9.9, 218.8, 0, 25, 1, 0, 4294967292, 0, 0, NULL, NULL, 0, 0, 0),
-	(1588, 'zlavastorm', 0, 0, 75, -10, -53, 0, 2275.93, 744.19, 38, 128, 0, 25, 1, 0, 4294967292, 0, 0, NULL, NULL, 0, 0, 0),
 	(1590, 'stonehive', 0, 0, 0, 0, 0, 0, -465, -3405, 163, 123, 0, 395, 0, 0, 4294967295, 0, 0, NULL, NULL, 0, 0, 0),
 	(1591, 'icefall', 0, 10, 0, 0, 0, 0, 2178, -570, 352, 386, 0, 399, 0, 0, 4294967295, 0, 0, NULL, NULL, 0, 0, 0),
 	(1592, 'icefall', 0, 20, 0, 0, 0, 0, -3158, 6, 3, 442, 0, 401, 0, 0, 4294967295, 0, 0, NULL, NULL, 0, 0, 0),
@@ -1803,6 +1804,8 @@ INSERT INTO `zone_points` (`id`, `zone`, `version`, `number`, `y`, `x`, `z`, `he
 	(2366, 'vexthal', 0, 47, 0, 0, 0, 0, -1451, -741, 12, 253, 0, 176, 0, 0, 4294967295, 0, 0, NULL, NULL, 0, 0, 0),
 	(2367, 'nektulos', 0, 1, 0, 0, 0, 0, 55.54, 153.88, 31.75, 256.3, 0, 40, 0, 0, 4294967295, 0, 0, NULL, NULL, 0, 0, 0);
 /*!40000 ALTER TABLE `zone_points` ENABLE KEYS */;
+
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
-/*!40014 SET FOREIGN_KEY_CHECKS=IF(@OLD_FOREIGN_KEY_CHECKS IS NULL, 1, @OLD_FOREIGN_KEY_CHECKS) */;
+/*!40014 SET FOREIGN_KEY_CHECKS=IFNULL(@OLD_FOREIGN_KEY_CHECKS, 1) */;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40111 SET SQL_NOTES=IFNULL(@OLD_SQL_NOTES, 1) */;

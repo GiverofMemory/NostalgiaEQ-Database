@@ -2,13 +2,15 @@
 -- Host:                         127.0.0.1
 -- Server version:               10.0.21-MariaDB - mariadb.org binary distribution
 -- Server OS:                    Win64
--- HeidiSQL Version:             9.1.0.4867
+-- HeidiSQL Version:             11.3.0.6295
 -- --------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
-/*!40101 SET NAMES utf8mb4 */;
+/*!40101 SET NAMES utf8 */;
+/*!50503 SET NAMES utf8mb4 */;
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 -- Dumping structure for table peq.character_skills
 CREATE TABLE IF NOT EXISTS `character_skills` (
@@ -17,9 +19,9 @@ CREATE TABLE IF NOT EXISTS `character_skills` (
   `value` smallint(11) unsigned NOT NULL DEFAULT '0',
   PRIMARY KEY (`id`,`skill_id`),
   KEY `id` (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=7132 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=7135 DEFAULT CHARSET=latin1;
 
--- Dumping data for table peq.character_skills: ~85,391 rows (approximately)
+-- Dumping data for table peq.character_skills: ~85,377 rows (approximately)
 /*!40000 ALTER TABLE `character_skills` DISABLE KEYS */;
 INSERT INTO `character_skills` (`id`, `skill_id`, `value`) VALUES
 	(1, 0, 200),
@@ -10021,7 +10023,8 @@ INSERT INTO `character_skills` (`id`, `skill_id`, `value`) VALUES
 	(737, 31, 235),
 	(737, 33, 69),
 	(737, 36, 55),
-	(737, 40, 200),
+	(737, 40, 200);
+INSERT INTO `character_skills` (`id`, `skill_id`, `value`) VALUES
 	(737, 43, 50),
 	(737, 44, 200),
 	(737, 45, 50),
@@ -20021,7 +20024,8 @@ INSERT INTO `character_skills` (`id`, `skill_id`, `value`) VALUES
 	(1896, 62, 8),
 	(1896, 67, 10),
 	(1896, 71, 10),
-	(1897, 0, 6),
+	(1897, 0, 6);
+INSERT INTO `character_skills` (`id`, `skill_id`, `value`) VALUES
 	(1897, 2, 6),
 	(1897, 4, 23),
 	(1897, 5, 40),
@@ -30021,7 +30025,8 @@ INSERT INTO `character_skills` (`id`, `skill_id`, `value`) VALUES
 	(2783, 40, 1),
 	(2783, 41, 10),
 	(2783, 50, 1),
-	(2783, 51, 10),
+	(2783, 51, 10);
+INSERT INTO `character_skills` (`id`, `skill_id`, `value`) VALUES
 	(2783, 55, 10),
 	(2783, 67, 10),
 	(2785, 0, 6),
@@ -40021,7 +40026,8 @@ INSERT INTO `character_skills` (`id`, `skill_id`, `value`) VALUES
 	(3577, 4, 10),
 	(3577, 5, 10),
 	(3577, 13, 5),
-	(3577, 14, 10),
+	(3577, 14, 10);
+INSERT INTO `character_skills` (`id`, `skill_id`, `value`) VALUES
 	(3577, 15, 10),
 	(3577, 18, 10),
 	(3577, 24, 10),
@@ -50021,7 +50027,8 @@ INSERT INTO `character_skills` (`id`, `skill_id`, `value`) VALUES
 	(4441, 18, 45),
 	(4441, 19, 75),
 	(4441, 24, 235),
-	(4441, 27, 28),
+	(4441, 27, 28);
+INSERT INTO `character_skills` (`id`, `skill_id`, `value`) VALUES
 	(4441, 28, 10),
 	(4441, 29, 50),
 	(4441, 31, 230),
@@ -54217,8 +54224,7 @@ INSERT INTO `character_skills` (`id`, `skill_id`, `value`) VALUES
 	(4749, 50, 80),
 	(4749, 55, 10),
 	(4749, 67, 10),
-	(4751, 0, 10);
-INSERT INTO `character_skills` (`id`, `skill_id`, `value`) VALUES
+	(4751, 0, 10),
 	(4751, 1, 20),
 	(4751, 2, 10),
 	(4751, 3, 10),
@@ -60022,7 +60028,8 @@ INSERT INTO `character_skills` (`id`, `skill_id`, `value`) VALUES
 	(5239, 73, 55),
 	(5240, 0, 8),
 	(5240, 2, 8),
-	(5240, 4, 10),
+	(5240, 4, 10);
+INSERT INTO `character_skills` (`id`, `skill_id`, `value`) VALUES
 	(5240, 5, 10),
 	(5240, 14, 10),
 	(5240, 15, 8),
@@ -70022,7 +70029,8 @@ INSERT INTO `character_skills` (`id`, `skill_id`, `value`) VALUES
 	(6014, 15, 10),
 	(6014, 28, 11),
 	(6014, 30, 13),
-	(6014, 33, 10),
+	(6014, 33, 10);
+INSERT INTO `character_skills` (`id`, `skill_id`, `value`) VALUES
 	(6014, 36, 10),
 	(6014, 40, 1),
 	(6014, 50, 9),
@@ -80022,7 +80030,8 @@ INSERT INTO `character_skills` (`id`, `skill_id`, `value`) VALUES
 	(6771, 27, 50),
 	(6771, 28, 10),
 	(6771, 30, 10),
-	(6771, 32, 10),
+	(6771, 32, 10);
+INSERT INTO `character_skills` (`id`, `skill_id`, `value`) VALUES
 	(6771, 33, 10),
 	(6771, 40, 1),
 	(6771, 50, 2),
@@ -85002,8 +85011,60 @@ INSERT INTO `character_skills` (`id`, `skill_id`, `value`) VALUES
 	(7131, 51, 10),
 	(7131, 55, 10),
 	(7131, 67, 10),
-	(7131, 71, 10);
+	(7131, 71, 10),
+	(7132, 0, 10),
+	(7132, 1, 10),
+	(7132, 2, 10),
+	(7132, 3, 10),
+	(7132, 7, 10),
+	(7132, 15, 10),
+	(7132, 27, 50),
+	(7132, 28, 10),
+	(7132, 29, 50),
+	(7132, 33, 10),
+	(7132, 36, 10),
+	(7132, 40, 1),
+	(7132, 50, 1),
+	(7132, 51, 10),
+	(7132, 53, 10),
+	(7132, 55, 10),
+	(7132, 67, 10),
+	(7132, 73, 10),
+	(7133, 0, 6),
+	(7133, 2, 6),
+	(7133, 4, 10),
+	(7133, 5, 10),
+	(7133, 13, 5),
+	(7133, 14, 10),
+	(7133, 15, 10),
+	(7133, 18, 10),
+	(7133, 24, 10),
+	(7133, 28, 6),
+	(7133, 29, 50),
+	(7133, 33, 4),
+	(7133, 36, 6),
+	(7133, 40, 1),
+	(7133, 50, 1),
+	(7133, 51, 6),
+	(7133, 55, 10),
+	(7133, 67, 10),
+	(7134, 0, 10),
+	(7134, 1, 10),
+	(7134, 2, 10),
+	(7134, 3, 10),
+	(7134, 7, 10),
+	(7134, 15, 10),
+	(7134, 28, 10),
+	(7134, 33, 10),
+	(7134, 36, 10),
+	(7134, 40, 1),
+	(7134, 50, 1),
+	(7134, 55, 10),
+	(7134, 67, 10),
+	(7134, 73, 10);
 /*!40000 ALTER TABLE `character_skills` ENABLE KEYS */;
+
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
-/*!40014 SET FOREIGN_KEY_CHECKS=IF(@OLD_FOREIGN_KEY_CHECKS IS NULL, 1, @OLD_FOREIGN_KEY_CHECKS) */;
+/*!40014 SET FOREIGN_KEY_CHECKS=IFNULL(@OLD_FOREIGN_KEY_CHECKS, 1) */;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40111 SET SQL_NOTES=IFNULL(@OLD_SQL_NOTES, 1) */;

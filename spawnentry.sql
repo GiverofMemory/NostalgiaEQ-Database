@@ -2,13 +2,15 @@
 -- Host:                         127.0.0.1
 -- Server version:               10.0.21-MariaDB - mariadb.org binary distribution
 -- Server OS:                    Win64
--- HeidiSQL Version:             9.1.0.4867
+-- HeidiSQL Version:             11.3.0.6295
 -- --------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
-/*!40101 SET NAMES utf8mb4 */;
+/*!40101 SET NAMES utf8 */;
+/*!50503 SET NAMES utf8mb4 */;
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 -- Dumping structure for table peq.spawnentry
 CREATE TABLE IF NOT EXISTS `spawnentry` (
@@ -10021,7 +10023,8 @@ INSERT INTO `spawnentry` (`spawngroupID`, `npcID`, `chance`, `condition_value_fi
 	(160270, 160270, 100, 1),
 	(160271, 160271, 100, 1),
 	(160359, 160359, 100, 1),
-	(160360, 160360, 100, 1),
+	(160360, 160360, 100, 1);
+INSERT INTO `spawnentry` (`spawngroupID`, `npcID`, `chance`, `condition_value_filter`) VALUES
 	(160361, 160361, 100, 1),
 	(160362, 160362, 100, 1),
 	(160363, 160363, 100, 1),
@@ -17490,6 +17493,8 @@ INSERT INTO `spawnentry` (`spawngroupID`, `npcID`, `chance`, `condition_value_fi
 	(33591088, 2000127, 100, 1),
 	(33591089, 2000128, 100, 1);
 /*!40000 ALTER TABLE `spawnentry` ENABLE KEYS */;
+
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
-/*!40014 SET FOREIGN_KEY_CHECKS=IF(@OLD_FOREIGN_KEY_CHECKS IS NULL, 1, @OLD_FOREIGN_KEY_CHECKS) */;
+/*!40014 SET FOREIGN_KEY_CHECKS=IFNULL(@OLD_FOREIGN_KEY_CHECKS, 1) */;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40111 SET SQL_NOTES=IFNULL(@OLD_SQL_NOTES, 1) */;

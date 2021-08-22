@@ -2,13 +2,15 @@
 -- Host:                         127.0.0.1
 -- Server version:               10.0.21-MariaDB - mariadb.org binary distribution
 -- Server OS:                    Win64
--- HeidiSQL Version:             9.1.0.4867
+-- HeidiSQL Version:             11.3.0.6295
 -- --------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
-/*!40101 SET NAMES utf8mb4 */;
+/*!40101 SET NAMES utf8 */;
+/*!50503 SET NAMES utf8mb4 */;
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 -- Dumping structure for table peq.faction_values
 CREATE TABLE IF NOT EXISTS `faction_values` (
@@ -10021,7 +10023,8 @@ INSERT INTO `faction_values` (`char_id`, `faction_id`, `current_value`, `temp`) 
 	(826, 326, 447, 0),
 	(826, 329, 338, 0),
 	(826, 330, 333, 0),
-	(826, 331, 338, 0),
+	(826, 331, 338, 0);
+INSERT INTO `faction_values` (`char_id`, `faction_id`, `current_value`, `temp`) VALUES
 	(826, 332, 445, 0),
 	(826, 333, 48, 0),
 	(826, 345, 2, 0),
@@ -20021,7 +20024,8 @@ INSERT INTO `faction_values` (`char_id`, `faction_id`, `current_value`, `temp`) 
 	(2538, 280, -12, 0),
 	(2538, 286, -106, 0),
 	(2538, 292, -159, 0),
-	(2538, 320, -5, 0),
+	(2538, 320, -5, 0);
+INSERT INTO `faction_values` (`char_id`, `faction_id`, `current_value`, `temp`) VALUES
 	(2538, 324, 159, 0),
 	(2538, 329, -5, 0),
 	(2538, 341, -40, 0),
@@ -30021,7 +30025,8 @@ INSERT INTO `faction_values` (`char_id`, `faction_id`, `current_value`, `temp`) 
 	(3815, 361, 14, 0),
 	(3815, 375, -25, 0),
 	(3816, 234, -3, 0),
-	(3816, 246, 2, 0),
+	(3816, 246, 2, 0);
+INSERT INTO `faction_values` (`char_id`, `faction_id`, `current_value`, `temp`) VALUES
 	(3816, 270, -2, 0),
 	(3816, 312, 2, 0),
 	(3816, 326, 2, 0),
@@ -40021,7 +40026,8 @@ INSERT INTO `faction_values` (`char_id`, `faction_id`, `current_value`, `temp`) 
 	(5025, 304, -10, 0),
 	(5025, 306, -188, 0),
 	(5025, 309, 1, 0),
-	(5025, 311, 12, 0),
+	(5025, 311, 12, 0);
+INSERT INTO `faction_values` (`char_id`, `faction_id`, `current_value`, `temp`) VALUES
 	(5025, 312, 359, 0),
 	(5025, 317, -24, 0),
 	(5025, 321, -208, 0),
@@ -42171,8 +42177,7 @@ INSERT INTO `faction_values` (`char_id`, `faction_id`, `current_value`, `temp`) 
 	(5312, 90, -3, 0),
 	(5312, 98, -6, 0),
 	(5312, 104, -16, 0),
-	(5312, 217, 90, 0);
-INSERT INTO `faction_values` (`char_id`, `faction_id`, `current_value`, `temp`) VALUES
+	(5312, 217, 90, 0),
 	(5312, 218, -90, 0),
 	(5312, 225, -12, 0),
 	(5312, 234, -50, 0),
@@ -50022,7 +50027,8 @@ INSERT INTO `faction_values` (`char_id`, `faction_id`, `current_value`, `temp`) 
 	(6264, 262, 112, 0),
 	(6264, 263, 1, 0),
 	(6264, 270, -18, 0),
-	(6264, 272, 103, 0),
+	(6264, 272, 103, 0);
+INSERT INTO `faction_values` (`char_id`, `faction_id`, `current_value`, `temp`) VALUES
 	(6264, 274, 100, 0),
 	(6264, 291, 112, 0),
 	(6264, 293, 75, 0),
@@ -54154,8 +54160,15 @@ INSERT INTO `faction_values` (`char_id`, `faction_id`, `current_value`, `temp`) 
 	(7129, 281, 3, 0),
 	(7129, 346, 3, 0),
 	(7129, 361, 3, 0),
-	(7129, 375, -4, 0);
+	(7129, 375, -4, 0),
+	(7132, 226, 25, 0),
+	(7132, 234, -25, 0),
+	(7132, 246, 100, 0),
+	(7132, 279, 25, 0),
+	(7132, 310, 25, 0);
 /*!40000 ALTER TABLE `faction_values` ENABLE KEYS */;
+
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
-/*!40014 SET FOREIGN_KEY_CHECKS=IF(@OLD_FOREIGN_KEY_CHECKS IS NULL, 1, @OLD_FOREIGN_KEY_CHECKS) */;
+/*!40014 SET FOREIGN_KEY_CHECKS=IFNULL(@OLD_FOREIGN_KEY_CHECKS, 1) */;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40111 SET SQL_NOTES=IFNULL(@OLD_SQL_NOTES, 1) */;

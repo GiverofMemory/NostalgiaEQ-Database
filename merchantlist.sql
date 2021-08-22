@@ -2,13 +2,15 @@
 -- Host:                         127.0.0.1
 -- Server version:               10.0.21-MariaDB - mariadb.org binary distribution
 -- Server OS:                    Win64
--- HeidiSQL Version:             9.1.0.4867
+-- HeidiSQL Version:             11.3.0.6295
 -- --------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
-/*!40101 SET NAMES utf8mb4 */;
+/*!40101 SET NAMES utf8 */;
+/*!50503 SET NAMES utf8mb4 */;
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 -- Dumping structure for table peq.merchantlist
 CREATE TABLE IF NOT EXISTS `merchantlist` (
@@ -10031,7 +10033,8 @@ INSERT INTO `merchantlist` (`merchantid`, `slot`, `item`, `faction_required`, `l
 	(50126, 78, 15329, -1100, 0, 0, 65535, 100, 0, 0, NULL, NULL),
 	(50126, 79, 15210, -1100, 0, 0, 65535, 100, 0, 0, NULL, NULL),
 	(50126, 80, 15043, -1100, 0, 0, 65535, 100, 0, 0, NULL, NULL),
-	(50127, 1, 15642, -1100, 0, 0, 65535, 100, 0, 0, NULL, NULL),
+	(50127, 1, 15642, -1100, 0, 0, 65535, 100, 0, 0, NULL, NULL);
+INSERT INTO `merchantlist` (`merchantid`, `slot`, `item`, `faction_required`, `level_required`, `alt_currency_cost`, `classes_required`, `probability`, `min_expansion`, `max_expansion`, `content_flags`, `content_flags_disabled`) VALUES
 	(50127, 2, 15661, -1100, 0, 0, 65535, 100, 0, 0, NULL, NULL),
 	(50127, 3, 15118, -1100, 0, 0, 65535, 100, 0, 0, NULL, NULL),
 	(50127, 4, 15197, -1100, 0, 0, 65535, 100, 0, 0, NULL, NULL),
@@ -14781,8 +14784,7 @@ INSERT INTO `merchantlist` (`merchantid`, `slot`, `item`, `faction_required`, `l
 	(62014, 5, 15398, -1100, 0, 0, 65535, 100, 0, 0, NULL, NULL),
 	(62014, 6, 15399, -1100, 0, 0, 65535, 100, 0, 0, NULL, NULL),
 	(62014, 7, 15400, -1100, 0, 0, 65535, 100, 0, 0, NULL, NULL),
-	(62014, 8, 15248, -1100, 0, 0, 65535, 100, 0, 0, NULL, NULL);
-INSERT INTO `merchantlist` (`merchantid`, `slot`, `item`, `faction_required`, `level_required`, `alt_currency_cost`, `classes_required`, `probability`, `min_expansion`, `max_expansion`, `content_flags`, `content_flags_disabled`) VALUES
+	(62014, 8, 15248, -1100, 0, 0, 65535, 100, 0, 0, NULL, NULL),
 	(62014, 9, 15327, -1100, 0, 0, 65535, 100, 0, 0, NULL, NULL),
 	(62014, 10, 15328, -1100, 0, 0, 65535, 100, 0, 0, NULL, NULL),
 	(62014, 11, 15330, -1100, 0, 0, 65535, 100, 0, 0, NULL, NULL),
@@ -20032,7 +20034,8 @@ INSERT INTO `merchantlist` (`merchantid`, `slot`, `item`, `faction_required`, `l
 	(150224, 3, 13804, -1100, 0, 0, 65535, 100, 0, 0, NULL, NULL),
 	(150224, 4, 13805, -1100, 0, 0, 65535, 100, 0, 0, NULL, NULL),
 	(150224, 5, 13806, -1100, 0, 0, 65535, 100, 0, 0, NULL, NULL),
-	(150224, 6, 13807, -1100, 0, 0, 65535, 100, 0, 0, NULL, NULL),
+	(150224, 6, 13807, -1100, 0, 0, 65535, 100, 0, 0, NULL, NULL);
+INSERT INTO `merchantlist` (`merchantid`, `slot`, `item`, `faction_required`, `level_required`, `alt_currency_cost`, `classes_required`, `probability`, `min_expansion`, `max_expansion`, `content_flags`, `content_flags_disabled`) VALUES
 	(150224, 7, 13808, -1100, 0, 0, 65535, 100, 0, 0, NULL, NULL),
 	(150224, 8, 13809, -1100, 0, 0, 65535, 100, 0, 0, NULL, NULL),
 	(150224, 9, 13810, -1100, 0, 0, 65535, 100, 0, 0, NULL, NULL),
@@ -25613,6 +25616,8 @@ INSERT INTO `merchantlist` (`merchantid`, `slot`, `item`, `faction_required`, `l
 	(2000104, 10, 5001, -100, 0, 0, 65535, 100, 0, 0, NULL, NULL),
 	(2000104, 11, 8001, -100, 0, 0, 65535, 100, 0, 0, NULL, NULL);
 /*!40000 ALTER TABLE `merchantlist` ENABLE KEYS */;
+
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
-/*!40014 SET FOREIGN_KEY_CHECKS=IF(@OLD_FOREIGN_KEY_CHECKS IS NULL, 1, @OLD_FOREIGN_KEY_CHECKS) */;
+/*!40014 SET FOREIGN_KEY_CHECKS=IFNULL(@OLD_FOREIGN_KEY_CHECKS, 1) */;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40111 SET SQL_NOTES=IFNULL(@OLD_SQL_NOTES, 1) */;

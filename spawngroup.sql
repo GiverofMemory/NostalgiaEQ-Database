@@ -2,13 +2,15 @@
 -- Host:                         127.0.0.1
 -- Server version:               10.0.21-MariaDB - mariadb.org binary distribution
 -- Server OS:                    Win64
--- HeidiSQL Version:             9.1.0.4867
+-- HeidiSQL Version:             11.3.0.6295
 -- --------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
-/*!40101 SET NAMES utf8mb4 */;
+/*!40101 SET NAMES utf8 */;
+/*!50503 SET NAMES utf8mb4 */;
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 -- Dumping structure for table peq.spawngroup
 CREATE TABLE IF NOT EXISTS `spawngroup` (
@@ -10031,7 +10033,8 @@ INSERT INTO `spawngroup` (`id`, `name`, `spawn_limit`, `dist`, `max_x`, `min_x`,
 	(204002, 'ponightmare_a_predatory_creeper46', 0, 0, 0, 0, 0, 0, 0, 15000, 0, 100, 0),
 	(204003, 'ponightmare_a_weathered_gargoyle402', 0, 0, 0, 0, 0, 0, 0, 15000, 0, 100, 0),
 	(204004, 'ponightmare_a_ghastly_bat196', 0, 0, 0, 0, 0, 0, 0, 15000, 0, 100, 0),
-	(204005, 'ponightmare_a_crumbling_gargoyle398', 0, 0, 0, 0, 0, 0, 0, 15000, 0, 100, 0),
+	(204005, 'ponightmare_a_crumbling_gargoyle398', 0, 0, 0, 0, 0, 0, 0, 15000, 0, 100, 0);
+INSERT INTO `spawngroup` (`id`, `name`, `spawn_limit`, `dist`, `max_x`, `min_x`, `max_y`, `min_y`, `delay`, `mindelay`, `despawn`, `despawn_timer`, `wp_spawns`) VALUES
 	(204007, 'ponightmare_a_ravenous_nightstalker3', 0, 0, 0, 0, 0, 0, 0, 15000, 0, 100, 0),
 	(204008, 'ponightmare_a_gnarled_treant15', 0, 0, 0, 0, 0, 0, 0, 15000, 0, 100, 0),
 	(204009, 'ponightmare_a_blood_raven36', 0, 0, 0, 0, 0, 0, 0, 15000, 0, 100, 0),
@@ -11574,6 +11577,8 @@ INSERT INTO `spawngroup` (`id`, `name`, `spawn_limit`, `dist`, `max_x`, `min_x`,
 	(275049, 'butcher-Translocator_Fithop000', 0, 0, 0, 0, 0, 0, 45000, 15000, 0, 100, 0),
 	(275050, '#LRZoner', 0, 0, 0, 0, 0, 0, 45000, 15000, 0, 100, 0);
 /*!40000 ALTER TABLE `spawngroup` ENABLE KEYS */;
+
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
-/*!40014 SET FOREIGN_KEY_CHECKS=IF(@OLD_FOREIGN_KEY_CHECKS IS NULL, 1, @OLD_FOREIGN_KEY_CHECKS) */;
+/*!40014 SET FOREIGN_KEY_CHECKS=IFNULL(@OLD_FOREIGN_KEY_CHECKS, 1) */;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40111 SET SQL_NOTES=IFNULL(@OLD_SQL_NOTES, 1) */;

@@ -2,13 +2,15 @@
 -- Host:                         127.0.0.1
 -- Server version:               10.0.21-MariaDB - mariadb.org binary distribution
 -- Server OS:                    Win64
--- HeidiSQL Version:             9.1.0.4867
+-- HeidiSQL Version:             11.3.0.6295
 -- --------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
-/*!40101 SET NAMES utf8mb4 */;
+/*!40101 SET NAMES utf8 */;
+/*!50503 SET NAMES utf8mb4 */;
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 -- Dumping structure for table peq.spawn_events
 CREATE TABLE IF NOT EXISTS `spawn_events` (
@@ -44,10 +46,10 @@ INSERT INTO `spawn_events` (`id`, `zone`, `cond_id`, `name`, `period`, `next_min
 	(10, 'everfrost', 2, 'Disable Day', 1440, 0, 21, 25, 4, 3894, 1, 0, 0, 0),
 	(11, 'everfrost', 1, 'Enable Night', 1440, 1, 21, 25, 4, 3894, 1, 0, 1, 0),
 	(12, 'everfrost', 1, 'Disable Night', 1440, 0, 7, 25, 4, 3894, 1, 0, 0, 0),
-	(13, 'kithicor', 2, 'Enable Day', 1440, 1, 6, 3, 9, 3894, 1, 0, 1, 0),
-	(14, 'kithicor', 2, 'Disable Day', 1440, 0, 22, 2, 9, 3894, 1, 0, 0, 0),
-	(15, 'kithicor', 1, 'Enable Night', 1440, 1, 22, 2, 9, 3894, 1, 0, 1, 0),
-	(16, 'kithicor', 1, 'Disable Night', 1440, 0, 6, 3, 9, 3894, 1, 0, 0, 0),
+	(13, 'kithicor', 2, 'Enable Day', 1440, 1, 6, 21, 9, 3894, 1, 0, 1, 0),
+	(14, 'kithicor', 2, 'Disable Day', 1440, 0, 22, 20, 9, 3894, 1, 0, 0, 0),
+	(15, 'kithicor', 1, 'Enable Night', 1440, 1, 22, 20, 9, 3894, 1, 0, 1, 0),
+	(16, 'kithicor', 1, 'Disable Night', 1440, 0, 6, 21, 9, 3894, 1, 0, 0, 0),
 	(17, 'lakerathe', 2, 'Enable Day', 1440, 1, 7, 21, 4, 3894, 1, 0, 1, 0),
 	(18, 'lakerathe', 2, 'Disable Day', 1440, 0, 21, 20, 4, 3894, 1, 0, 0, 0),
 	(19, 'lakerathe', 1, 'Enable Night', 1440, 1, 21, 20, 4, 3894, 1, 0, 1, 0),
@@ -131,16 +133,16 @@ INSERT INTO `spawn_events` (`id`, `zone`, `cond_id`, `name`, `period`, `next_min
 	(101, 'lfaydark', 2, 'disableday', 1440, 0, 21, 26, 9, 3892, 1, 0, 0, 0),
 	(102, 'steamfont', 1, 'EnableCargo', 1440, 1, 7, 19, 5, 3893, 1, 0, 1, 0),
 	(103, 'steamfont', 1, 'DisbleCargo', 1440, 0, 21, 19, 5, 3893, 1, 0, 0, 0),
-	(104, 'neriakb', 2, 'Enable Day', 1440, 1, 7, 17, 6, 3892, 1, 0, 1, 0),
-	(105, 'neriakb', 2, 'Disable Day', 1440, 0, 21, 17, 6, 3892, 1, 0, 0, 0),
-	(106, 'neriakb', 1, 'Enable Night', 1440, 1, 21, 17, 6, 3892, 1, 0, 1, 0),
-	(107, 'neriakb', 1, 'Disable Night', 1440, 0, 7, 17, 6, 3892, 1, 0, 0, 0),
+	(104, 'neriakb', 2, 'Enable Day', 1440, 1, 7, 20, 9, 3894, 1, 0, 1, 0),
+	(105, 'neriakb', 2, 'Disable Day', 1440, 0, 21, 19, 9, 3894, 1, 0, 0, 0),
+	(106, 'neriakb', 1, 'Enable Night', 1440, 1, 21, 19, 9, 3894, 1, 0, 1, 0),
+	(107, 'neriakb', 1, 'Disable Night', 1440, 0, 7, 20, 9, 3894, 1, 0, 0, 0),
 	(108, 'fieldofbone', 1, 'EnableNight', 1440, 1, 21, 25, 5, 3892, 1, 0, 1, 0),
 	(109, 'fieldofbone', 1, 'DisableNight', 1440, 0, 7, 25, 5, 3892, 1, 0, 0, 0),
 	(110, 'fieldofbone', 2, 'EnableDay', 1440, 1, 7, 25, 5, 3892, 1, 0, 1, 0),
 	(111, 'fieldofbone', 2, 'DisableDay', 1440, 0, 21, 25, 5, 3892, 1, 0, 0, 0),
-	(120, 'neriakc', 1, 'TaniDown', 1440, 1, 19, 3, 10, 3892, 1, 0, 0, 0),
-	(121, 'neriakc', 1, 'TaniUp', 1440, 0, 21, 3, 10, 3892, 1, 0, 1, 0),
+	(120, 'neriakc', 1, 'TaniDown', 1440, 1, 19, 19, 9, 3894, 1, 0, 0, 0),
+	(121, 'neriakc', 1, 'TaniUp', 1440, 0, 21, 19, 9, 3894, 1, 0, 1, 0),
 	(122, 'qey2hh1', 3, 'GuardTrigOn', 1440, 0, 17, 27, 8, 3894, 1, 0, 1, 0),
 	(123, 'qey2hh1', 3, 'GuardTrigOff', 1440, 0, 18, 27, 8, 3894, 1, 0, 0, 0),
 	(124, 'soltemple', 2, 'EnableDay', 1440, 1, 9, 25, 5, 3892, 1, 0, 1, 0),
@@ -180,6 +182,8 @@ INSERT INTO `spawn_events` (`id`, `zone`, `cond_id`, `name`, `period`, `next_min
 	(158, 'highpasshold', 1, 'Enable Night', 1440, 1, 21, 25, 5, 3892, 1, 0, 1, 0),
 	(159, 'highpasshold', 1, 'Disable Night', 1440, 0, 6, 25, 5, 3892, 1, 0, 0, 0);
 /*!40000 ALTER TABLE `spawn_events` ENABLE KEYS */;
+
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
-/*!40014 SET FOREIGN_KEY_CHECKS=IF(@OLD_FOREIGN_KEY_CHECKS IS NULL, 1, @OLD_FOREIGN_KEY_CHECKS) */;
+/*!40014 SET FOREIGN_KEY_CHECKS=IFNULL(@OLD_FOREIGN_KEY_CHECKS, 1) */;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40111 SET SQL_NOTES=IFNULL(@OLD_SQL_NOTES, 1) */;

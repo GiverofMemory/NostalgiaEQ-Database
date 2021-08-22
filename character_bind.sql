@@ -2,13 +2,15 @@
 -- Host:                         127.0.0.1
 -- Server version:               10.0.21-MariaDB - mariadb.org binary distribution
 -- Server OS:                    Win64
--- HeidiSQL Version:             9.1.0.4867
+-- HeidiSQL Version:             11.3.0.6295
 -- --------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
-/*!40101 SET NAMES utf8mb4 */;
+/*!40101 SET NAMES utf8 */;
+/*!50503 SET NAMES utf8mb4 */;
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 -- Dumping structure for table peq.character_bind
 CREATE TABLE IF NOT EXISTS `character_bind` (
@@ -22,9 +24,9 @@ CREATE TABLE IF NOT EXISTS `character_bind` (
   `heading` float NOT NULL DEFAULT '0',
   PRIMARY KEY (`id`,`slot`),
   KEY `id` (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=7132 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=7135 DEFAULT CHARSET=latin1;
 
--- Dumping data for table peq.character_bind: ~22,973 rows (approximately)
+-- Dumping data for table peq.character_bind: ~22,968 rows (approximately)
 /*!40000 ALTER TABLE `character_bind` DISABLE KEYS */;
 INSERT INTO `character_bind` (`id`, `slot`, `zone_id`, `instance_id`, `x`, `y`, `z`, `heading`) VALUES
 	(1, 0, 180, 0, 412, -8, 22, 128),
@@ -10026,7 +10028,8 @@ INSERT INTO `character_bind` (`id`, `slot`, `zone_id`, `instance_id`, `x`, `y`, 
 	(3399, 1, 52, 0, -893, 508, 13, 380),
 	(3399, 2, 52, 0, -893, 508, 13, 380),
 	(3399, 3, 52, 0, -893, 508, 13, 380),
-	(3399, 4, 52, 0, -893, 508, 13, 380),
+	(3399, 4, 52, 0, -893, 508, 13, 380);
+INSERT INTO `character_bind` (`id`, `slot`, `zone_id`, `instance_id`, `x`, `y`, `z`, `heading`) VALUES
 	(3400, 0, 62, 0, -830, 559, 4, 176),
 	(3400, 1, 62, 0, -830, 559, 4, 176),
 	(3400, 2, 62, 0, -830, 559, 4, 176),
@@ -20026,7 +20029,8 @@ INSERT INTO `character_bind` (`id`, `slot`, `zone_id`, `instance_id`, `x`, `y`, 
 	(6379, 1, 52, 0, 171, 219, 5, 390),
 	(6379, 2, 52, 0, 171, 219, 5, 390),
 	(6379, 3, 52, 0, 171, 219, 5, 390),
-	(6379, 4, 52, 0, 171, 219, 5, 390),
+	(6379, 4, 52, 0, 171, 219, 5, 390);
+INSERT INTO `character_bind` (`id`, `slot`, `zone_id`, `instance_id`, `x`, `y`, `z`, `heading`) VALUES
 	(6380, 0, 19, 0, -424, -52, -11, 0),
 	(6380, 1, 19, 0, -424, -52, -11, 0),
 	(6380, 2, 19, 0, -424, -52, -11, 0),
@@ -22706,8 +22710,25 @@ INSERT INTO `character_bind` (`id`, `slot`, `zone_id`, `instance_id`, `x`, `y`, 
 	(7131, 1, 10, 0, -864, -321, -108, 0),
 	(7131, 2, 10, 0, -864, -321, -108, 0),
 	(7131, 3, 10, 0, -864, -321, -108, 0),
-	(7131, 4, 10, 0, -864, -321, -108, 0);
+	(7131, 4, 10, 0, -864, -321, -108, 0),
+	(7132, 0, 54, 0, 523, -447, 117, 128),
+	(7132, 1, 54, 0, 523, -447, 117, 128),
+	(7132, 2, 54, 0, 523, -447, 117, 128),
+	(7132, 3, 54, 0, 523, -447, 117, 128),
+	(7132, 4, 54, 0, 523, -447, 117, 128),
+	(7133, 0, 42, 0, -1253, 1255, -80, 0),
+	(7133, 1, 42, 0, -1253, 1255, -80, 0),
+	(7133, 2, 42, 0, -1253, 1255, -80, 0),
+	(7133, 3, 42, 0, -1253, 1255, -80, 0),
+	(7133, 4, 42, 0, -1253, 1255, -80, 0),
+	(7134, 0, 52, 0, 0, -100, 3, 0),
+	(7134, 1, 52, 0, 0, -100, 3, 0),
+	(7134, 2, 52, 0, 0, -100, 3, 0),
+	(7134, 3, 52, 0, 0, -100, 3, 0),
+	(7134, 4, 52, 0, 0, -100, 3, 0);
 /*!40000 ALTER TABLE `character_bind` ENABLE KEYS */;
+
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
-/*!40014 SET FOREIGN_KEY_CHECKS=IF(@OLD_FOREIGN_KEY_CHECKS IS NULL, 1, @OLD_FOREIGN_KEY_CHECKS) */;
+/*!40014 SET FOREIGN_KEY_CHECKS=IFNULL(@OLD_FOREIGN_KEY_CHECKS, 1) */;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40111 SET SQL_NOTES=IFNULL(@OLD_SQL_NOTES, 1) */;

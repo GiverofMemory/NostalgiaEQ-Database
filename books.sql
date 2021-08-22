@@ -2,13 +2,15 @@
 -- Host:                         127.0.0.1
 -- Server version:               10.0.21-MariaDB - mariadb.org binary distribution
 -- Server OS:                    Win64
--- HeidiSQL Version:             9.1.0.4867
+-- HeidiSQL Version:             11.3.0.6295
 -- --------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
-/*!40101 SET NAMES utf8mb4 */;
+/*!40101 SET NAMES utf8 */;
+/*!50503 SET NAMES utf8mb4 */;
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 -- Dumping structure for table peq.books
 CREATE TABLE IF NOT EXISTS `books` (
@@ -992,6 +994,8 @@ INSERT INTO `books` (`name`, `txtfile`, `language`) VALUES
 	('ZeroBG', 'Before Green `This is known as the Age `of the Snake. The snake `race known as Shissar, `slithered upon Kunark.`The Iksar had yet to `unite. Our people had yet`to learn the Black Arts and`the ways of Fist and Tail.`Divided, the Iksar were`enslaved by the snakes.`In the centuries before the`Green, the Iksar were `slaves of the Shissar `They ruled from the ancient`city of Chelsith which rested`deep within the land now `known as The Overthere.`From there would sprout much`evil. The Iksar were `tortured like Frogs and`suffered at the hands of`the Shissar. The Iksar who`showed genius were to help`the snakes in their dark `rites. These few were the `seeds of rebellion. The`Iksar began to plot a `revolt, but a greater force`would strike first. The `Shissar were an arrogant `race. The power bestowed by`the gods was not enough. `They made pacts with other `gods and demigods. They `found the rifts of time and`space and used them to `gather magic items once `held by the guardians of`the planes. The Shissar\'s`disloyalty and blasphemous`pride would bring the wrath`of the gods upon them. No`power could stop the force `to come. A green cloud `formed in the skies above`Kunark. The cloud began to`descend upon the land. From`its green core the face `of death began to form. It`was of no god they knew.`It opened its giant maw `and spoke in tongues `unknown. From the mouth of`death rushed forth a green`mist. The Shissar shamans `began to cast spells in `hopes of shielding their `city and the necromancers `began to assault the mist `with great spells. All were`futile. The mist rushed `forth. The first snakes to`be swallowed by the mist `had their scales and flesh`rot and fall from their`bones. Horrid screams of`suffering could be heard`from within the mist. A river`of flesh and blood flowed.`The Iksar stood and gazed`upon the gristle that was`once the Shissar. With the`Green Death came the `liberation of the Iksar.`The season is now 0 A.G.,`After Green.', -1),
 	('ZimelClue', 'Ariska,                                                For your great service to the Temple of Life I shall honor your request and hold Soulfire until I see this note presented to me by either you or a noble courier of the Hall of Truth.                         Brother Hayle', -1);
 /*!40000 ALTER TABLE `books` ENABLE KEYS */;
+
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
-/*!40014 SET FOREIGN_KEY_CHECKS=IF(@OLD_FOREIGN_KEY_CHECKS IS NULL, 1, @OLD_FOREIGN_KEY_CHECKS) */;
+/*!40014 SET FOREIGN_KEY_CHECKS=IFNULL(@OLD_FOREIGN_KEY_CHECKS, 1) */;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40111 SET SQL_NOTES=IFNULL(@OLD_SQL_NOTES, 1) */;

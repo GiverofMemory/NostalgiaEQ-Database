@@ -2,13 +2,15 @@
 -- Host:                         127.0.0.1
 -- Server version:               10.0.21-MariaDB - mariadb.org binary distribution
 -- Server OS:                    Win64
--- HeidiSQL Version:             9.1.0.4867
+-- HeidiSQL Version:             11.3.0.6295
 -- --------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
-/*!40101 SET NAMES utf8mb4 */;
+/*!40101 SET NAMES utf8 */;
+/*!50503 SET NAMES utf8mb4 */;
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 -- Dumping structure for table peq.tradeskill_recipe_entries
 CREATE TABLE IF NOT EXISTS `tradeskill_recipe_entries` (
@@ -10027,7 +10029,8 @@ INSERT INTO `tradeskill_recipe_entries` (`id`, `recipe_id`, `item_id`, `successc
 	(13605, 1812, 17164, 0, 0, 0, 0, 1),
 	(13606, 1812, 17947, 0, 0, 0, 0, 1),
 	(13607, 1813, 13427, 0, 0, 1, 1, 0),
-	(13608, 1813, 22760, 0, 0, 1, 1, 0),
+	(13608, 1813, 22760, 0, 0, 1, 1, 0);
+INSERT INTO `tradeskill_recipe_entries` (`id`, `recipe_id`, `item_id`, `successcount`, `failcount`, `componentcount`, `salvagecount`, `iscontainer`) VALUES
 	(13609, 1813, 20394, 2, 0, 0, 0, 0),
 	(13610, 1813, 15, 0, 0, 0, 0, 1),
 	(13611, 1813, 17164, 0, 0, 0, 0, 1),
@@ -20027,7 +20030,8 @@ INSERT INTO `tradeskill_recipe_entries` (`id`, `recipe_id`, `item_id`, `successc
 	(28825, 3112, 13809, 0, 0, 1, 1, 0),
 	(28826, 3112, 22555, 0, 0, 1, 1, 0),
 	(28827, 3112, 24272, 0, 0, 1, 1, 0),
-	(28828, 3112, 9724, 1, 0, 0, 0, 0),
+	(28828, 3112, 9724, 1, 0, 0, 0, 0);
+INSERT INTO `tradeskill_recipe_entries` (`id`, `recipe_id`, `item_id`, `successcount`, `failcount`, `componentcount`, `salvagecount`, `iscontainer`) VALUES
 	(28829, 3112, 24337, 1, 0, 0, 0, 0),
 	(28830, 3112, 9724, 0, 1, 0, 0, 0),
 	(28831, 3112, 17806, 0, 0, 0, 0, 1),
@@ -24789,8 +24793,7 @@ INSERT INTO `tradeskill_recipe_entries` (`id`, `recipe_id`, `item_id`, `successc
 	(36851, 3617, 22501, 0, 0, 1, 1, 0),
 	(36852, 3617, 22531, 0, 0, 1, 1, 0),
 	(36853, 3617, 23677, 0, 0, 1, 1, 0),
-	(36854, 3617, 10489, 1, 0, 0, 0, 0);
-INSERT INTO `tradeskill_recipe_entries` (`id`, `recipe_id`, `item_id`, `successcount`, `failcount`, `componentcount`, `salvagecount`, `iscontainer`) VALUES
+	(36854, 3617, 10489, 1, 0, 0, 0, 0),
 	(36855, 3617, 23665, 1, 0, 0, 0, 0),
 	(36856, 3617, 10489, 0, 1, 0, 0, 0),
 	(36857, 3617, 36, 0, 0, 0, 0, 1),
@@ -30028,7 +30031,8 @@ INSERT INTO `tradeskill_recipe_entries` (`id`, `recipe_id`, `item_id`, `successc
 	(42511, 4333, 28245, 0, 0, 1, 1, 0),
 	(42512, 4333, 29529, 0, 0, 1, 1, 0),
 	(42513, 4333, 29546, 0, 0, 1, 1, 0),
-	(42514, 4333, 30488, 0, 0, 1, 1, 0),
+	(42514, 4333, 30488, 0, 0, 1, 1, 0);
+INSERT INTO `tradeskill_recipe_entries` (`id`, `recipe_id`, `item_id`, `successcount`, `failcount`, `componentcount`, `salvagecount`, `iscontainer`) VALUES
 	(42515, 4333, 29546, 1, 0, 0, 0, 0),
 	(42516, 4333, 31247, 1, 0, 0, 0, 0),
 	(42517, 4333, 28232, 0, 1, 0, 0, 0),
@@ -40028,7 +40032,8 @@ INSERT INTO `tradeskill_recipe_entries` (`id`, `recipe_id`, `item_id`, `successc
 	(54040, 5599, 33, 0, 0, 0, 0, 1),
 	(54041, 5600, 10456, 0, 0, 1, 1, 0),
 	(54042, 5600, 10498, 0, 0, 1, 1, 0),
-	(54043, 5600, 13038, 0, 0, 1, 1, 0),
+	(54043, 5600, 13038, 0, 0, 1, 1, 0);
+INSERT INTO `tradeskill_recipe_entries` (`id`, `recipe_id`, `item_id`, `successcount`, `failcount`, `componentcount`, `salvagecount`, `iscontainer`) VALUES
 	(54044, 5600, 22086, 0, 0, 1, 1, 0),
 	(54045, 5600, 21531, 1, 0, 0, 0, 0),
 	(54046, 5600, 33, 0, 0, 0, 0, 1),
@@ -49341,8 +49346,7 @@ INSERT INTO `tradeskill_recipe_entries` (`id`, `recipe_id`, `item_id`, `successc
 	(66920, 7089, 17189, 0, 0, 0, 0, 1),
 	(66921, 7089, 17762, 0, 0, 0, 0, 1),
 	(66922, 7089, 17910, 0, 0, 0, 0, 1),
-	(66924, 7090, 8052, 0, 0, 1, 1, 0);
-INSERT INTO `tradeskill_recipe_entries` (`id`, `recipe_id`, `item_id`, `successcount`, `failcount`, `componentcount`, `salvagecount`, `iscontainer`) VALUES
+	(66924, 7090, 8052, 0, 0, 1, 1, 0),
 	(66925, 7090, 8060, 0, 0, 1, 1, 0),
 	(66926, 7090, 8066, 0, 0, 1, 1, 0),
 	(66929, 7090, 17128, 0, 0, 0, 0, 1),
@@ -50029,7 +50033,8 @@ INSERT INTO `tradeskill_recipe_entries` (`id`, `recipe_id`, `item_id`, `successc
 	(67755, 7173, 8061, 0, 0, 1, 1, 0),
 	(67756, 7173, 8068, 0, 0, 1, 1, 0),
 	(67759, 7173, 17128, 0, 0, 0, 0, 1),
-	(67760, 7173, 17189, 0, 0, 0, 0, 1),
+	(67760, 7173, 17189, 0, 0, 0, 0, 1);
+INSERT INTO `tradeskill_recipe_entries` (`id`, `recipe_id`, `item_id`, `successcount`, `failcount`, `componentcount`, `salvagecount`, `iscontainer`) VALUES
 	(67761, 7173, 17762, 0, 0, 0, 0, 1),
 	(67762, 7173, 17910, 0, 0, 0, 0, 1),
 	(67764, 7174, 8050, 0, 0, 1, 1, 0),
@@ -60029,7 +60034,8 @@ INSERT INTO `tradeskill_recipe_entries` (`id`, `recipe_id`, `item_id`, `successc
 	(81562, 9215, 11653, 0, 0, 1, 1, 0),
 	(81563, 9215, 11660, 0, 0, 1, 1, 0),
 	(81564, 9215, 11657, 1, 0, 0, 0, 0),
-	(81565, 9215, 22, 0, 0, 0, 0, 1),
+	(81565, 9215, 22, 0, 0, 0, 0, 1);
+INSERT INTO `tradeskill_recipe_entries` (`id`, `recipe_id`, `item_id`, `successcount`, `failcount`, `componentcount`, `salvagecount`, `iscontainer`) VALUES
 	(81566, 9216, 11656, 0, 0, 1, 1, 0),
 	(81567, 9216, 11660, 0, 0, 1, 1, 0),
 	(81568, 9216, 11658, 1, 0, 0, 0, 0),
@@ -69581,6 +69587,8 @@ INSERT INTO `tradeskill_recipe_entries` (`id`, `recipe_id`, `item_id`, `successc
 	(252074, 25154, 16534, 0, 0, 1, 1, 0),
 	(252075, 25154, 16459, 1, 0, 0, 0, 0);
 /*!40000 ALTER TABLE `tradeskill_recipe_entries` ENABLE KEYS */;
+
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
-/*!40014 SET FOREIGN_KEY_CHECKS=IF(@OLD_FOREIGN_KEY_CHECKS IS NULL, 1, @OLD_FOREIGN_KEY_CHECKS) */;
+/*!40014 SET FOREIGN_KEY_CHECKS=IFNULL(@OLD_FOREIGN_KEY_CHECKS, 1) */;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40111 SET SQL_NOTES=IFNULL(@OLD_SQL_NOTES, 1) */;

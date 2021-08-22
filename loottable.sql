@@ -2,13 +2,15 @@
 -- Host:                         127.0.0.1
 -- Server version:               10.0.21-MariaDB - mariadb.org binary distribution
 -- Server OS:                    Win64
--- HeidiSQL Version:             9.1.0.4867
+-- HeidiSQL Version:             11.3.0.6295
 -- --------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
-/*!40101 SET NAMES utf8mb4 */;
+/*!40101 SET NAMES utf8 */;
+/*!50503 SET NAMES utf8mb4 */;
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 -- Dumping structure for table peq.loottable
 CREATE TABLE IF NOT EXISTS `loottable` (
@@ -10027,7 +10029,8 @@ INSERT INTO `loottable` (`id`, `name`, `mincash`, `maxcash`, `avgcoin`, `done`, 
 	(92273, '92273_a_goblin_plaguebringer_MAGELO-GEN', 87, 290, 0, 0, 0, 0, NULL, NULL),
 	(92274, '92274_a_goblin_slinker_MAGELO-GEN', 87, 290, 0, 0, 0, 0, NULL, NULL),
 	(92276, '92276_a_goblin_dirtcaller_MAGELO-GEN', 87, 290, 0, 0, 0, 0, NULL, NULL),
-	(92277, '92277_a_goblin_mosstrooper_MAGELO-GEN', 87, 290, 0, 0, 0, 0, NULL, NULL),
+	(92277, '92277_a_goblin_mosstrooper_MAGELO-GEN', 87, 290, 0, 0, 0, 0, NULL, NULL);
+INSERT INTO `loottable` (`id`, `name`, `mincash`, `maxcash`, `avgcoin`, `done`, `min_expansion`, `max_expansion`, `content_flags`, `content_flags_disabled`) VALUES
 	(92278, '92278_a_goblin_rockchanter_MAGELO-GEN', 87, 290, 0, 0, 0, 0, NULL, NULL),
 	(92279, '92279_a_goblin_firedrowser_MAGELO-GEN', 87, 290, 0, 0, 0, 0, NULL, NULL),
 	(92284, '92284_man_eating_vine_MAGELO-GEN', 0, 0, 0, 0, 0, 0, NULL, NULL),
@@ -12644,6 +12647,8 @@ INSERT INTO `loottable` (`id`, `name`, `mincash`, `maxcash`, `avgcoin`, `done`, 
 	(110026, 'a_stubborn_fish', 70, 90, 0, 0, 0, 0, NULL, NULL),
 	(110027, 'a_sea_fish', 20, 50, 0, 0, 0, 0, NULL, NULL);
 /*!40000 ALTER TABLE `loottable` ENABLE KEYS */;
+
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
-/*!40014 SET FOREIGN_KEY_CHECKS=IF(@OLD_FOREIGN_KEY_CHECKS IS NULL, 1, @OLD_FOREIGN_KEY_CHECKS) */;
+/*!40014 SET FOREIGN_KEY_CHECKS=IFNULL(@OLD_FOREIGN_KEY_CHECKS, 1) */;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40111 SET SQL_NOTES=IFNULL(@OLD_SQL_NOTES, 1) */;

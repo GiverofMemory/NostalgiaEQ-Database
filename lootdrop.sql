@@ -2,13 +2,15 @@
 -- Host:                         127.0.0.1
 -- Server version:               10.0.21-MariaDB - mariadb.org binary distribution
 -- Server OS:                    Win64
--- HeidiSQL Version:             9.1.0.4867
+-- HeidiSQL Version:             11.3.0.6295
 -- --------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
-/*!40101 SET NAMES utf8mb4 */;
+/*!40101 SET NAMES utf8 */;
+/*!50503 SET NAMES utf8mb4 */;
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 -- Dumping structure for table peq.lootdrop
 CREATE TABLE IF NOT EXISTS `lootdrop` (
@@ -10023,7 +10025,8 @@ INSERT INTO `lootdrop` (`id`, `name`, `min_expansion`, `max_expansion`, `content
 	(20688, '20289_#Praesertum_Matpa_Primary', 0, 0, NULL, NULL),
 	(20689, '20289_#Praesertum_Matpa_Secondary', 0, 0, NULL, NULL),
 	(20690, '20290_A_Vigilum_Seniori_Primary', 0, 0, NULL, NULL),
-	(20691, '20290_A_Vigilum_Seniori_Secondary', 0, 0, NULL, NULL),
+	(20691, '20290_A_Vigilum_Seniori_Secondary', 0, 0, NULL, NULL);
+INSERT INTO `lootdrop` (`id`, `name`, `min_expansion`, `max_expansion`, `content_flags`, `content_flags_disabled`) VALUES
 	(20692, '20291_#Legionnaire_Galea_Primary', 0, 0, NULL, NULL),
 	(20694, 'DELETE', 0, 0, NULL, NULL),
 	(20698, 'DELETE', 0, 0, NULL, NULL),
@@ -15839,8 +15842,7 @@ INSERT INTO `lootdrop` (`id`, `name`, `min_expansion`, `max_expansion`, `content
 	(93508, '93508_#Master_of_the_Guard_MAGELO-GEN', 0, 0, NULL, NULL),
 	(93509, '93509_#Master_of_the_Guard_MAGELO-GEN', 0, 0, NULL, NULL),
 	(93510, '93510_#Master_of_the_Guard_MAGELO-GEN', 0, 0, NULL, NULL),
-	(93511, '93511_#The_Progenitor_MAGELO-GEN', 0, 0, NULL, NULL);
-INSERT INTO `lootdrop` (`id`, `name`, `min_expansion`, `max_expansion`, `content_flags`, `content_flags_disabled`) VALUES
+	(93511, '93511_#The_Progenitor_MAGELO-GEN', 0, 0, NULL, NULL),
 	(93512, '93512_#The_Progenitor_MAGELO-GEN', 0, 0, NULL, NULL),
 	(93513, '93513_#The_Progenitor_MAGELO-GEN', 0, 0, NULL, NULL),
 	(93514, '93514_#The_Progenitor_MAGELO-GEN', 0, 0, NULL, NULL),
@@ -20024,7 +20026,8 @@ INSERT INTO `lootdrop` (`id`, `name`, `min_expansion`, `max_expansion`, `content
 	(97798, '97798_a_poacher_MAGELO-GEN', 0, 0, NULL, NULL),
 	(97799, '97799_a_poacher_MAGELO-GEN', 0, 0, NULL, NULL),
 	(97800, '97800_Poacher_MAGELO-GEN', 0, 0, NULL, NULL),
-	(97801, '97801_Poacher_MAGELO-GEN', 0, 0, NULL, NULL),
+	(97801, '97801_Poacher_MAGELO-GEN', 0, 0, NULL, NULL);
+INSERT INTO `lootdrop` (`id`, `name`, `min_expansion`, `max_expansion`, `content_flags`, `content_flags_disabled`) VALUES
 	(97802, '97802_Poacher_MAGELO-GEN', 0, 0, NULL, NULL),
 	(97803, '97803_Poacher_MAGELO-GEN', 0, 0, NULL, NULL),
 	(97804, '97804_Gnoll_Poacher_MAGELO-GEN', 0, 0, NULL, NULL),
@@ -30024,7 +30027,8 @@ INSERT INTO `lootdrop` (`id`, `name`, `min_expansion`, `max_expansion`, `content
 	(109260, '94648_judicator_of_Di`zok_', 0, 0, NULL, NULL),
 	(109263, '109263_Overking_Bathezid_MAGELO-GEN', 0, 0, NULL, NULL),
 	(109264, '94732_Overking_Bathezid_', 0, 0, NULL, NULL),
-	(109265, '94732_Overking_Bathezid_', 0, 0, NULL, NULL),
+	(109265, '94732_Overking_Bathezid_', 0, 0, NULL, NULL);
+INSERT INTO `lootdrop` (`id`, `name`, `min_expansion`, `max_expansion`, `content_flags`, `content_flags_disabled`) VALUES
 	(109268, '109268_Prince_Selrach_Di`zok_MAGELO-GEN', 0, 0, NULL, NULL),
 	(109269, '94733_Prince_Selrach_Di`zok_', 0, 0, NULL, NULL),
 	(109270, '94733_Prince_Selrach_Di`zok_', 0, 0, NULL, NULL),
@@ -30193,8 +30197,7 @@ INSERT INTO `lootdrop` (`id`, `name`, `min_expansion`, `max_expansion`, `content
 	(109450, '109450_Construct_of_Sathir_MAGELO-GEN', 0, 0, NULL, NULL),
 	(109452, '109452_Construct_of_Sathir_MAGELO-GEN', 0, 0, NULL, NULL),
 	(109454, '109454_caller_of_Sathir_MAGELO-GEN', 0, 0, NULL, NULL),
-	(109455, '109455_caller_of_Sathir_MAGELO-GEN', 0, 0, NULL, NULL);
-INSERT INTO `lootdrop` (`id`, `name`, `min_expansion`, `max_expansion`, `content_flags`, `content_flags_disabled`) VALUES
+	(109455, '109455_caller_of_Sathir_MAGELO-GEN', 0, 0, NULL, NULL),
 	(109456, '109456_a_human_skeleton_MAGELO-GEN', 0, 0, NULL, NULL),
 	(109457, '109457_a_Drolvarg_warlord_MAGELO-GEN', 0, 0, NULL, NULL),
 	(109458, '109458_a_Drolvarg_warlord_MAGELO-GEN', 0, 0, NULL, NULL),
@@ -30744,6 +30747,8 @@ INSERT INTO `lootdrop` (`id`, `name`, `min_expansion`, `max_expansion`, `content
 	(110048, '110026_a_stubborn_fish_', 0, 0, NULL, NULL),
 	(110049, '110027_a_sea_fish_', 0, 0, NULL, NULL);
 /*!40000 ALTER TABLE `lootdrop` ENABLE KEYS */;
+
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
-/*!40014 SET FOREIGN_KEY_CHECKS=IF(@OLD_FOREIGN_KEY_CHECKS IS NULL, 1, @OLD_FOREIGN_KEY_CHECKS) */;
+/*!40014 SET FOREIGN_KEY_CHECKS=IFNULL(@OLD_FOREIGN_KEY_CHECKS, 1) */;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40111 SET SQL_NOTES=IFNULL(@OLD_SQL_NOTES, 1) */;

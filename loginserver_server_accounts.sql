@@ -2,13 +2,15 @@
 -- Host:                         127.0.0.1
 -- Server version:               10.0.21-MariaDB - mariadb.org binary distribution
 -- Server OS:                    Win64
--- HeidiSQL Version:             9.1.0.4867
+-- HeidiSQL Version:             11.3.0.6295
 -- --------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
-/*!40101 SET NAMES utf8mb4 */;
+/*!40101 SET NAMES utf8 */;
+/*!50503 SET NAMES utf8mb4 */;
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 -- Dumping structure for table peq.loginserver_server_accounts
 CREATE TABLE IF NOT EXISTS `loginserver_server_accounts` (
@@ -42,6 +44,8 @@ INSERT INTO `loginserver_server_accounts` (`LoginServerID`, `AccountName`, `Acco
 	(15, 'Solemnus', '26523cb6cc2297d445c399312b1c90c6e95ed534', '2021-08-18 11:57:21', 'local_creation', '2021-08-18 11:57:21', '181.214.215.120'),
 	(17, 'tester', '$7$C6..../....sSNwoA4MTaWXSOKWwXCJtUFofhUxZL2gVR7qhwbHj93$UOUbOWNIwvRw10jevrcQ63BtK9Usv62htykj01/2TVC', '2021-08-18 11:57:21', 'local_creation', '2021-08-18 11:57:21', '181.214.215.120');
 /*!40000 ALTER TABLE `loginserver_server_accounts` ENABLE KEYS */;
+
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
-/*!40014 SET FOREIGN_KEY_CHECKS=IF(@OLD_FOREIGN_KEY_CHECKS IS NULL, 1, @OLD_FOREIGN_KEY_CHECKS) */;
+/*!40014 SET FOREIGN_KEY_CHECKS=IFNULL(@OLD_FOREIGN_KEY_CHECKS, 1) */;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40111 SET SQL_NOTES=IFNULL(@OLD_SQL_NOTES, 1) */;

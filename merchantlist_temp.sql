@@ -2,13 +2,15 @@
 -- Host:                         127.0.0.1
 -- Server version:               10.0.21-MariaDB - mariadb.org binary distribution
 -- Server OS:                    Win64
--- HeidiSQL Version:             9.1.0.4867
+-- HeidiSQL Version:             11.3.0.6295
 -- --------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
-/*!40101 SET NAMES utf8mb4 */;
+/*!40101 SET NAMES utf8 */;
+/*!50503 SET NAMES utf8mb4 */;
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 -- Dumping structure for table peq.merchantlist_temp
 CREATE TABLE IF NOT EXISTS `merchantlist_temp` (
@@ -10023,7 +10025,8 @@ INSERT INTO `merchantlist_temp` (`npcid`, `slot`, `itemid`, `charges`, `itemchar
 	(19029, 101, 13429, 86, ''),
 	(19029, 102, 13427, 80, ''),
 	(19029, 103, 6014, 1, ''),
-	(19029, 105, 5013, 6, ''),
+	(19029, 105, 5013, 6, '');
+INSERT INTO `merchantlist_temp` (`npcid`, `slot`, `itemid`, `charges`, `itemcharges`) VALUES
 	(19029, 106, 14018, 5, ''),
 	(19029, 107, 14014, 2, ''),
 	(19029, 108, 5016, 1, ''),
@@ -20023,7 +20026,8 @@ INSERT INTO `merchantlist_temp` (`npcid`, `slot`, `itemid`, `charges`, `itemchar
 	(41041, 99, 22504, 10, ''),
 	(41041, 100, 10024, 8, ''),
 	(41041, 103, 10023, 9, ''),
-	(41041, 104, 9008, 1, ''),
+	(41041, 104, 9008, 1, '');
+INSERT INTO `merchantlist_temp` (`npcid`, `slot`, `itemid`, `charges`, `itemcharges`) VALUES
 	(41041, 105, 10019, 1, ''),
 	(41041, 106, 1333, 1, ''),
 	(41041, 107, 7016, 2, ''),
@@ -30023,7 +30027,8 @@ INSERT INTO `merchantlist_temp` (`npcid`, `slot`, `itemid`, `charges`, `itemchar
 	(54175, 139, 30980, 2, ''),
 	(54175, 140, 13253, 10, ''),
 	(54175, 141, 13142, 10, ''),
-	(54175, 143, 12105, 7, ''),
+	(54175, 143, 12105, 7, '');
+INSERT INTO `merchantlist_temp` (`npcid`, `slot`, `itemid`, `charges`, `itemcharges`) VALUES
 	(54175, 144, 13002, 5, ''),
 	(54175, 145, 5023, 5, ''),
 	(54175, 146, 5020, 2, ''),
@@ -32281,8 +32286,7 @@ INSERT INTO `merchantlist_temp` (`npcid`, `slot`, `itemid`, `charges`, `itemchar
 	(60071, 103, 2113, 2, ''),
 	(60071, 104, 2123, 5, ''),
 	(60071, 105, 1020, 1, ''),
-	(60071, 106, 1015, 2, '');
-INSERT INTO `merchantlist_temp` (`npcid`, `slot`, `itemid`, `charges`, `itemcharges`) VALUES
+	(60071, 106, 1015, 2, ''),
 	(60071, 107, 1024, 1, ''),
 	(60071, 108, 1013, 1, ''),
 	(60071, 109, 2118, 4, ''),
@@ -39897,6 +39901,8 @@ INSERT INTO `merchantlist_temp` (`npcid`, `slot`, `itemid`, `charges`, `itemchar
 	(2000104, 149, 1007, 1, ''),
 	(2000104, 150, 6013, 1, '');
 /*!40000 ALTER TABLE `merchantlist_temp` ENABLE KEYS */;
+
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
-/*!40014 SET FOREIGN_KEY_CHECKS=IF(@OLD_FOREIGN_KEY_CHECKS IS NULL, 1, @OLD_FOREIGN_KEY_CHECKS) */;
+/*!40014 SET FOREIGN_KEY_CHECKS=IFNULL(@OLD_FOREIGN_KEY_CHECKS, 1) */;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40111 SET SQL_NOTES=IFNULL(@OLD_SQL_NOTES, 1) */;

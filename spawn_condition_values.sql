@@ -2,13 +2,15 @@
 -- Host:                         127.0.0.1
 -- Server version:               10.0.21-MariaDB - mariadb.org binary distribution
 -- Server OS:                    Win64
--- HeidiSQL Version:             9.1.0.4867
+-- HeidiSQL Version:             11.3.0.6295
 -- --------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
-/*!40101 SET NAMES utf8mb4 */;
+/*!40101 SET NAMES utf8 */;
+/*!50503 SET NAMES utf8mb4 */;
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 -- Dumping structure for table peq.spawn_condition_values
 CREATE TABLE IF NOT EXISTS `spawn_condition_values` (
@@ -44,7 +46,7 @@ INSERT INTO `spawn_condition_values` (`id`, `value`, `zone`, `instance_id`) VALU
 	(1, 0, 'lfaydark', 0),
 	(1, 1, 'mischiefplane', 0),
 	(1, 1, 'mistmoore', 0),
-	(1, 1, 'neriakb', 0),
+	(1, 0, 'neriakb', 0),
 	(1, 1, 'neriakc', 0),
 	(1, 0, 'northkarana', 0),
 	(1, 1, 'oasis', 0),
@@ -95,7 +97,7 @@ INSERT INTO `spawn_condition_values` (`id`, `value`, `zone`, `instance_id`) VALU
 	(2, 1, 'lfaydark', 0),
 	(2, 0, 'mischiefplane', 0),
 	(2, 0, 'mistmoore', 0),
-	(2, 0, 'neriakb', 0),
+	(2, 1, 'neriakb', 0),
 	(2, 1, 'northkarana', 0),
 	(2, 0, 'oasis', 0),
 	(2, 0, 'oggok', 0),
@@ -159,6 +161,8 @@ INSERT INTO `spawn_condition_values` (`id`, `value`, `zone`, `instance_id`) VALU
 	(11, 1, 'corathus', 0),
 	(12, 1, 'corathus', 0);
 /*!40000 ALTER TABLE `spawn_condition_values` ENABLE KEYS */;
+
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
-/*!40014 SET FOREIGN_KEY_CHECKS=IF(@OLD_FOREIGN_KEY_CHECKS IS NULL, 1, @OLD_FOREIGN_KEY_CHECKS) */;
+/*!40014 SET FOREIGN_KEY_CHECKS=IFNULL(@OLD_FOREIGN_KEY_CHECKS, 1) */;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40111 SET SQL_NOTES=IFNULL(@OLD_SQL_NOTES, 1) */;

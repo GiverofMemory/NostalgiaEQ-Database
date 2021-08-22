@@ -2,13 +2,15 @@
 -- Host:                         127.0.0.1
 -- Server version:               10.0.21-MariaDB - mariadb.org binary distribution
 -- Server OS:                    Win64
--- HeidiSQL Version:             9.1.0.4867
+-- HeidiSQL Version:             11.3.0.6295
 -- --------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
-/*!40101 SET NAMES utf8mb4 */;
+/*!40101 SET NAMES utf8 */;
+/*!50503 SET NAMES utf8mb4 */;
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 -- Dumping structure for table peq.qs_player_npc_kill_record_entries
 CREATE TABLE IF NOT EXISTS `qs_player_npc_kill_record_entries` (
@@ -10018,7 +10020,8 @@ INSERT INTO `qs_player_npc_kill_record_entries` (`event_id`, `char_id`) VALUES
 	(4036, 1849),
 	(4036, 2203),
 	(4036, 2065),
-	(4036, 2061),
+	(4036, 2061);
+INSERT INTO `qs_player_npc_kill_record_entries` (`event_id`, `char_id`) VALUES
 	(4036, 1810),
 	(4037, 1245),
 	(4037, 1243),
@@ -20018,7 +20021,8 @@ INSERT INTO `qs_player_npc_kill_record_entries` (`event_id`, `char_id`) VALUES
 	(8196, 83),
 	(8196, 46),
 	(8196, 1193),
-	(8196, 2310),
+	(8196, 2310);
+INSERT INTO `qs_player_npc_kill_record_entries` (`event_id`, `char_id`) VALUES
 	(8196, 1661),
 	(8197, 2812),
 	(8198, 2291),
@@ -30018,7 +30022,8 @@ INSERT INTO `qs_player_npc_kill_record_entries` (`event_id`, `char_id`) VALUES
 	(13633, 2787),
 	(13633, 2840),
 	(13634, 1162),
-	(13634, 1152),
+	(13634, 1152);
+INSERT INTO `qs_player_npc_kill_record_entries` (`event_id`, `char_id`) VALUES
 	(13634, 16),
 	(13634, 43),
 	(13635, 2832),
@@ -40018,7 +40023,8 @@ INSERT INTO `qs_player_npc_kill_record_entries` (`event_id`, `char_id`) VALUES
 	(18706, 2278),
 	(18706, 2271),
 	(18706, 2546),
-	(18706, 2289),
+	(18706, 2289);
+INSERT INTO `qs_player_npc_kill_record_entries` (`event_id`, `char_id`) VALUES
 	(18707, 837),
 	(18707, 836),
 	(18708, 2838),
@@ -50018,7 +50024,8 @@ INSERT INTO `qs_player_npc_kill_record_entries` (`event_id`, `char_id`) VALUES
 	(22888, 2900),
 	(22888, 2905),
 	(22888, 2899),
-	(22889, 2873),
+	(22889, 2873);
+INSERT INTO `qs_player_npc_kill_record_entries` (`event_id`, `char_id`) VALUES
 	(22889, 2868),
 	(22890, 15),
 	(22890, 29),
@@ -58681,8 +58688,7 @@ INSERT INTO `qs_player_npc_kill_record_entries` (`event_id`, `char_id`) VALUES
 	(26495, 2046),
 	(26495, 2207),
 	(26495, 2289),
-	(26495, 2546);
-INSERT INTO `qs_player_npc_kill_record_entries` (`event_id`, `char_id`) VALUES
+	(26495, 2546),
 	(26495, 362),
 	(26496, 2154),
 	(26496, 2152),
@@ -60019,7 +60025,8 @@ INSERT INTO `qs_player_npc_kill_record_entries` (`event_id`, `char_id`) VALUES
 	(27027, 2931),
 	(27027, 2922),
 	(27028, 15),
-	(27028, 29),
+	(27028, 29);
+INSERT INTO `qs_player_npc_kill_record_entries` (`event_id`, `char_id`) VALUES
 	(27028, 35),
 	(27028, 826),
 	(27028, 785),
@@ -70019,7 +70026,8 @@ INSERT INTO `qs_player_npc_kill_record_entries` (`event_id`, `char_id`) VALUES
 	(31195, 133),
 	(31195, 591),
 	(31195, 2295),
-	(31196, 1244),
+	(31196, 1244);
+INSERT INTO `qs_player_npc_kill_record_entries` (`event_id`, `char_id`) VALUES
 	(31197, 2476),
 	(31197, 2480),
 	(31198, 411),
@@ -80019,7 +80027,8 @@ INSERT INTO `qs_player_npc_kill_record_entries` (`event_id`, `char_id`) VALUES
 	(36541, 139),
 	(36542, 1093),
 	(36543, 2325),
-	(36544, 115),
+	(36544, 115);
+INSERT INTO `qs_player_npc_kill_record_entries` (`event_id`, `char_id`) VALUES
 	(36544, 116),
 	(36545, 436),
 	(36545, 2494),
@@ -90019,7 +90028,8 @@ INSERT INTO `qs_player_npc_kill_record_entries` (`event_id`, `char_id`) VALUES
 	(40925, 3014),
 	(40925, 3015),
 	(40926, 1243),
-	(40926, 1245),
+	(40926, 1245);
+INSERT INTO `qs_player_npc_kill_record_entries` (`event_id`, `char_id`) VALUES
 	(40927, 2936),
 	(40927, 2937),
 	(40927, 3083),
@@ -100019,7 +100029,8 @@ INSERT INTO `qs_player_npc_kill_record_entries` (`event_id`, `char_id`) VALUES
 	(45476, 2743),
 	(45476, 3090),
 	(45477, 2621),
-	(45477, 2617),
+	(45477, 2617);
+INSERT INTO `qs_player_npc_kill_record_entries` (`event_id`, `char_id`) VALUES
 	(45478, 15),
 	(45479, 3097),
 	(45480, 15),
@@ -109834,6 +109845,8 @@ INSERT INTO `qs_player_npc_kill_record_entries` (`event_id`, `char_id`) VALUES
 	(51304, 2480),
 	(51305, 15);
 /*!40000 ALTER TABLE `qs_player_npc_kill_record_entries` ENABLE KEYS */;
+
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
-/*!40014 SET FOREIGN_KEY_CHECKS=IF(@OLD_FOREIGN_KEY_CHECKS IS NULL, 1, @OLD_FOREIGN_KEY_CHECKS) */;
+/*!40014 SET FOREIGN_KEY_CHECKS=IFNULL(@OLD_FOREIGN_KEY_CHECKS, 1) */;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40111 SET SQL_NOTES=IFNULL(@OLD_SQL_NOTES, 1) */;

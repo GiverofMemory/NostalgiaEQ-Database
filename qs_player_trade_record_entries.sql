@@ -2,13 +2,15 @@
 -- Host:                         127.0.0.1
 -- Server version:               10.0.21-MariaDB - mariadb.org binary distribution
 -- Server OS:                    Win64
--- HeidiSQL Version:             9.1.0.4867
+-- HeidiSQL Version:             11.3.0.6295
 -- --------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
-/*!40101 SET NAMES utf8mb4 */;
+/*!40101 SET NAMES utf8 */;
+/*!50503 SET NAMES utf8mb4 */;
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 -- Dumping structure for table peq.qs_player_trade_record_entries
 CREATE TABLE IF NOT EXISTS `qs_player_trade_record_entries` (
@@ -10028,7 +10030,8 @@ INSERT INTO `qs_player_trade_record_entries` (`event_id`, `from_id`, `from_slot`
 	(3381, 4278, 3000, 5381, 251, 4169, 1, 0, 0, 0, 0, 0),
 	(3381, 4278, 3001, 5381, 254, 4168, 1, 0, 0, 0, 0, 0),
 	(3381, 4278, 3004, 5381, 255, 4170, 1, 0, 0, 0, 0, 0),
-	(3381, 4278, 3005, 5381, 256, 4307, 1, 0, 0, 0, 0, 0),
+	(3381, 4278, 3005, 5381, 256, 4307, 1, 0, 0, 0, 0, 0);
+INSERT INTO `qs_player_trade_record_entries` (`event_id`, `from_id`, `from_slot`, `to_id`, `to_slot`, `item_id`, `charges`, `aug_1`, `aug_2`, `aug_3`, `aug_4`, `aug_5`) VALUES
 	(3381, 5381, 3000, 4278, 296, 3048, 1, 0, 0, 0, 0, 0),
 	(3381, 5381, 3001, 4278, 321, 3047, 1, 0, 0, 0, 0, 0),
 	(3381, 5381, 3004, 4278, 322, 3049, 1, 0, 0, 0, 0, 0),
@@ -16613,8 +16616,7 @@ INSERT INTO `qs_player_trade_record_entries` (`event_id`, `from_id`, `from_slot`
 	(5332, 5132, 3006, 5131, 283, 11741, 1, 0, 0, 0, 0, 0),
 	(5332, 5132, 3007, 5131, 284, 16072, 1, 0, 0, 0, 0, 0),
 	(5333, 5132, 3004, 5131, 331, 11837, 1, 0, 0, 0, 0, 0),
-	(5333, 5132, 3005, 5131, 332, 16088, 6, 0, 0, 0, 0, 0);
-INSERT INTO `qs_player_trade_record_entries` (`event_id`, `from_id`, `from_slot`, `to_id`, `to_slot`, `item_id`, `charges`, `aug_1`, `aug_2`, `aug_3`, `aug_4`, `aug_5`) VALUES
+	(5333, 5132, 3005, 5131, 332, 16088, 6, 0, 0, 0, 0, 0),
 	(5333, 5132, 3000, 5131, 286, 11743, 3, 0, 0, 0, 0, 0),
 	(5333, 5132, 3001, 5131, 287, 11795, 1, 0, 0, 0, 0, 0),
 	(5333, 5132, 3002, 5131, 288, 11742, 1, 0, 0, 0, 0, 0),
@@ -19582,6 +19584,8 @@ INSERT INTO `qs_player_trade_record_entries` (`event_id`, `from_id`, `from_slot`
 	(6378, 7088, 3004, 7091, 25, 14679, 1, 0, 0, 0, 0, 0),
 	(6379, 7088, 3000, 7091, 24, 14703, 1, 0, 0, 0, 0, 0);
 /*!40000 ALTER TABLE `qs_player_trade_record_entries` ENABLE KEYS */;
+
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
-/*!40014 SET FOREIGN_KEY_CHECKS=IF(@OLD_FOREIGN_KEY_CHECKS IS NULL, 1, @OLD_FOREIGN_KEY_CHECKS) */;
+/*!40014 SET FOREIGN_KEY_CHECKS=IFNULL(@OLD_FOREIGN_KEY_CHECKS, 1) */;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40111 SET SQL_NOTES=IFNULL(@OLD_SQL_NOTES, 1) */;

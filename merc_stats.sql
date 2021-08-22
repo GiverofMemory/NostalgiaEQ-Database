@@ -2,13 +2,15 @@
 -- Host:                         127.0.0.1
 -- Server version:               10.0.21-MariaDB - mariadb.org binary distribution
 -- Server OS:                    Win64
--- HeidiSQL Version:             9.1.0.4867
+-- HeidiSQL Version:             11.3.0.6295
 -- --------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
-/*!40101 SET NAMES utf8mb4 */;
+/*!40101 SET NAMES utf8 */;
+/*!50503 SET NAMES utf8mb4 */;
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 -- Dumping structure for table peq.merc_stats
 CREATE TABLE IF NOT EXISTS `merc_stats` (
@@ -2432,6 +2434,8 @@ INSERT INTO `merc_stats` (`merc_npc_type_id`, `clientlevel`, `level`, `hp`, `man
 	(37, 84, 84, 11131, 10349, 1400, 798, 588, 588, 588, 588, 545, 545, 588, 298, 298, 298, 298, 298, 298, 23, 130, 1, -18, 30, '', 0, 34, 25, 1.61, 100, 100, 100),
 	(37, 85, 85, 11423, 10540, 1416, 807, 601, 601, 601, 601, 553, 553, 601, 300, 300, 300, 300, 300, 300, 23, 132, 1, -18, 30, '', 0, 34, 26, 1.61, 100, 100, 100);
 /*!40000 ALTER TABLE `merc_stats` ENABLE KEYS */;
+
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
-/*!40014 SET FOREIGN_KEY_CHECKS=IF(@OLD_FOREIGN_KEY_CHECKS IS NULL, 1, @OLD_FOREIGN_KEY_CHECKS) */;
+/*!40014 SET FOREIGN_KEY_CHECKS=IFNULL(@OLD_FOREIGN_KEY_CHECKS, 1) */;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40111 SET SQL_NOTES=IFNULL(@OLD_SQL_NOTES, 1) */;

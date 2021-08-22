@@ -2,13 +2,15 @@
 -- Host:                         127.0.0.1
 -- Server version:               10.0.21-MariaDB - mariadb.org binary distribution
 -- Server OS:                    Win64
--- HeidiSQL Version:             9.1.0.4867
+-- HeidiSQL Version:             11.3.0.6295
 -- --------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
-/*!40101 SET NAMES utf8mb4 */;
+/*!40101 SET NAMES utf8 */;
+/*!50503 SET NAMES utf8mb4 */;
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 -- Dumping structure for table peq.login_world_servers
 CREATE TABLE IF NOT EXISTS `login_world_servers` (
@@ -33,8 +35,10 @@ INSERT INTO `login_world_servers` (`id`, `long_name`, `short_name`, `tag_descrip
 	(3, 'Mercys Custom', 'MercysCustom', '', 3, '2021-07-21 06:10:05', '45.79.208.163', 0, 0, NULL),
 	(4, 'Mercys PvP', 'MercysPvP', '', 3, '2021-08-02 21:45:26', '45.79.208.163', 0, 0, NULL),
 	(5, 'Xire\'s testbed', 'Xire\'s testbed', '', 3, '2021-07-21 19:46:20', '124.171.146.251', 0, 0, NULL),
-	(6, 'Xire\'s testbed - [NEQ]', 'xire', '', 3, '2021-08-19 18:23:51', 'login.nostalgiaeq.com', 0, 0, NULL);
+	(6, 'Xire\'s testbed - [NEQ]', 'xire', '', 3, '2021-08-21 23:33:57', 'login.nostalgiaeq.com', 0, 0, NULL);
 /*!40000 ALTER TABLE `login_world_servers` ENABLE KEYS */;
+
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
-/*!40014 SET FOREIGN_KEY_CHECKS=IF(@OLD_FOREIGN_KEY_CHECKS IS NULL, 1, @OLD_FOREIGN_KEY_CHECKS) */;
+/*!40014 SET FOREIGN_KEY_CHECKS=IFNULL(@OLD_FOREIGN_KEY_CHECKS, 1) */;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40111 SET SQL_NOTES=IFNULL(@OLD_SQL_NOTES, 1) */;

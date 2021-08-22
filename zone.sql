@@ -2,13 +2,15 @@
 -- Host:                         127.0.0.1
 -- Server version:               10.0.21-MariaDB - mariadb.org binary distribution
 -- Server OS:                    Win64
--- HeidiSQL Version:             9.1.0.4867
+-- HeidiSQL Version:             11.3.0.6295
 -- --------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
-/*!40101 SET NAMES utf8mb4 */;
+/*!40101 SET NAMES utf8 */;
+/*!50503 SET NAMES utf8mb4 */;
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 -- Dumping structure for table peq.zone
 CREATE TABLE IF NOT EXISTS `zone` (
@@ -597,6 +599,8 @@ INSERT INTO `zone` (`short_name`, `id`, `file_name`, `long_name`, `map_file_name
 	('shardslanding', 5893, '', 'Shard\'s Landing', NULL, -495, -1965, 4, 0, 0, 0, 150, 752, 0, 0, 0, 1, NULL, -1000, 500, 3000, 1750, 3000, 220, 200, 200, 1, 255, 0.00, 0.4, 1, 0, 0, 0, 450, 450, 200, 200, 220, 1750, 3000, 200, 200, 220, 1750, 3000, 200, 200, 220, 1750, 3000, 0.33, '', 1, 1, 1, 1, 0, 0, 3600000, 0, 20, 0, 0, 10, 5, 0, 0, 2, 2, 0, 10, 0, 0, 2, 1, 0, 0, 1, 0.4, 0, 0, 80, 180, 90, 600, 600, 0, 0, 0, NULL, NULL, 0),
 	('xorbb', 5894, '', 'Valley of King Xorbb', NULL, -803, -1740, 132, 0, 0, 0, 150, 753, 0, 0, 0, 1, NULL, -2100, 500, 5000, 500, 5000, 220, 200, 200, 1, 255, 0.00, 0.4, 2, 0, 0, 0, 450, 450, 200, 200, 220, 500, 5000, 200, 200, 220, 500, 5000, 200, 200, 220, 500, 5000, 0.33, '', 1, 1, 1, 1, 0, 0, 3600000, 0, 20, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0.4, 0, 0, 80, 180, 90, 600, 600, 0, 0, 0, NULL, NULL, 0);
 /*!40000 ALTER TABLE `zone` ENABLE KEYS */;
+
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
-/*!40014 SET FOREIGN_KEY_CHECKS=IF(@OLD_FOREIGN_KEY_CHECKS IS NULL, 1, @OLD_FOREIGN_KEY_CHECKS) */;
+/*!40014 SET FOREIGN_KEY_CHECKS=IFNULL(@OLD_FOREIGN_KEY_CHECKS, 1) */;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40111 SET SQL_NOTES=IFNULL(@OLD_SQL_NOTES, 1) */;

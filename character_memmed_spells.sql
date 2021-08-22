@@ -2,13 +2,15 @@
 -- Host:                         127.0.0.1
 -- Server version:               10.0.21-MariaDB - mariadb.org binary distribution
 -- Server OS:                    Win64
--- HeidiSQL Version:             9.1.0.4867
+-- HeidiSQL Version:             11.3.0.6295
 -- --------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
-/*!40101 SET NAMES utf8mb4 */;
+/*!40101 SET NAMES utf8 */;
+/*!50503 SET NAMES utf8mb4 */;
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 -- Dumping structure for table peq.character_memmed_spells
 CREATE TABLE IF NOT EXISTS `character_memmed_spells` (
@@ -19,7 +21,7 @@ CREATE TABLE IF NOT EXISTS `character_memmed_spells` (
   KEY `id` (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
--- Dumping data for table peq.character_memmed_spells: ~11,546 rows (approximately)
+-- Dumping data for table peq.character_memmed_spells: ~11,549 rows (approximately)
 /*!40000 ALTER TABLE `character_memmed_spells` DISABLE KEYS */;
 INSERT INTO `character_memmed_spells` (`id`, `slot_id`, `spell_id`) VALUES
 	(1, 0, 2621),
@@ -10021,7 +10023,8 @@ INSERT INTO `character_memmed_spells` (`id`, `slot_id`, `spell_id`) VALUES
 	(6174, 3, 349),
 	(6174, 4, 149),
 	(6174, 5, 151),
-	(6174, 6, 265),
+	(6174, 6, 265);
+INSERT INTO `character_memmed_spells` (`id`, `slot_id`, `spell_id`) VALUES
 	(6174, 7, 1776),
 	(6175, 0, 286),
 	(6175, 1, 41),
@@ -11568,8 +11571,12 @@ INSERT INTO `character_memmed_spells` (`id`, `slot_id`, `spell_id`) VALUES
 	(7119, 2, 35),
 	(7119, 3, 423),
 	(7119, 6, 278),
-	(7120, 7, 700);
+	(7120, 7, 700),
+	(7133, 0, 341),
+	(7133, 7, 288);
 /*!40000 ALTER TABLE `character_memmed_spells` ENABLE KEYS */;
+
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
-/*!40014 SET FOREIGN_KEY_CHECKS=IF(@OLD_FOREIGN_KEY_CHECKS IS NULL, 1, @OLD_FOREIGN_KEY_CHECKS) */;
+/*!40014 SET FOREIGN_KEY_CHECKS=IFNULL(@OLD_FOREIGN_KEY_CHECKS, 1) */;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40111 SET SQL_NOTES=IFNULL(@OLD_SQL_NOTES, 1) */;

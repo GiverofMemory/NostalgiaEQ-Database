@@ -2,13 +2,15 @@
 -- Host:                         127.0.0.1
 -- Server version:               10.0.21-MariaDB - mariadb.org binary distribution
 -- Server OS:                    Win64
--- HeidiSQL Version:             9.1.0.4867
+-- HeidiSQL Version:             11.3.0.6295
 -- --------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
-/*!40101 SET NAMES utf8mb4 */;
+/*!40101 SET NAMES utf8 */;
+/*!50503 SET NAMES utf8mb4 */;
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 -- Dumping structure for table peq.account
 CREATE TABLE IF NOT EXISTS `account` (
@@ -35,9 +37,9 @@ CREATE TABLE IF NOT EXISTS `account` (
   PRIMARY KEY (`id`),
   UNIQUE KEY `name_ls_id` (`name`,`ls_id`),
   UNIQUE KEY `ls_id_lsaccount_id` (`ls_id`,`lsaccount_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=2271 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=2273 DEFAULT CHARSET=latin1;
 
--- Dumping data for table peq.account: ~2,246 rows (approximately)
+-- Dumping data for table peq.account: ~2,245 rows (approximately)
 /*!40000 ALTER TABLE `account` DISABLE KEYS */;
 INSERT INTO `account` (`id`, `name`, `charname`, `sharedplat`, `password`, `status`, `ls_id`, `lsaccount_id`, `gmspeed`, `revoked`, `karma`, `minilogin_ip`, `hideme`, `rulesflag`, `suspendeduntil`, `time_creation`, `expansion`, `ban_reason`, `suspend_reason`, `platinum_shared`) VALUES
 	(1, 'kaluven', 'Maze', 0, '', 255, 'eqemu', 70204, 0, 0, 1240, '', 1, 0, '0000-00-00 00:00:00', 1536942521, 0, NULL, NULL, 0),
@@ -2261,7 +2263,7 @@ INSERT INTO `account` (`id`, `name`, `charname`, `sharedplat`, `password`, `stat
 	(2234, 'marcusd', 'Giverof', 0, '', 255, 'local', 4, 0, 0, 118, '', 0, 0, '0000-00-00 00:00:00', 1626293901, 0, NULL, NULL, 0),
 	(2235, 'mercy', 'Mercykiller', 0, '', 0, 'local', 5, 0, 0, 46, '', 0, 0, '0000-00-00 00:00:00', 1626313558, 0, NULL, NULL, 0),
 	(2236, 'notmarcusd', 'Giver', 0, '', 0, 'local', 6, 0, 0, 38, '', 0, 0, '0000-00-00 00:00:00', 1626314954, 0, NULL, NULL, 0),
-	(2237, 'Solemnus', 'Onada', 0, '', 255, 'local', 7, 1, 0, 23, '', 0, 0, '0000-00-00 00:00:00', 1626424432, 0, NULL, NULL, 0),
+	(2237, 'Solemnus', 'Pysegra', 0, '', 255, 'local', 7, 1, 0, 23, '', 0, 0, '0000-00-00 00:00:00', 1626424432, 0, NULL, NULL, 0),
 	(2238, 'testmarcusd', '', 0, '', 0, 'local', 8, 0, 0, 0, '', 0, 0, '0000-00-00 00:00:00', 1626461246, 0, NULL, NULL, 0),
 	(2239, 'testerz', '', 0, '', 0, 'local', 9, 0, 0, 0, '', 0, 0, '0000-00-00 00:00:00', 1626461522, 0, NULL, NULL, 0),
 	(2240, 'phr0stbyt3', 'Braeldar', 0, '', 255, 'local', 10, 1, 0, 0, '', 1, 0, '0000-00-00 00:00:00', 1626575048, 0, NULL, NULL, 0),
@@ -2285,8 +2287,12 @@ INSERT INTO `account` (`id`, `name`, `charname`, `sharedplat`, `password`, `stat
 	(2258, 'shenlone', '', 0, '', 0, 'eqemu', 483373, 0, 0, 0, '', 0, 0, '0000-00-00 00:00:00', 1628790844, 0, NULL, NULL, 0),
 	(2259, 'rmain197210', '', 0, '', 0, 'eqemu', 461579, 0, 0, 0, '', 0, 0, '0000-00-00 00:00:00', 1628794154, 0, NULL, NULL, 0),
 	(2260, 'texs09', '', 0, '', 0, 'eqemu', 362414, 0, 0, 0, '', 0, 0, '0000-00-00 00:00:00', 1628829259, 0, NULL, NULL, 0),
-	(2270, 'tester', 'Testerone', 0, '', 255, 'local', 17, 0, 0, 0, '', 0, 0, '0000-00-00 00:00:00', 1629391784, 0, NULL, NULL, 0);
+	(2270, 'tester', 'Testerone', 0, '', 255, 'local', 17, 0, 0, 0, '', 0, 0, '0000-00-00 00:00:00', 1629391784, 0, NULL, NULL, 0),
+	(2271, 'shin2', 'Hunterx', 0, '', 0, 'eqemu', 120771, 0, 0, 0, '', 0, 0, '0000-00-00 00:00:00', 1629485683, 0, NULL, NULL, 0),
+	(2272, 'schuckenstein', 'Deathklokk', 0, '', 0, 'local', 18, 0, 0, 0, '', 0, 0, '0000-00-00 00:00:00', 1629502273, 0, NULL, NULL, 0);
 /*!40000 ALTER TABLE `account` ENABLE KEYS */;
+
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
-/*!40014 SET FOREIGN_KEY_CHECKS=IF(@OLD_FOREIGN_KEY_CHECKS IS NULL, 1, @OLD_FOREIGN_KEY_CHECKS) */;
+/*!40014 SET FOREIGN_KEY_CHECKS=IFNULL(@OLD_FOREIGN_KEY_CHECKS, 1) */;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40111 SET SQL_NOTES=IFNULL(@OLD_SQL_NOTES, 1) */;

@@ -2,13 +2,15 @@
 -- Host:                         127.0.0.1
 -- Server version:               10.0.21-MariaDB - mariadb.org binary distribution
 -- Server OS:                    Win64
--- HeidiSQL Version:             9.1.0.4867
+-- HeidiSQL Version:             11.3.0.6295
 -- --------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
-/*!40101 SET NAMES utf8mb4 */;
+/*!40101 SET NAMES utf8 */;
+/*!50503 SET NAMES utf8mb4 */;
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 -- Dumping structure for table peq.character_spells
 CREATE TABLE IF NOT EXISTS `character_spells` (
@@ -17,7 +19,7 @@ CREATE TABLE IF NOT EXISTS `character_spells` (
   `spell_id` smallint(11) unsigned NOT NULL DEFAULT '0',
   PRIMARY KEY (`id`,`slot_id`),
   KEY `id` (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=7121 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=7134 DEFAULT CHARSET=latin1;
 
 -- Dumping data for table peq.character_spells: ~60,165 rows (approximately)
 /*!40000 ALTER TABLE `character_spells` DISABLE KEYS */;
@@ -10021,7 +10023,8 @@ INSERT INTO `character_spells` (`id`, `slot_id`, `spell_id`) VALUES
 	(826, 151, 678),
 	(826, 153, 184),
 	(826, 154, 193),
-	(826, 155, 172),
+	(826, 155, 172);
+INSERT INTO `character_spells` (`id`, `slot_id`, `spell_id`) VALUES
 	(826, 156, 654),
 	(826, 157, 72),
 	(826, 158, 195),
@@ -20021,7 +20024,8 @@ INSERT INTO `character_spells` (`id`, `slot_id`, `spell_id`) VALUES
 	(2560, 7, 36),
 	(2562, 0, 525),
 	(2562, 1, 229),
-	(2562, 2, 452),
+	(2562, 2, 452);
+INSERT INTO `character_spells` (`id`, `slot_id`, `spell_id`) VALUES
 	(2562, 3, 662),
 	(2562, 4, 451),
 	(2562, 5, 435),
@@ -30021,7 +30025,8 @@ INSERT INTO `character_spells` (`id`, `slot_id`, `spell_id`) VALUES
 	(3860, 25, 348),
 	(3860, 26, 221),
 	(3860, 32, 229),
-	(3860, 33, 344),
+	(3860, 33, 344);
+INSERT INTO `character_spells` (`id`, `slot_id`, `spell_id`) VALUES
 	(3860, 40, 346),
 	(3863, 0, 267),
 	(3863, 1, 200),
@@ -40021,7 +40026,8 @@ INSERT INTO `character_spells` (`id`, `slot_id`, `spell_id`) VALUES
 	(4968, 19, 64),
 	(4968, 20, 211),
 	(4968, 21, 61),
-	(4968, 22, 50),
+	(4968, 22, 50);
+INSERT INTO `character_spells` (`id`, `slot_id`, `spell_id`) VALUES
 	(4968, 23, 60),
 	(4968, 24, 35),
 	(4968, 25, 203),
@@ -50021,7 +50027,8 @@ INSERT INTO `character_spells` (`id`, `slot_id`, `spell_id`) VALUES
 	(5927, 61, 272),
 	(5927, 62, 274),
 	(5927, 63, 275),
-	(5927, 64, 276),
+	(5927, 64, 276);
+INSERT INTO `character_spells` (`id`, `slot_id`, `spell_id`) VALUES
 	(5927, 65, 277),
 	(5927, 66, 279),
 	(5927, 67, 280),
@@ -51191,8 +51198,7 @@ INSERT INTO `character_spells` (`id`, `slot_id`, `spell_id`) VALUES
 	(6048, 35, 513),
 	(6048, 36, 234),
 	(6048, 37, 222),
-	(6048, 38, 80);
-INSERT INTO `character_spells` (`id`, `slot_id`, `spell_id`) VALUES
+	(6048, 38, 80),
 	(6048, 39, 34),
 	(6048, 40, 419),
 	(6048, 41, 520),
@@ -59909,8 +59915,12 @@ INSERT INTO `character_spells` (`id`, `slot_id`, `spell_id`) VALUES
 	(7119, 143, 5571),
 	(7119, 144, 6873),
 	(7119, 145, 6876),
-	(7120, 0, 700);
+	(7120, 0, 700),
+	(7133, 0, 341),
+	(7133, 1, 288);
 /*!40000 ALTER TABLE `character_spells` ENABLE KEYS */;
+
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
-/*!40014 SET FOREIGN_KEY_CHECKS=IF(@OLD_FOREIGN_KEY_CHECKS IS NULL, 1, @OLD_FOREIGN_KEY_CHECKS) */;
+/*!40014 SET FOREIGN_KEY_CHECKS=IFNULL(@OLD_FOREIGN_KEY_CHECKS, 1) */;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40111 SET SQL_NOTES=IFNULL(@OLD_SQL_NOTES, 1) */;

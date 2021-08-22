@@ -2,13 +2,15 @@
 -- Host:                         127.0.0.1
 -- Server version:               10.0.21-MariaDB - mariadb.org binary distribution
 -- Server OS:                    Win64
--- HeidiSQL Version:             9.1.0.4867
+-- HeidiSQL Version:             11.3.0.6295
 -- --------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
-/*!40101 SET NAMES utf8mb4 */;
+/*!40101 SET NAMES utf8 */;
+/*!50503 SET NAMES utf8mb4 */;
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 -- Dumping structure for table peq.cust_obj_data
 CREATE TABLE IF NOT EXISTS `cust_obj_data` (
@@ -10022,7 +10024,8 @@ INSERT INTO `cust_obj_data` (`zoneid`, `zonesn`, `object_name`, `file_from`, `is
 	(0, '', 'it26102', 'genericclothpurple.eqg', 0),
 	(0, '', 'it26103', 'genericclothpurple.eqg', 0),
 	(0, '', 'it26104', 'genericclothpurple.eqg', 0),
-	(0, '', 'it26105', 'genericclothpurple.eqg', 0),
+	(0, '', 'it26105', 'genericclothpurple.eqg', 0);
+INSERT INTO `cust_obj_data` (`zoneid`, `zonesn`, `object_name`, `file_from`, `is_global`) VALUES
 	(0, '', 'it26106', 'genericclothpurple.eqg', 0),
 	(0, '', 'it26107', 'genericclothpurple.eqg', 0),
 	(0, '', 'it26108', 'genericclothpurple.eqg', 0),
@@ -18088,8 +18091,7 @@ INSERT INTO `cust_obj_data` (`zoneid`, `zonesn`, `object_name`, `file_from`, `is
 	(21, 'commons', 'NERBRAZIER', 'commons_obj', 0),
 	(21, 'commons', 'NTHRONE1', 'commons_obj', 0),
 	(21, 'commons', 'ORCFLAG', 'commons_obj', 0),
-	(21, 'commons', 'ORCFLAG2', 'commons_obj', 0);
-INSERT INTO `cust_obj_data` (`zoneid`, `zonesn`, `object_name`, `file_from`, `is_global`) VALUES
+	(21, 'commons', 'ORCFLAG2', 'commons_obj', 0),
 	(21, 'commons', 'ORCTENT', 'commons_obj', 0),
 	(21, 'commons', 'ORCTENT1', 'commons_obj', 0),
 	(21, 'commons', 'ORCTOTEM', 'commons_obj', 0),
@@ -20023,7 +20025,8 @@ INSERT INTO `cust_obj_data` (`zoneid`, `zonesn`, `object_name`, `file_from`, `is
 	(405, 'direwind', 'obj_orange_shroom_small_a', 'direwind.eqg', 0),
 	(405, 'direwind', 'obj_orange_shroom_small_b', 'direwind.eqg', 0),
 	(405, 'direwind', 'obj_orange_shroom_small_c', 'direwind.eqg', 0),
-	(405, 'direwind', 'obj_orc_boots_', 'direwind.eqg', 0),
+	(405, 'direwind', 'obj_orc_boots_', 'direwind.eqg', 0);
+INSERT INTO `cust_obj_data` (`zoneid`, `zonesn`, `object_name`, `file_from`, `is_global`) VALUES
 	(405, 'direwind', 'obj_orc_boots_02', 'direwind.eqg', 0),
 	(405, 'direwind', 'obj_orc_boots_1', 'direwind.eqg', 0),
 	(405, 'direwind', 'obj_orc_braclet_', 'direwind.eqg', 0),
@@ -30023,7 +30026,8 @@ INSERT INTO `cust_obj_data` (`zoneid`, `zonesn`, `object_name`, `file_from`, `is
 	(60, 'kaladima', 'MISTCHAIR1', 'kaladima_obj', 0),
 	(60, 'kaladima', 'MISTCOUCH', 'kaladima_obj', 0),
 	(60, 'kaladima', 'MISTENDTABLE', 'kaladima_obj', 0),
-	(60, 'kaladima', 'MISTWEBS', 'kaladima_obj', 0),
+	(60, 'kaladima', 'MISTWEBS', 'kaladima_obj', 0);
+INSERT INTO `cust_obj_data` (`zoneid`, `zonesn`, `object_name`, `file_from`, `is_global`) VALUES
 	(60, 'kaladima', 'OGGLANTERN', 'kaladima_obj', 0),
 	(60, 'kaladima', 'OGGRUG', 'kaladima_obj', 0),
 	(60, 'kaladima', 'RUG1', 'kaladima_obj', 0),
@@ -33857,8 +33861,7 @@ INSERT INTO `cust_obj_data` (`zoneid`, `zonesn`, `object_name`, `file_from`, `is
 	(272, 'mmci', 'CDROCKS502', 'mmci_obj', 0),
 	(272, 'mmci', 'CDWEB502', 'mmci_obj', 0),
 	(272, 'mmci', 'CYLINDER4', 'mmci_obj', 0),
-	(272, 'mmci', 'CYLINDER6', 'mmci_obj', 0);
-INSERT INTO `cust_obj_data` (`zoneid`, `zonesn`, `object_name`, `file_from`, `is_global`) VALUES
+	(272, 'mmci', 'CYLINDER6', 'mmci_obj', 0),
 	(272, 'mmci', 'FGSSHRMS303', 'mmci_obj', 0),
 	(272, 'mmci', 'FGSSHRMS304', 'mmci_obj', 0),
 	(272, 'mmci', 'GENFLIES600', 'mmci_obj', 0),
@@ -40024,7 +40027,8 @@ INSERT INTO `cust_obj_data` (`zoneid`, `zonesn`, `object_name`, `file_from`, `is
 	(729, 'resplendent', 'obj_secndfloor_dome', 'resplendent.eqg', 0),
 	(729, 'resplendent', 'obj_secndfloor_door_lft', 'resplendent.eqg', 0),
 	(729, 'resplendent', 'obj_secndfloor_door_rht', 'resplendent.eqg', 0),
-	(729, 'resplendent', 'obj_secndfloor_frnt', 'resplendent.eqg', 0),
+	(729, 'resplendent', 'obj_secndfloor_frnt', 'resplendent.eqg', 0);
+INSERT INTO `cust_obj_data` (`zoneid`, `zonesn`, `object_name`, `file_from`, `is_global`) VALUES
 	(729, 'resplendent', 'obj_secndfloor_hallroom_arch', 'resplendent.eqg', 0),
 	(729, 'resplendent', 'obj_secndfloor_rmhall_lft', 'resplendent.eqg', 0),
 	(729, 'resplendent', 'obj_secndfloor_rmhall_rht', 'resplendent.eqg', 0),
@@ -49920,8 +49924,7 @@ INSERT INTO `cust_obj_data` (`zoneid`, `zonesn`, `object_name`, `file_from`, `is
 	(482, 'underquarry', 'obj_uq_dirtpilesm_copper', 'underquarry.eqg', 0),
 	(482, 'underquarry', 'obj_uq_dirtpilesm_lod1', 'underquarry.eqg', 0),
 	(482, 'underquarry', 'obj_uq_doorframemed', 'underquarry.eqg', 0),
-	(482, 'underquarry', 'obj_uq_doorframesm', 'underquarry.eqg', 0);
-INSERT INTO `cust_obj_data` (`zoneid`, `zonesn`, `object_name`, `file_from`, `is_global`) VALUES
+	(482, 'underquarry', 'obj_uq_doorframesm', 'underquarry.eqg', 0),
 	(482, 'underquarry', 'obj_uq_doorframesm_lod1', 'underquarry.eqg', 0),
 	(482, 'underquarry', 'obj_uq_doorframe_wide', 'underquarry.eqg', 0),
 	(482, 'underquarry', 'obj_uq_drill_bit', 'underquarry.eqg', 0),
@@ -50025,7 +50028,8 @@ INSERT INTO `cust_obj_data` (`zoneid`, `zonesn`, `object_name`, `file_from`, `is
 	(482, 'underquarry', 'obj_uq_silvermine3ent_lod1', 'underquarry.eqg', 0),
 	(482, 'underquarry', 'obj_uq_silverminesma', 'underquarry.eqg', 0),
 	(482, 'underquarry', 'obj_uq_silverminesma_lod1', 'underquarry.eqg', 0),
-	(482, 'underquarry', 'obj_uq_sinkholelg_ceiling', 'underquarry.eqg', 0),
+	(482, 'underquarry', 'obj_uq_sinkholelg_ceiling', 'underquarry.eqg', 0);
+INSERT INTO `cust_obj_data` (`zoneid`, `zonesn`, `object_name`, `file_from`, `is_global`) VALUES
 	(482, 'underquarry', 'obj_uq_sinkholelg_ceiling_lod1', 'underquarry.eqg', 0),
 	(482, 'underquarry', 'obj_uq_sinkholelg_floor', 'underquarry.eqg', 0),
 	(482, 'underquarry', 'obj_uq_sinkholelg_floor_lod1', 'underquarry.eqg', 0),
@@ -51407,6 +51411,8 @@ INSERT INTO `cust_obj_data` (`zoneid`, `zonesn`, `object_name`, `file_from`, `is
 	(291, 'yxtta', 'YXTWEB800', 'yxtta_obj', 0),
 	(291, 'yxtta', 'YXTWEB801', 'yxtta_obj', 0);
 /*!40000 ALTER TABLE `cust_obj_data` ENABLE KEYS */;
+
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
-/*!40014 SET FOREIGN_KEY_CHECKS=IF(@OLD_FOREIGN_KEY_CHECKS IS NULL, 1, @OLD_FOREIGN_KEY_CHECKS) */;
+/*!40014 SET FOREIGN_KEY_CHECKS=IFNULL(@OLD_FOREIGN_KEY_CHECKS, 1) */;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40111 SET SQL_NOTES=IFNULL(@OLD_SQL_NOTES, 1) */;

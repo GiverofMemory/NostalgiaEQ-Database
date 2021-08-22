@@ -2,13 +2,15 @@
 -- Host:                         127.0.0.1
 -- Server version:               10.0.21-MariaDB - mariadb.org binary distribution
 -- Server OS:                    Win64
--- HeidiSQL Version:             9.1.0.4867
+-- HeidiSQL Version:             11.3.0.6295
 -- --------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
-/*!40101 SET NAMES utf8mb4 */;
+/*!40101 SET NAMES utf8 */;
+/*!50503 SET NAMES utf8mb4 */;
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 -- Dumping structure for table peq.lootdrop_entries_nomerge
 CREATE TABLE IF NOT EXISTS `lootdrop_entries_nomerge` (
@@ -10026,7 +10028,8 @@ INSERT INTO `lootdrop_entries_nomerge` (`lootdrop_id`, `item_id`, `item_charges`
 	(108107, 13030, 1, 0, 3.125, 0, 0, 99, 1),
 	(108107, 13033, 1, 0, 3.125, 0, 0, 99, 1),
 	(108107, 13040, 1, 0, 3.125, 0, 0, 99, 1),
-	(108107, 2167, 1, 1, 3.125, 0, 0, 99, 1),
+	(108107, 2167, 1, 1, 3.125, 0, 0, 99, 1);
+INSERT INTO `lootdrop_entries_nomerge` (`lootdrop_id`, `item_id`, `item_charges`, `equip_item`, `chance`, `disabled_chance`, `minlevel`, `maxlevel`, `multiplier`) VALUES
 	(108107, 2169, 1, 1, 9.375, 0, 0, 99, 1),
 	(108107, 14777, 1, 0, 12.5, 0, 0, 99, 1),
 	(108107, 2170, 1, 1, 6.25, 0, 0, 99, 1),
@@ -20026,7 +20029,8 @@ INSERT INTO `lootdrop_entries_nomerge` (`lootdrop_id`, `item_id`, `item_charges`
 	(104909, 16540, 1, 0, 17.241, 0, 0, 99, 1),
 	(104909, 7352, 1, 1, 10.045, 0, 0, 99, 1),
 	(104909, 22121, 1, 0, 9.295, 0, 0, 99, 2),
-	(104909, 7350, 1, 1, 5.997, 0, 0, 99, 1),
+	(104909, 7350, 1, 1, 5.997, 0, 0, 99, 1);
+INSERT INTO `lootdrop_entries_nomerge` (`lootdrop_id`, `item_id`, `item_charges`, `equip_item`, `chance`, `disabled_chance`, `minlevel`, `maxlevel`, `multiplier`) VALUES
 	(104909, 7351, 1, 1, 4.648, 0, 0, 99, 1),
 	(104907, 7352, 1, 1, 9.703, 0, 0, 99, 1),
 	(104907, 7350, 1, 1, 6.26, 0, 0, 99, 1),
@@ -21523,8 +21527,7 @@ INSERT INTO `lootdrop_entries_nomerge` (`lootdrop_id`, `item_id`, `item_charges`
 	(104378, 3804, 1, 1, 6, 0, 0, 99, 1),
 	(104370, 1216, 1, 1, 4, 0, 0, 99, 1),
 	(104370, 1215, 1, 1, 4, 0, 0, 99, 1),
-	(104370, 1217, 1, 1, 3, 0, 0, 99, 1);
-INSERT INTO `lootdrop_entries_nomerge` (`lootdrop_id`, `item_id`, `item_charges`, `equip_item`, `chance`, `disabled_chance`, `minlevel`, `maxlevel`, `multiplier`) VALUES
+	(104370, 1217, 1, 1, 3, 0, 0, 99, 1),
 	(104370, 1212, 1, 1, 3, 0, 0, 99, 1),
 	(104368, 4893, 1, 1, 5, 0, 0, 99, 1),
 	(104368, 4895, 1, 1, 5, 0, 0, 99, 1),
@@ -30027,7 +30030,8 @@ INSERT INTO `lootdrop_entries_nomerge` (`lootdrop_id`, `item_id`, `item_charges`
 	(102150, 7351, 1, 1, 1.667, 0, 0, 99, 1),
 	(102150, 11866, 1, 0, 3.333, 0, 0, 99, 2),
 	(102150, 11808, 1, 0, 3.333, 0, 0, 99, 2),
-	(102150, 11732, 1, 0, 3.333, 0, 0, 99, 2),
+	(102150, 11732, 1, 0, 3.333, 0, 0, 99, 2);
+INSERT INTO `lootdrop_entries_nomerge` (`lootdrop_id`, `item_id`, `item_charges`, `equip_item`, `chance`, `disabled_chance`, `minlevel`, `maxlevel`, `multiplier`) VALUES
 	(102150, 11776, 1, 0, 3.333, 0, 0, 99, 2),
 	(102150, 11730, 1, 0, 3.333, 0, 0, 99, 2),
 	(102150, 11737, 1, 0, 3.333, 0, 0, 99, 2),
@@ -40027,7 +40031,8 @@ INSERT INTO `lootdrop_entries_nomerge` (`lootdrop_id`, `item_id`, `item_charges`
 	(98054, 1023, 1, 1, 0.654, 0, 0, 99, 1),
 	(98054, 1007, 1, 1, 0.654, 0, 0, 99, 1),
 	(98054, 1024, 1, 1, 0.654, 0, 0, 99, 1),
-	(98054, 2151, 1, 1, 0.654, 0, 0, 99, 1),
+	(98054, 2151, 1, 1, 0.654, 0, 0, 99, 1);
+INSERT INTO `lootdrop_entries_nomerge` (`lootdrop_id`, `item_id`, `item_charges`, `equip_item`, `chance`, `disabled_chance`, `minlevel`, `maxlevel`, `multiplier`) VALUES
 	(98054, 2161, 1, 1, 0.654, 0, 0, 99, 1),
 	(98054, 2167, 1, 1, 0.654, 0, 0, 99, 1),
 	(98054, 5014, 1, 1, 0.654, 0, 0, 99, 1),
@@ -42947,8 +42952,7 @@ INSERT INTO `lootdrop_entries_nomerge` (`lootdrop_id`, `item_id`, `item_charges`
 	(96968, 22503, 1, 0, 3.21, 0, 0, 99, 1),
 	(96968, 10037, 1, 0, 3.173, 0, 0, 99, 1),
 	(96968, 29913, 1, 0, 2.435, 0, 0, 99, 1),
-	(96968, 29112, 1, 0, 2.325, 0, 0, 99, 1);
-INSERT INTO `lootdrop_entries_nomerge` (`lootdrop_id`, `item_id`, `item_charges`, `equip_item`, `chance`, `disabled_chance`, `minlevel`, `maxlevel`, `multiplier`) VALUES
+	(96968, 29112, 1, 0, 2.325, 0, 0, 99, 1),
 	(96962, 28800, 1, 0, 12.459, 0, 0, 99, 2),
 	(96957, 6001, 1, 1, 50, 0, 0, 99, 1),
 	(96946, 29763, 1, 0, 32.584, 0, 0, 99, 2),
@@ -50028,7 +50032,8 @@ INSERT INTO `lootdrop_entries_nomerge` (`lootdrop_id`, `item_id`, `item_charges`
 	(94632, 3104, 1, 1, 1.008, 0, 0, 99, 1),
 	(94632, 13500, 1, 1, 0.112, 0, 0, 99, 1),
 	(94626, 3109, 1, 1, 5, 0, 0, 99, 1),
-	(94626, 3110, 1, 1, 5, 0, 0, 99, 1),
+	(94626, 3110, 1, 1, 5, 0, 0, 99, 1);
+INSERT INTO `lootdrop_entries_nomerge` (`lootdrop_id`, `item_id`, `item_charges`, `equip_item`, `chance`, `disabled_chance`, `minlevel`, `maxlevel`, `multiplier`) VALUES
 	(94626, 5352, 1, 1, 5, 0, 0, 99, 1),
 	(94626, 3107, 1, 1, 5, 0, 0, 99, 1),
 	(94624, 5352, 1, 1, 23.077, 0, 0, 99, 1),
@@ -60028,7 +60033,8 @@ INSERT INTO `lootdrop_entries_nomerge` (`lootdrop_id`, `item_id`, `item_charges`
 	(90944, 4728, 1, 0, 4, 0, 0, 99, 1),
 	(90944, 4724, 1, 0, 4, 0, 0, 99, 1),
 	(90944, 4719, 1, 0, 4, 0, 0, 99, 1),
-	(90944, 4717, 1, 0, 4, 0, 0, 99, 1),
+	(90944, 4717, 1, 0, 4, 0, 0, 99, 1);
+INSERT INTO `lootdrop_entries_nomerge` (`lootdrop_id`, `item_id`, `item_charges`, `equip_item`, `chance`, `disabled_chance`, `minlevel`, `maxlevel`, `multiplier`) VALUES
 	(90944, 4714, 1, 0, 4, 0, 0, 99, 1),
 	(90944, 4711, 1, 0, 4, 0, 0, 99, 1),
 	(90944, 4697, 1, 0, 4, 0, 0, 99, 1),
@@ -64980,8 +64986,7 @@ INSERT INTO `lootdrop_entries_nomerge` (`lootdrop_id`, `item_id`, `item_charges`
 	(22225, 10037, 1, 0, 11, 0, 0, 99, 1),
 	(22225, 10036, 1, 0, 11, 0, 0, 99, 1),
 	(22224, 22503, 1, 0, 7, 0, 0, 99, 1),
-	(22224, 10223, 1, 0, 7, 0, 0, 99, 1);
-INSERT INTO `lootdrop_entries_nomerge` (`lootdrop_id`, `item_id`, `item_charges`, `equip_item`, `chance`, `disabled_chance`, `minlevel`, `maxlevel`, `multiplier`) VALUES
+	(22224, 10223, 1, 0, 7, 0, 0, 99, 1),
 	(22224, 10221, 1, 0, 7, 0, 0, 99, 1),
 	(22224, 10050, 1, 0, 7, 0, 0, 99, 1),
 	(22224, 10045, 1, 0, 7, 0, 0, 99, 1),
@@ -70029,7 +70034,8 @@ INSERT INTO `lootdrop_entries_nomerge` (`lootdrop_id`, `item_id`, `item_charges`
 	(20237, 12294, 1, 0, 7, 0, 0, 99, 1),
 	(20237, 12293, 1, 0, 7, 0, 0, 99, 1),
 	(20237, 12292, 1, 0, 7, 0, 0, 99, 1),
-	(20237, 12291, 1, 0, 7, 0, 0, 99, 1),
+	(20237, 12291, 1, 0, 7, 0, 0, 99, 1);
+INSERT INTO `lootdrop_entries_nomerge` (`lootdrop_id`, `item_id`, `item_charges`, `equip_item`, `chance`, `disabled_chance`, `minlevel`, `maxlevel`, `multiplier`) VALUES
 	(20237, 12290, 1, 0, 7, 0, 0, 99, 1),
 	(20237, 12289, 1, 0, 7, 0, 0, 99, 1),
 	(20237, 12288, 1, 0, 7, 0, 0, 99, 1),
@@ -80029,7 +80035,8 @@ INSERT INTO `lootdrop_entries_nomerge` (`lootdrop_id`, `item_id`, `item_charges`
 	(11157, 15593, 1, 0, 8, 0, 0, 99, 1),
 	(11157, 15592, 1, 0, 8, 0, 0, 99, 1),
 	(11157, 15591, 1, 0, 8, 0, 0, 99, 1),
-	(11157, 15590, 1, 0, 8, 0, 0, 99, 1),
+	(11157, 15590, 1, 0, 8, 0, 0, 99, 1);
+INSERT INTO `lootdrop_entries_nomerge` (`lootdrop_id`, `item_id`, `item_charges`, `equip_item`, `chance`, `disabled_chance`, `minlevel`, `maxlevel`, `multiplier`) VALUES
 	(11157, 15589, 1, 0, 8, 0, 0, 99, 1),
 	(11157, 15588, 1, 0, 8, 0, 0, 99, 1),
 	(11157, 15587, 1, 0, 9, 0, 0, 99, 1),
@@ -88361,8 +88368,7 @@ INSERT INTO `lootdrop_entries_nomerge` (`lootdrop_id`, `item_id`, `item_charges`
 	(8322, 28877, 1, 0, 50, 0, 0, 99, 1),
 	(8309, 10418, 1, 0, 100, 0, 0, 99, 1),
 	(8306, 20631, 1, 0, 25, 0, 0, 99, 1),
-	(8306, 18882, 1, 0, 25, 0, 0, 99, 1);
-INSERT INTO `lootdrop_entries_nomerge` (`lootdrop_id`, `item_id`, `item_charges`, `equip_item`, `chance`, `disabled_chance`, `minlevel`, `maxlevel`, `multiplier`) VALUES
+	(8306, 18882, 1, 0, 25, 0, 0, 99, 1),
 	(8306, 18879, 1, 0, 25, 0, 0, 99, 1),
 	(8306, 18877, 1, 0, 25, 0, 0, 99, 1),
 	(8305, 10408, 1, 1, 100, 0, 0, 99, 1),
@@ -90030,7 +90036,8 @@ INSERT INTO `lootdrop_entries_nomerge` (`lootdrop_id`, `item_id`, `item_charges`
 	(7179, 10033, 1, 0, 20, 0, 0, 99, 1),
 	(7179, 10032, 1, 0, 20, 0, 0, 99, 1),
 	(7179, 10031, 1, 0, 20, 0, 0, 99, 1),
-	(7178, 10051, 1, 1, 25, 0, 0, 99, 1),
+	(7178, 10051, 1, 1, 25, 0, 0, 99, 1);
+INSERT INTO `lootdrop_entries_nomerge` (`lootdrop_id`, `item_id`, `item_charges`, `equip_item`, `chance`, `disabled_chance`, `minlevel`, `maxlevel`, `multiplier`) VALUES
 	(7178, 10047, 1, 1, 25, 0, 0, 99, 1),
 	(7178, 10046, 1, 1, 25, 0, 0, 99, 1),
 	(7173, 10034, 1, 0, 20, 0, 0, 99, 1),
@@ -100030,7 +100037,8 @@ INSERT INTO `lootdrop_entries_nomerge` (`lootdrop_id`, `item_id`, `item_charges`
 	(952, 30403, 1, 0, 7, 0, 0, 99, 1),
 	(952, 30399, 1, 0, 7, 0, 0, 99, 1),
 	(952, 30398, 1, 0, 7, 0, 0, 99, 1),
-	(951, 30234, 1, 1, 12, 0, 0, 99, 1),
+	(951, 30234, 1, 1, 12, 0, 0, 99, 1);
+INSERT INTO `lootdrop_entries_nomerge` (`lootdrop_id`, `item_id`, `item_charges`, `equip_item`, `chance`, `disabled_chance`, `minlevel`, `maxlevel`, `multiplier`) VALUES
 	(951, 30233, 1, 1, 11, 0, 0, 99, 1),
 	(951, 30232, 1, 1, 14, 0, 0, 99, 1),
 	(951, 30231, 1, 1, 16, 0, 0, 99, 1),
@@ -100259,6 +100267,8 @@ INSERT INTO `lootdrop_entries_nomerge` (`lootdrop_id`, `item_id`, `item_charges`
 	(110040, 3051, 1, 1, 40, 0, 0, 127, 1),
 	(110040, 5358, 1, 1, 30, 0, 0, 127, 1);
 /*!40000 ALTER TABLE `lootdrop_entries_nomerge` ENABLE KEYS */;
+
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
-/*!40014 SET FOREIGN_KEY_CHECKS=IF(@OLD_FOREIGN_KEY_CHECKS IS NULL, 1, @OLD_FOREIGN_KEY_CHECKS) */;
+/*!40014 SET FOREIGN_KEY_CHECKS=IFNULL(@OLD_FOREIGN_KEY_CHECKS, 1) */;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40111 SET SQL_NOTES=IFNULL(@OLD_SQL_NOTES, 1) */;

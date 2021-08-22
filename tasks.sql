@@ -2,13 +2,15 @@
 -- Host:                         127.0.0.1
 -- Server version:               10.0.21-MariaDB - mariadb.org binary distribution
 -- Server OS:                    Win64
--- HeidiSQL Version:             9.1.0.4867
+-- HeidiSQL Version:             11.3.0.6295
 -- --------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
-/*!40101 SET NAMES utf8mb4 */;
+/*!40101 SET NAMES utf8 */;
+/*!50503 SET NAMES utf8mb4 */;
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 -- Dumping structure for table peq.tasks
 CREATE TABLE IF NOT EXISTS `tasks` (
@@ -198,6 +200,8 @@ INSERT INTO `tasks` (`id`, `type`, `duration`, `duration_code`, `title`, `descri
 	(271, 2, 0, 0, 'Tour of the Castle', '[1,Very Quickly, you need to speak with Averna Eisley to let them know that you\'re the Red Beetle. Your contact will know what it means.][2,Your contact was impressed that you kept your wits about you and didn\'t give away your cover. Now, as to why you\'re here. Your code name is Red Beetle and you\'ve been assigned to explore the entrance to the graveyard. This is a very dangerous place where reports suggest there is a rebellion forming. You must go there and determine whether or not this is true.][3,It looks like the insurgents are forming quickly, Red Beetle. It\'s up to you to take the raven to the raven\'s nest and kill 10 pledge familiars. Only after that will you be able to retire from this life of subterfuge. Good luck.][4,You were almost discovered, and that\'s a quick way to foil the operation -- or worse yet -- get yourself killed. However, you were able to secure the area and get rid of the rebels. Find and speak with Brynn Tinkerton, codenamed Black Bixie, to update your progress. After that, your services will no longer be needed.]', 'Money and Experience', 0, 10083, 400000, 0, 0, 0, 1, 0, ''),
 	(500, 0, 0, 0, 'Night of the Living Frog (+50%)', 'Destroy all potent inhabitants in The Ruined City of Guk!', 'Froglok Illusion', 135000, 100000, 0, 0, 30, 60, 1, 0, '');
 /*!40000 ALTER TABLE `tasks` ENABLE KEYS */;
+
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
-/*!40014 SET FOREIGN_KEY_CHECKS=IF(@OLD_FOREIGN_KEY_CHECKS IS NULL, 1, @OLD_FOREIGN_KEY_CHECKS) */;
+/*!40014 SET FOREIGN_KEY_CHECKS=IFNULL(@OLD_FOREIGN_KEY_CHECKS, 1) */;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40111 SET SQL_NOTES=IFNULL(@OLD_SQL_NOTES, 1) */;

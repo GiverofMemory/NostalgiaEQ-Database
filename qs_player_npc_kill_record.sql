@@ -2,13 +2,15 @@
 -- Host:                         127.0.0.1
 -- Server version:               10.0.21-MariaDB - mariadb.org binary distribution
 -- Server OS:                    Win64
--- HeidiSQL Version:             9.1.0.4867
+-- HeidiSQL Version:             11.3.0.6295
 -- --------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
-/*!40101 SET NAMES utf8mb4 */;
+/*!40101 SET NAMES utf8 */;
+/*!50503 SET NAMES utf8mb4 */;
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 -- Dumping structure for table peq.qs_player_npc_kill_record
 CREATE TABLE IF NOT EXISTS `qs_player_npc_kill_record` (
@@ -10022,7 +10024,8 @@ INSERT INTO `qs_player_npc_kill_record` (`fight_id`, `npc_id`, `type`, `zone_id`
 	(9997, 50314, 1, 50, '2018-09-19 04:20:18'),
 	(9998, 59033, 1, 59, '2018-09-19 04:20:31'),
 	(9999, 68003, 0, 68, '2018-09-19 04:20:47'),
-	(10000, 15031, 1, 15, '2018-09-19 04:21:10'),
+	(10000, 15031, 1, 15, '2018-09-19 04:21:10');
+INSERT INTO `qs_player_npc_kill_record` (`fight_id`, `npc_id`, `type`, `zone_id`, `time`) VALUES
 	(10001, 15031, 1, 15, '2018-09-19 04:21:10'),
 	(10002, 15031, 1, 15, '2018-09-19 04:21:10'),
 	(10003, 35034, 1, 35, '2018-09-19 04:21:14'),
@@ -19984,8 +19987,7 @@ INSERT INTO `qs_player_npc_kill_record` (`fight_id`, `npc_id`, `type`, `zone_id`
 	(19959, 9004, 0, 9, '2018-09-19 17:29:37'),
 	(19960, 2021, 0, 2, '2018-09-19 17:29:39'),
 	(19961, 47024, 1, 47, '2018-09-19 17:29:39'),
-	(19962, 54016, 0, 54, '2018-09-19 17:29:44');
-INSERT INTO `qs_player_npc_kill_record` (`fight_id`, `npc_id`, `type`, `zone_id`, `time`) VALUES
+	(19962, 54016, 0, 54, '2018-09-19 17:29:44'),
 	(19963, 30221, 0, 30, '2018-09-19 17:29:45'),
 	(19964, 37108, 1, 37, '2018-09-19 17:29:47'),
 	(19965, 54014, 1, 54, '2018-09-19 17:29:48'),
@@ -20023,7 +20025,8 @@ INSERT INTO `qs_player_npc_kill_record` (`fight_id`, `npc_id`, `type`, `zone_id`
 	(19997, 33056, 0, 33, '2018-09-19 17:31:24'),
 	(19998, 13025, 0, 13, '2018-09-19 17:31:24'),
 	(19999, 9005, 0, 9, '2018-09-19 17:31:27'),
-	(20000, 31099, 1, 31, '2018-09-19 17:31:28'),
+	(20000, 31099, 1, 31, '2018-09-19 17:31:28');
+INSERT INTO `qs_player_npc_kill_record` (`fight_id`, `npc_id`, `type`, `zone_id`, `time`) VALUES
 	(20001, 2003, 0, 2, '2018-09-19 17:31:30'),
 	(20002, 69007, 1, 69, '2018-09-19 17:31:31'),
 	(20003, 9005, 0, 9, '2018-09-19 17:31:32'),
@@ -30023,7 +30026,8 @@ INSERT INTO `qs_player_npc_kill_record` (`fight_id`, `npc_id`, `type`, `zone_id`
 	(29997, 65096, 1, 65, '2018-09-20 03:22:58'),
 	(29998, 34133, 0, 34, '2018-09-20 03:23:06'),
 	(29999, 34028, 1, 34, '2018-09-20 03:23:17'),
-	(30000, 34071, 0, 34, '2018-09-20 03:23:21'),
+	(30000, 34071, 0, 34, '2018-09-20 03:23:21');
+INSERT INTO `qs_player_npc_kill_record` (`fight_id`, `npc_id`, `type`, `zone_id`, `time`) VALUES
 	(30001, 46065, 1, 46, '2018-09-20 03:23:24'),
 	(30002, 34071, 0, 34, '2018-09-20 03:23:24'),
 	(30003, 50314, 1, 50, '2018-09-20 03:23:24'),
@@ -39725,8 +39729,7 @@ INSERT INTO `qs_player_npc_kill_record` (`fight_id`, `npc_id`, `type`, `zone_id`
 	(39699, 65039, 1, 65, '2018-09-20 20:25:44'),
 	(39700, 17015, 0, 17, '2018-09-20 20:25:46'),
 	(39701, 25355, 1, 25, '2018-09-20 20:25:46'),
-	(39702, 46042, 1, 46, '2018-09-20 20:25:47');
-INSERT INTO `qs_player_npc_kill_record` (`fight_id`, `npc_id`, `type`, `zone_id`, `time`) VALUES
+	(39702, 46042, 1, 46, '2018-09-20 20:25:47'),
 	(39703, 59012, 1, 59, '2018-09-20 20:25:49'),
 	(39704, 54025, 0, 54, '2018-09-20 20:25:50'),
 	(39705, 59006, 1, 59, '2018-09-20 20:26:00'),
@@ -40024,7 +40027,8 @@ INSERT INTO `qs_player_npc_kill_record` (`fight_id`, `npc_id`, `type`, `zone_id`
 	(39997, 37021, 1, 37, '2018-09-20 20:41:01'),
 	(39998, 25311, 1, 25, '2018-09-20 20:41:09'),
 	(39999, 63021, 1, 63, '2018-09-20 20:41:10'),
-	(40000, 33024, 0, 33, '2018-09-20 20:41:14'),
+	(40000, 33024, 0, 33, '2018-09-20 20:41:14');
+INSERT INTO `qs_player_npc_kill_record` (`fight_id`, `npc_id`, `type`, `zone_id`, `time`) VALUES
 	(40001, 65047, 1, 65, '2018-09-20 20:41:21'),
 	(40002, 46008, 1, 46, '2018-09-20 20:41:27'),
 	(40003, 33005, 0, 33, '2018-09-20 20:41:27'),
@@ -50024,7 +50028,8 @@ INSERT INTO `qs_player_npc_kill_record` (`fight_id`, `npc_id`, `type`, `zone_id`
 	(49997, 11095, 1, 11, '2018-09-21 11:57:32'),
 	(49998, 36037, 1, 36, '2018-09-21 11:57:36'),
 	(49999, 64020, 0, 64, '2018-09-21 11:57:36'),
-	(50000, 63092, 0, 63, '2018-09-21 11:57:43'),
+	(50000, 63092, 0, 63, '2018-09-21 11:57:43');
+INSERT INTO `qs_player_npc_kill_record` (`fight_id`, `npc_id`, `type`, `zone_id`, `time`) VALUES
 	(50001, 58036, 1, 58, '2018-09-21 11:57:46'),
 	(50002, 34048, 0, 34, '2018-09-21 11:57:54'),
 	(50003, 25315, 0, 25, '2018-09-21 11:58:00'),
@@ -51331,6 +51336,8 @@ INSERT INTO `qs_player_npc_kill_record` (`fight_id`, `npc_id`, `type`, `zone_id`
 	(51304, 50317, 1, 50, '2018-09-21 13:26:34'),
 	(51305, 36061, 1, 36, '2018-09-21 13:26:34');
 /*!40000 ALTER TABLE `qs_player_npc_kill_record` ENABLE KEYS */;
+
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
-/*!40014 SET FOREIGN_KEY_CHECKS=IF(@OLD_FOREIGN_KEY_CHECKS IS NULL, 1, @OLD_FOREIGN_KEY_CHECKS) */;
+/*!40014 SET FOREIGN_KEY_CHECKS=IFNULL(@OLD_FOREIGN_KEY_CHECKS, 1) */;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40111 SET SQL_NOTES=IFNULL(@OLD_SQL_NOTES, 1) */;
