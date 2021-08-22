@@ -7,8 +7,10 @@
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET NAMES utf8mb4 */;
+/*!50503 SET NAMES utf8mb4 */;
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 -- Dumping structure for table peq.starting_items
 CREATE TABLE IF NOT EXISTS `starting_items` (
@@ -32,8 +34,8 @@ CREATE TABLE IF NOT EXISTS `starting_items` (
 /*!40000 ALTER TABLE `starting_items` DISABLE KEYS */;
 INSERT INTO `starting_items` (`id`, `race`, `class`, `deityid`, `zoneid`, `itemid`, `item_charges`, `gm`, `slot`, `min_expansion`, `max_expansion`, `content_flags`, `content_flags_disabled`) VALUES
 	(1, 1, 0, 201, 0, 9982, 1, 0, -1, 0, 0, NULL, NULL),
-	(2, 0, 0, 0, 0, 9990, 20, 0, -1, 0, 0, NULL, NULL),
-	(3, 0, 0, 0, 0, 9991, 20, 0, -1, 0, 0, NULL, NULL),
+	(2, 0, 0, 0, 0, 9990, 5, 0, -1, 0, 0, NULL, NULL),
+	(3, 0, 0, 0, 0, 9991, 5, 0, -1, 0, 0, NULL, NULL),
 	(5, 0, 1, 0, 0, 9998, 1, 0, -1, 0, 0, NULL, NULL),
 	(6, 0, 3, 0, 0, 9998, 1, 0, -1, 0, 0, NULL, NULL),
 	(7, 0, 4, 0, 0, 9998, 1, 0, -1, 0, 0, NULL, NULL),
@@ -242,6 +244,8 @@ INSERT INTO `starting_items` (`id`, `race`, `class`, `deityid`, `zoneid`, `itemi
 	(238, 0, 8, 0, 0, 9992, 1, 0, -1, 0, 0, NULL, NULL),
 	(239, 1, 1, 0, 10, 18857, 1, 0, -1, 0, 0, NULL, NULL);
 /*!40000 ALTER TABLE `starting_items` ENABLE KEYS */;
+
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
 /*!40014 SET FOREIGN_KEY_CHECKS=IF(@OLD_FOREIGN_KEY_CHECKS IS NULL, 1, @OLD_FOREIGN_KEY_CHECKS) */;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40111 SET SQL_NOTES=IFNULL(@OLD_SQL_NOTES, 1) */;
