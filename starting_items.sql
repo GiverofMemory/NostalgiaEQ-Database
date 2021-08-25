@@ -28,9 +28,9 @@ CREATE TABLE IF NOT EXISTS `starting_items` (
   `content_flags` varchar(100) DEFAULT NULL,
   `content_flags_disabled` varchar(100) DEFAULT NULL,
   PRIMARY KEY (`id`,`race`)
-) ENGINE=InnoDB AUTO_INCREMENT=1105 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=1040 DEFAULT CHARSET=latin1;
 
--- Dumping data for table peq.starting_items: ~231 rows (approximately)
+-- Dumping data for table peq.starting_items: ~0 rows (approximately)
 /*!40000 ALTER TABLE `starting_items` DISABLE KEYS */;
 INSERT INTO `starting_items` (`id`, `race`, `class`, `deityid`, `zoneid`, `itemid`, `item_charges`, `gm`, `slot`, `min_expansion`, `max_expansion`, `content_flags`, `content_flags_disabled`) VALUES
 	(1, 1, 0, 201, 0, 9982, 1, 0, -1, 0, 0, NULL, NULL),
@@ -114,7 +114,7 @@ INSERT INTO `starting_items` (`id`, `race`, `class`, `deityid`, `zoneid`, `itemi
 	(96, 1, 4, 0, 3, 18709, 1, 0, -1, 0, 0, NULL, NULL),
 	(97, 7, 6, 0, 3, 18713, 1, 0, -1, 0, 0, NULL, NULL),
 	(98, 7, 4, 0, 3, 18709, 1, 0, -1, 0, 0, NULL, NULL),
-	(99, 1, 5, 201, 1, 18706, 1, 0, -1, 0, 0, NULL, NULL),
+	(99, 1, 5, 201, 45, 18706, 1, 0, -1, 0, 0, NULL, NULL),
 	(100, 1, 2, 201, 45, 18716, 1, 0, -1, 0, 0, NULL, NULL),
 	(101, 1, 9, 0, 2, 18708, 1, 0, -1, 0, 0, NULL, NULL),
 	(102, 1, 3, 212, 2, 18711, 1, 0, -1, 0, 0, NULL, NULL),
@@ -123,7 +123,7 @@ INSERT INTO `starting_items` (`id`, `race`, `class`, `deityid`, `zoneid`, `itemi
 	(106, 1, 2, 207, 1, 18715, 1, 0, -1, 0, 0, NULL, NULL),
 	(107, 1, 3, 207, 1, 18710, 1, 0, -1, 0, 0, NULL, NULL),
 	(108, 1, 8, 0, 1, 18717, 1, 0, -1, 0, 0, NULL, NULL),
-	(112, 1, 11, 201, 0, 18721, 1, 0, -1, 0, 0, NULL, NULL),
+	(112, 1, 11, 201, 45, 18721, 1, 0, -1, 0, 0, NULL, NULL),
 	(113, 1, 2, 208, 9, 18735, 1, 0, -1, 0, 0, NULL, NULL),
 	(114, 1, 2, 204, 9, 18736, 1, 0, -1, 0, 0, NULL, NULL),
 	(115, 1, 3, 208, 8, 18737, 1, 0, -1, 0, 0, NULL, NULL),
@@ -193,20 +193,20 @@ INSERT INTO `starting_items` (`id`, `race`, `class`, `deityid`, `zoneid`, `itemi
 	(187, 1, 12, 206, 10, 18854, 1, 0, -1, 0, 0, NULL, NULL),
 	(188, 1, 13, 206, 10, 18855, 1, 0, -1, 0, 0, NULL, NULL),
 	(189, 1, 14, 206, 10, 18856, 1, 0, -1, 0, 0, NULL, NULL),
-	(190, 1, 13, 201, 1, 18850, 1, 0, -1, 0, 0, NULL, NULL),
+	(190, 1, 13, 201, 45, 18850, 1, 0, -1, 0, 0, NULL, NULL),
 	(191, 1, 13, 212, 1, 18719, 1, 0, -1, 0, 0, NULL, NULL),
 	(192, 1, 13, 396, 1, 18719, 1, 0, -1, 0, 0, NULL, NULL),
 	(193, 1, 13, 207, 1, 18719, 1, 0, -1, 0, 0, NULL, NULL),
-	(194, 1, 12, 201, 1, 18852, 1, 0, -1, 0, 0, NULL, NULL),
+	(194, 1, 12, 201, 45, 18852, 1, 0, -1, 0, 0, NULL, NULL),
 	(195, 1, 12, 207, 1, 18718, 1, 0, -1, 0, 0, NULL, NULL),
 	(196, 1, 12, 212, 1, 18718, 1, 0, -1, 0, 0, NULL, NULL),
 	(197, 1, 12, 213, 1, 18718, 1, 0, -1, 0, 0, NULL, NULL),
 	(198, 1, 12, 396, 1, 18718, 1, 0, -1, 0, 0, NULL, NULL),
-	(199, 1, 14, 201, 1, 18851, 1, 0, -1, 0, 0, NULL, NULL),
+	(199, 1, 14, 201, 45, 18851, 1, 0, -1, 0, 0, NULL, NULL),
 	(200, 1, 14, 207, 1, 18720, 1, 0, -1, 0, 0, NULL, NULL),
 	(201, 1, 14, 212, 1, 18720, 1, 0, -1, 0, 0, NULL, NULL),
 	(202, 1, 14, 396, 1, 18720, 1, 0, -1, 0, 0, NULL, NULL),
-	(203, 1, 1, 201, 1, 18853, 1, 0, -1, 0, 0, NULL, NULL),
+	(203, 1, 1, 201, 45, 18853, 1, 0, -1, 0, 0, NULL, NULL),
 	(204, 1, 1, 207, 1, 18707, 1, 0, -1, 0, 0, NULL, NULL),
 	(205, 1, 1, 211, 1, 18707, 1, 0, -1, 0, 0, NULL, NULL),
 	(206, 1, 1, 212, 1, 18707, 1, 0, -1, 0, 0, NULL, NULL),
