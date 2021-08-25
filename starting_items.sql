@@ -2,11 +2,11 @@
 -- Host:                         127.0.0.1
 -- Server version:               10.0.21-MariaDB - mariadb.org binary distribution
 -- Server OS:                    Win64
--- HeidiSQL Version:             9.1.0.4867
+-- HeidiSQL Version:             11.3.0.6295
 -- --------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
-/*!40101 SET NAMES utf8mb4 */;
+/*!40101 SET NAMES utf8 */;
 /*!50503 SET NAMES utf8mb4 */;
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
@@ -28,9 +28,9 @@ CREATE TABLE IF NOT EXISTS `starting_items` (
   `content_flags` varchar(100) DEFAULT NULL,
   `content_flags_disabled` varchar(100) DEFAULT NULL,
   PRIMARY KEY (`id`,`race`)
-) ENGINE=InnoDB AUTO_INCREMENT=240 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=1105 DEFAULT CHARSET=latin1;
 
--- Dumping data for table peq.starting_items: ~210 rows (approximately)
+-- Dumping data for table peq.starting_items: ~0 rows (approximately)
 /*!40000 ALTER TABLE `starting_items` DISABLE KEYS */;
 INSERT INTO `starting_items` (`id`, `race`, `class`, `deityid`, `zoneid`, `itemid`, `item_charges`, `gm`, `slot`, `min_expansion`, `max_expansion`, `content_flags`, `content_flags_disabled`) VALUES
 	(1, 1, 0, 201, 0, 9982, 1, 0, -1, 0, 0, NULL, NULL),
@@ -211,26 +211,7 @@ INSERT INTO `starting_items` (`id`, `race`, `class`, `deityid`, `zoneid`, `itemi
 	(205, 1, 1, 211, 1, 18707, 1, 0, -1, 0, 0, NULL, NULL),
 	(206, 1, 1, 212, 1, 18707, 1, 0, -1, 0, 0, NULL, NULL),
 	(207, 1, 1, 396, 1, 18707, 1, 0, -1, 0, 0, NULL, NULL),
-	(208, 1, 0, 202, 0, 12219, 1, 0, -1, 0, 0, NULL, NULL),
-	(209, 1, 0, 204, 0, 12219, 1, 0, -1, 0, 0, NULL, NULL),
-	(210, 1, 0, 205, 0, 12219, 1, 0, -1, 0, 0, NULL, NULL),
-	(211, 1, 0, 206, 0, 12219, 1, 0, -1, 0, 0, NULL, NULL),
-	(212, 1, 0, 207, 0, 12219, 1, 0, -1, 0, 0, NULL, NULL),
-	(213, 1, 0, 208, 0, 12219, 1, 0, -1, 0, 0, NULL, NULL),
-	(214, 1, 0, 209, 0, 12219, 1, 0, -1, 0, 0, NULL, NULL),
-	(215, 1, 0, 210, 0, 12219, 1, 0, -1, 0, 0, NULL, NULL),
-	(216, 1, 0, 211, 0, 12219, 1, 0, -1, 0, 0, NULL, NULL),
-	(217, 1, 0, 212, 0, 12219, 1, 0, -1, 0, 0, NULL, NULL),
-	(218, 1, 0, 213, 0, 12219, 1, 0, -1, 0, 0, NULL, NULL),
-	(219, 1, 0, 214, 0, 12219, 1, 0, -1, 0, 0, NULL, NULL),
-	(220, 1, 0, 215, 0, 12219, 1, 0, -1, 0, 0, NULL, NULL),
-	(221, 1, 0, 216, 0, 12219, 1, 0, -1, 0, 0, NULL, NULL),
-	(222, 1, 0, 396, 0, 12219, 1, 0, -1, 0, 0, NULL, NULL),
-	(223, 2, 0, 0, 0, 12219, 1, 0, -1, 0, 0, NULL, NULL),
-	(224, 3, 0, 209, 0, 12219, 1, 0, -1, 0, 0, NULL, NULL),
-	(225, 3, 0, 210, 0, 12219, 1, 0, -1, 0, 0, NULL, NULL),
-	(226, 3, 0, 213, 0, 12219, 1, 0, -1, 0, 0, NULL, NULL),
-	(227, 3, 0, 396, 0, 12219, 1, 0, -1, 0, 0, NULL, NULL),
+	(208, 1, 1, 204, 0, 31512, 1, 0, -1, 0, 0, NULL, NULL),
 	(228, 12, 1, 211, 55, 18770, 1, 0, -1, 0, 0, NULL, NULL),
 	(229, 12, 1, 396, 55, 18770, 1, 0, -1, 0, 0, NULL, NULL),
 	(230, 12, 2, 205, 55, 18775, 1, 0, -1, 0, 0, NULL, NULL),
@@ -242,10 +223,50 @@ INSERT INTO `starting_items` (`id`, `race`, `class`, `deityid`, `zoneid`, `itemi
 	(236, 12, 13, 396, 55, 18772, 1, 0, -1, 0, 0, NULL, NULL),
 	(237, 12, 14, 396, 55, 18773, 1, 0, -1, 0, 0, NULL, NULL),
 	(238, 0, 8, 0, 0, 9992, 1, 0, -1, 0, 0, NULL, NULL),
-	(239, 1, 1, 0, 10, 18857, 1, 0, -1, 0, 0, NULL, NULL);
+	(239, 1, 1, 0, 10, 18857, 1, 0, -1, 0, 0, NULL, NULL),
+	(1000, 1, 1, 206, 0, 31512, 1, 0, -1, 0, 0, NULL, NULL),
+	(1001, 1, 1, 207, 0, 31512, 1, 0, -1, 0, 0, NULL, NULL),
+	(1002, 1, 1, 208, 0, 31512, 1, 0, -1, 0, 0, NULL, NULL),
+	(1003, 1, 1, 211, 0, 31512, 1, 0, -1, 0, 0, NULL, NULL),
+	(1004, 1, 1, 212, 0, 31512, 1, 0, -1, 0, 0, NULL, NULL),
+	(1005, 1, 1, 396, 0, 31512, 1, 0, -1, 0, 0, NULL, NULL),
+	(1006, 1, 3, 204, 0, 31512, 1, 0, -1, 0, 0, NULL, NULL),
+	(1007, 1, 3, 207, 0, 31512, 1, 0, -1, 0, 0, NULL, NULL),
+	(1008, 1, 3, 208, 0, 31512, 1, 0, -1, 0, 0, NULL, NULL),
+	(1009, 1, 3, 212, 0, 31512, 1, 0, -1, 0, 0, NULL, NULL),
+	(1010, 1, 4, 207, 0, 31512, 1, 0, -1, 0, 0, NULL, NULL),
+	(1011, 1, 4, 215, 0, 31512, 1, 0, -1, 0, 0, NULL, NULL),
+	(1012, 1, 5, 206, 0, 31512, 1, 0, -1, 0, 0, NULL, NULL),
+	(1013, 1, 7, 210, 0, 31512, 1, 0, -1, 0, 0, NULL, NULL),
+	(1014, 1, 7, 396, 0, 31512, 1, 0, -1, 0, 0, NULL, NULL),
+	(1015, 1, 8, 202, 0, 31512, 1, 0, -1, 0, 0, NULL, NULL),
+	(1016, 1, 8, 204, 0, 31512, 1, 0, -1, 0, 0, NULL, NULL),
+	(1017, 1, 8, 205, 0, 31512, 1, 0, -1, 0, 0, NULL, NULL),
+	(1018, 1, 8, 207, 0, 31512, 1, 0, -1, 0, 0, NULL, NULL),
+	(1019, 1, 8, 208, 0, 31512, 1, 0, -1, 0, 0, NULL, NULL),
+	(1020, 1, 8, 209, 0, 31512, 1, 0, -1, 0, 0, NULL, NULL),
+	(1021, 1, 8, 210, 0, 31512, 1, 0, -1, 0, 0, NULL, NULL),
+	(1022, 1, 8, 211, 0, 31512, 1, 0, -1, 0, 0, NULL, NULL),
+	(1023, 1, 8, 212, 0, 31512, 1, 0, -1, 0, 0, NULL, NULL),
+	(1024, 1, 8, 213, 0, 31512, 1, 0, -1, 0, 0, NULL, NULL),
+	(1025, 1, 8, 214, 0, 31512, 1, 0, -1, 0, 0, NULL, NULL),
+	(1026, 1, 8, 215, 0, 31512, 1, 0, -1, 0, 0, NULL, NULL),
+	(1027, 1, 8, 216, 0, 31512, 1, 0, -1, 0, 0, NULL, NULL),
+	(1028, 1, 8, 396, 0, 31512, 1, 0, -1, 0, 0, NULL, NULL),
+	(1029, 1, 9, 204, 0, 31512, 1, 0, -1, 0, 0, NULL, NULL),
+	(1030, 1, 9, 205, 0, 31512, 1, 0, -1, 0, 0, NULL, NULL),
+	(1031, 1, 9, 206, 0, 31512, 1, 0, -1, 0, 0, NULL, NULL),
+	(1032, 1, 9, 207, 0, 31512, 1, 0, -1, 0, 0, NULL, NULL),
+	(1033, 1, 9, 212, 0, 31512, 1, 0, -1, 0, 0, NULL, NULL),
+	(1034, 1, 9, 396, 0, 31512, 1, 0, -1, 0, 0, NULL, NULL),
+	(1035, 2, 1, 0, 0, 31512, 1, 0, -1, 0, 0, NULL, NULL),
+	(1036, 2, 9, 0, 0, 31512, 1, 0, -1, 0, 0, NULL, NULL),
+	(1037, 3, 3, 209, 0, 31512, 1, 0, -1, 0, 0, NULL, NULL),
+	(1038, 3, 3, 210, 0, 31512, 1, 0, -1, 0, 0, NULL, NULL),
+	(1039, 0, 0, 0, 0, 18700, 1, 0, -1, 0, 0, NULL, NULL);
 /*!40000 ALTER TABLE `starting_items` ENABLE KEYS */;
 
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
-/*!40014 SET FOREIGN_KEY_CHECKS=IF(@OLD_FOREIGN_KEY_CHECKS IS NULL, 1, @OLD_FOREIGN_KEY_CHECKS) */;
+/*!40014 SET FOREIGN_KEY_CHECKS=IFNULL(@OLD_FOREIGN_KEY_CHECKS, 1) */;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40111 SET SQL_NOTES=IFNULL(@OLD_SQL_NOTES, 1) */;
