@@ -64,9 +64,9 @@ CREATE TABLE IF NOT EXISTS `character_corpses` (
   PRIMARY KEY (`id`),
   KEY `zoneid` (`zone_id`),
   KEY `instanceid` (`instance_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=17628 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=17630 DEFAULT CHARSET=latin1;
 
--- Dumping data for table peq.character_corpses: ~1,378 rows (approximately)
+-- Dumping data for table peq.character_corpses: ~1,360 rows (approximately)
 /*!40000 ALTER TABLE `character_corpses` DISABLE KEYS */;
 INSERT INTO `character_corpses` (`id`, `charid`, `charname`, `zone_id`, `instance_id`, `x`, `y`, `z`, `heading`, `time_of_death`, `guild_consent_id`, `is_rezzed`, `is_buried`, `was_at_graveyard`, `is_locked`, `exp`, `size`, `level`, `race`, `gender`, `class`, `deity`, `texture`, `helm_texture`, `copper`, `silver`, `gold`, `platinum`, `hair_color`, `beard_color`, `eye_color_1`, `eye_color_2`, `hair_style`, `face`, `beard`, `drakkin_heritage`, `drakkin_tattoo`, `drakkin_details`, `wc_1`, `wc_2`, `wc_3`, `wc_4`, `wc_5`, `wc_6`, `wc_7`, `wc_8`, `wc_9`) VALUES
 	(1, 3, 'Asswhole', 44, 0, 858.2, -76, 3.8, 0, '2018-09-14 12:13:46', 0, 0, 1, 0, 0, 0, 6, 1, 128, 0, 10, 203, 255, 255, 0, 0, 0, 0, 255, 255, 0, 255, 255, 6, 255, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0),

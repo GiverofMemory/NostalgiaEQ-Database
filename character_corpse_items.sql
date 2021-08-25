@@ -29,7 +29,7 @@ CREATE TABLE IF NOT EXISTS `character_corpse_items` (
   PRIMARY KEY (`corpse_id`,`equip_slot`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
--- Dumping data for table peq.character_corpse_items: ~4,494 rows (approximately)
+-- Dumping data for table peq.character_corpse_items: ~4,502 rows (approximately)
 /*!40000 ALTER TABLE `character_corpse_items` DISABLE KEYS */;
 INSERT INTO `character_corpse_items` (`corpse_id`, `equip_slot`, `item_id`, `charges`, `aug_1`, `aug_2`, `aug_3`, `aug_4`, `aug_5`, `aug_6`, `attuned`, `scalerate`) VALUES
 	(1, 23, 9990, 20, 0, 0, 0, 0, 0, 0, 0, 100),

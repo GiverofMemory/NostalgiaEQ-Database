@@ -30,9 +30,9 @@ CREATE TABLE IF NOT EXISTS `qs_player_handin_record` (
   `npc_cp` int(11) DEFAULT '0',
   `npc_items` mediumint(7) DEFAULT '0',
   PRIMARY KEY (`handin_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=9768 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=9773 DEFAULT CHARSET=utf8;
 
--- Dumping data for table peq.qs_player_handin_record: ~9,731 rows (approximately)
+-- Dumping data for table peq.qs_player_handin_record: ~9,735 rows (approximately)
 /*!40000 ALTER TABLE `qs_player_handin_record` DISABLE KEYS */;
 INSERT INTO `qs_player_handin_record` (`handin_id`, `time`, `quest_id`, `char_id`, `char_pp`, `char_gp`, `char_sp`, `char_cp`, `char_items`, `npc_id`, `npc_pp`, `npc_gp`, `npc_sp`, `npc_cp`, `npc_items`) VALUES
 	(1, '2018-09-18 17:44:47', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0),
@@ -9801,7 +9801,12 @@ INSERT INTO `qs_player_handin_record` (`handin_id`, `time`, `quest_id`, `char_id
 	(9764, '2021-07-23 17:26:29', 0, 7118, 0, 0, 0, 0, 1, 9086, 0, 0, 0, 0, 0),
 	(9765, '2021-07-24 21:33:44', 0, 7120, 0, 0, 0, 0, 1, 54092, 0, 0, 0, 0, 0),
 	(9766, '2021-07-27 20:57:55', 0, 7124, 0, 0, 0, 0, 1, 61024, 0, 0, 0, 0, 0),
-	(9767, '2021-08-20 11:56:08', 0, 7132, 0, 0, 0, 0, 1, 54088, 0, 0, 0, 0, 0);
+	(9767, '2021-08-20 11:56:08', 0, 7132, 0, 0, 0, 0, 1, 54088, 0, 0, 0, 0, 0),
+	(9768, '2021-08-22 00:09:52', 0, 7135, 0, 0, 0, 0, 1, 3032, 0, 0, 0, 0, 0),
+	(9769, '2021-08-23 12:41:13', 0, 7136, 0, 0, 0, 0, 1, 2074, 0, 0, 0, 0, 0),
+	(9770, '2021-08-24 04:23:36', 0, 7139, 0, 0, 0, 0, 1, 2077, 0, 0, 0, 0, 0),
+	(9771, '2021-08-24 04:29:17', 0, 7140, 0, 0, 0, 0, 1, 2078, 0, 0, 0, 0, 0),
+	(9772, '2021-08-24 10:06:16', 0, 7142, 0, 0, 0, 0, 1, 49046, 0, 0, 0, 0, 0);
 /*!40000 ALTER TABLE `qs_player_handin_record` ENABLE KEYS */;
 
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;

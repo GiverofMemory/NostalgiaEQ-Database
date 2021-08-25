@@ -19,9 +19,9 @@ CREATE TABLE IF NOT EXISTS `character_spells` (
   `spell_id` smallint(11) unsigned NOT NULL DEFAULT '0',
   PRIMARY KEY (`id`,`slot_id`),
   KEY `id` (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=7134 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=7142 DEFAULT CHARSET=latin1;
 
--- Dumping data for table peq.character_spells: ~60,165 rows (approximately)
+-- Dumping data for table peq.character_spells: ~60,171 rows (approximately)
 /*!40000 ALTER TABLE `character_spells` DISABLE KEYS */;
 INSERT INTO `character_spells` (`id`, `slot_id`, `spell_id`) VALUES
 	(1, 0, 79),
@@ -59917,7 +59917,13 @@ INSERT INTO `character_spells` (`id`, `slot_id`, `spell_id`) VALUES
 	(7119, 145, 6876),
 	(7120, 0, 700),
 	(7133, 0, 341),
-	(7133, 1, 288);
+	(7133, 1, 288),
+	(7138, 0, 288),
+	(7138, 1, 341),
+	(7140, 0, 200),
+	(7140, 2, 202),
+	(7141, 0, 288),
+	(7141, 2, 341);
 /*!40000 ALTER TABLE `character_spells` ENABLE KEYS */;
 
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;

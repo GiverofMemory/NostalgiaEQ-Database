@@ -22,7 +22,7 @@ CREATE TABLE IF NOT EXISTS `data_buckets` (
   KEY `key_index` (`key`) USING BTREE
 ) ENGINE=InnoDB AUTO_INCREMENT=3062 DEFAULT CHARSET=utf8mb4;
 
--- Dumping data for table peq.data_buckets: ~98 rows (approximately)
+-- Dumping data for table peq.data_buckets: ~92 rows (approximately)
 /*!40000 ALTER TABLE `data_buckets` DISABLE KEYS */;
 INSERT INTO `data_buckets` (`id`, `key`, `value`, `expires`) VALUES
 	(130, 'ooeitem68773', '2169', 0),

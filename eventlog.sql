@@ -25,9 +25,9 @@ CREATE TABLE IF NOT EXISTS `eventlog` (
   `description` text NOT NULL,
   `event_nid` int(11) NOT NULL DEFAULT '0',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=2845 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=2864 DEFAULT CHARSET=latin1;
 
--- Dumping data for table peq.eventlog: ~2,613 rows (approximately)
+-- Dumping data for table peq.eventlog: ~2,862 rows (approximately)
 /*!40000 ALTER TABLE `eventlog` DISABLE KEYS */;
 INSERT INTO `eventlog` (`id`, `accountname`, `accountid`, `status`, `charname`, `target`, `time`, `descriptiontype`, `description`, `event_nid`) VALUES
 	(1, 'marcusd', 2234, 255, 'Giverof', 'None', '2021-08-06 03:07:51', 'Command', '#zone gfaydark', 1),
@@ -2873,7 +2873,26 @@ INSERT INTO `eventlog` (`id`, `accountname`, `accountid`, `status`, `charname`, 
 	(2841, 'marcusd', 2234, 255, 'Giverof', 'None', '2021-08-19 20:30:34', 'Command', '#loc', 1),
 	(2842, 'marcusd', 2234, 255, 'Giverof', 'None', '2021-08-19 20:30:40', 'Command', '#loc', 1),
 	(2843, 'marcusd', 2234, 255, 'Giverof', 'Giverof', '2021-08-19 20:31:01', 'Command', '#reloadzps', 1),
-	(2844, 'marcusd', 2234, 255, 'Giverof', 'None', '2021-08-19 20:31:08', 'Command', '#loc', 1);
+	(2844, 'marcusd', 2234, 255, 'Giverof', 'None', '2021-08-19 20:31:08', 'Command', '#loc', 1),
+	(2845, 'marcusd', 2234, 255, 'Giverof', 'goblin_runner000', '2021-08-22 00:05:09', 'Command', '#kill', 1),
+	(2846, 'marcusd', 2234, 255, 'Giverof', 'None', '2021-08-24 14:00:40', 'Command', '#summonitem 31512', 1),
+	(2847, 'marcusd', 2234, 255, 'Giverof', 'Giverof', '2021-08-24 14:02:58', 'Command', '#zone qtoqrg', 1),
+	(2848, 'marcusd', 2234, 255, 'Giverof', 'Giverof', '2021-08-24 14:03:05', 'Command', '#zone qeytoqrg', 1),
+	(2849, 'marcusd', 2234, 255, 'Giverof', 'a_fire_beetle004', '2021-08-24 14:11:03', 'Command', '#invul on', 1),
+	(2850, 'marcusd', 2234, 255, 'Giverof', 'None', '2021-08-24 14:15:34', 'Command', '#search bag', 1),
+	(2851, 'marcusd', 2234, 255, 'Giverof', 'None', '2021-08-24 14:15:59', 'Command', '#search wrist bag', 1),
+	(2852, 'marcusd', 2234, 255, 'Giverof', 'None', '2021-08-24 14:16:06', 'Command', '#search small bag', 1),
+	(2853, 'marcusd', 2234, 255, 'Giverof', 'None', '2021-08-24 14:16:17', 'Command', '#summonitem 17003', 1),
+	(2854, 'marcusd', 2234, 255, 'Giverof', 'None', '2021-08-24 14:17:40', 'Command', '#search torch', 1),
+	(2855, 'marcusd', 2234, 255, 'Giverof', 'None', '2021-08-24 14:17:56', 'Command', '#summonitem 13002', 1),
+	(2856, 'marcusd', 2234, 255, 'Giverof', 'None', '2021-08-24 14:20:33', 'Command', '#search discord', 1),
+	(2857, 'marcusd', 2234, 255, 'Giverof', 'None', '2021-08-24 14:20:59', 'Command', '#summonitem 18700', 1),
+	(2858, 'marcusd', 2234, 255, 'Giverof', 'None', '2021-08-24 14:29:23', 'Command', '#hotfix', 1),
+	(2859, 'marcusd', 2234, 255, 'Giverof', 'None', '2021-08-24 14:29:35', 'Command', '#search wax candle', 1),
+	(2860, 'marcusd', 2234, 255, 'Giverof', 'None', '2021-08-24 14:29:42', 'Command', '#summonitem 12219', 1),
+	(2861, 'marcusd', 2234, 255, 'Giverof', 'None', '2021-08-24 15:24:56', 'Command', '#zone lakerathe', 1),
+	(2862, 'marcusd', 2234, 255, 'Giverof', 'None', '2021-08-24 21:38:09', 'Command', '#summonitem 9982', 1),
+	(2863, 'marcusd', 2234, 255, 'Zdasfgaksjhd', 'None', '2021-08-25 00:13:54', 'Command', '#search hello', 1);
 /*!40000 ALTER TABLE `eventlog` ENABLE KEYS */;
 
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;

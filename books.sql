@@ -20,7 +20,7 @@ CREATE TABLE IF NOT EXISTS `books` (
   UNIQUE KEY `id` (`name`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
--- Dumping data for table peq.books: ~963 rows (approximately)
+-- Dumping data for table peq.books: ~1,074 rows (approximately)
 /*!40000 ALTER TABLE `books` DISABLE KEYS */;
 INSERT INTO `books` (`name`, `txtfile`, `language`) VALUES
 	('', 'MISSING ITEM TEXT', 0),

@@ -37,9 +37,9 @@ CREATE TABLE IF NOT EXISTS `account` (
   PRIMARY KEY (`id`),
   UNIQUE KEY `name_ls_id` (`name`,`ls_id`),
   UNIQUE KEY `ls_id_lsaccount_id` (`ls_id`,`lsaccount_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=2273 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=2275 DEFAULT CHARSET=latin1;
 
--- Dumping data for table peq.account: ~2,245 rows (approximately)
+-- Dumping data for table peq.account: ~2,250 rows (approximately)
 /*!40000 ALTER TABLE `account` DISABLE KEYS */;
 INSERT INTO `account` (`id`, `name`, `charname`, `sharedplat`, `password`, `status`, `ls_id`, `lsaccount_id`, `gmspeed`, `revoked`, `karma`, `minilogin_ip`, `hideme`, `rulesflag`, `suspendeduntil`, `time_creation`, `expansion`, `ban_reason`, `suspend_reason`, `platinum_shared`) VALUES
 	(1, 'kaluven', 'Maze', 0, '', 255, 'eqemu', 70204, 0, 0, 1240, '', 1, 0, '0000-00-00 00:00:00', 1536942521, 0, NULL, NULL, 0),
@@ -2260,16 +2260,16 @@ INSERT INTO `account` (`id`, `name`, `charname`, `sharedplat`, `password`, `stat
 	(2231, 'predmercy', 'Mercyy', 0, '', 255, 'local', 1, 1, 0, 65, '', 0, 0, '0000-00-00 00:00:00', 1626276178, 0, NULL, NULL, 0),
 	(2232, 'TacoBiscuit', 'Quipoliz', 0, '', 255, 'local', 2, 1, 0, 9, '', 0, 0, '0000-00-00 00:00:00', 1626276228, 0, NULL, NULL, 0),
 	(2233, 'TacoBiscuit2', 'Ungelo', 0, '', 0, 'local', 3, 0, 0, 12, '', 0, 0, '0000-00-00 00:00:00', 1626290701, 0, NULL, NULL, 0),
-	(2234, 'marcusd', 'Giverof', 0, '', 255, 'local', 4, 0, 0, 118, '', 0, 0, '0000-00-00 00:00:00', 1626293901, 0, NULL, NULL, 0),
+	(2234, 'marcusd', 'Zgsdfgsd', 0, '', 255, 'local', 4, 0, 0, 124, '', 0, 0, '0000-00-00 00:00:00', 1626293901, 0, NULL, NULL, 0),
 	(2235, 'mercy', 'Mercykiller', 0, '', 0, 'local', 5, 0, 0, 46, '', 0, 0, '0000-00-00 00:00:00', 1626313558, 0, NULL, NULL, 0),
-	(2236, 'notmarcusd', 'Giver', 0, '', 0, 'local', 6, 0, 0, 38, '', 0, 0, '0000-00-00 00:00:00', 1626314954, 0, NULL, NULL, 0),
-	(2237, 'Solemnus', 'Pysegra', 0, '', 255, 'local', 7, 1, 0, 23, '', 0, 0, '0000-00-00 00:00:00', 1626424432, 0, NULL, NULL, 0),
+	(2236, 'notmarcusd', 'Takkibeph', 0, '', 0, 'local', 6, 0, 0, 39, '', 0, 0, '0000-00-00 00:00:00', 1626314954, 0, NULL, NULL, 0),
+	(2237, 'Solemnus', 'Hpregen', 0, '', 255, 'local', 7, 1, 0, 23, '', 0, 0, '0000-00-00 00:00:00', 1626424432, 0, NULL, NULL, 0),
 	(2238, 'testmarcusd', '', 0, '', 0, 'local', 8, 0, 0, 0, '', 0, 0, '0000-00-00 00:00:00', 1626461246, 0, NULL, NULL, 0),
 	(2239, 'testerz', '', 0, '', 0, 'local', 9, 0, 0, 0, '', 0, 0, '0000-00-00 00:00:00', 1626461522, 0, NULL, NULL, 0),
 	(2240, 'phr0stbyt3', 'Braeldar', 0, '', 255, 'local', 10, 1, 0, 0, '', 1, 0, '0000-00-00 00:00:00', 1626575048, 0, NULL, NULL, 0),
 	(2241, 'elmedir', 'Manwe', 0, '', 0, 'local', 11, 0, 0, 0, '', 0, 0, '0000-00-00 00:00:00', 1626980907, 0, NULL, NULL, 0),
 	(2242, 'Hadouk3n', 'Didymus', 0, '', 0, 'local', 13, 0, 0, 0, '', 0, 0, '0000-00-00 00:00:00', 1627419189, 0, NULL, NULL, 0),
-	(2243, 'Vire70', 'Tyffendy', 0, '', 0, 'local', 12, 0, 0, 0, '', 0, 0, '0000-00-00 00:00:00', 1627538987, 0, NULL, NULL, 0),
+	(2243, 'Vire70', 'Ferim', 0, '', 0, 'local', 12, 0, 0, 0, '', 0, 0, '0000-00-00 00:00:00', 1627538987, 0, NULL, NULL, 0),
 	(2244, 'louis1016', 'Louielan', 0, '', 0, 'local', 14, 0, 0, 0, '', 0, 0, '0000-00-00 00:00:00', 1627705487, 0, NULL, NULL, 0),
 	(2245, 'Xanderoth', '', 0, '', 0, 'eqemu', 107863, 0, 0, 0, '', 0, 0, '0000-00-00 00:00:00', 1628265041, 0, NULL, NULL, 0),
 	(2246, 'coop0337', '', 0, '', 0, 'eqemu', 452732, 0, 0, 0, '', 0, 0, '0000-00-00 00:00:00', 1628327117, 0, NULL, NULL, 0),
@@ -2289,7 +2289,9 @@ INSERT INTO `account` (`id`, `name`, `charname`, `sharedplat`, `password`, `stat
 	(2260, 'texs09', '', 0, '', 0, 'eqemu', 362414, 0, 0, 0, '', 0, 0, '0000-00-00 00:00:00', 1628829259, 0, NULL, NULL, 0),
 	(2270, 'tester', 'Testerone', 0, '', 255, 'local', 17, 0, 0, 0, '', 0, 0, '0000-00-00 00:00:00', 1629391784, 0, NULL, NULL, 0),
 	(2271, 'shin2', 'Hunterx', 0, '', 0, 'eqemu', 120771, 0, 0, 0, '', 0, 0, '0000-00-00 00:00:00', 1629485683, 0, NULL, NULL, 0),
-	(2272, 'schuckenstein', 'Deathklokk', 0, '', 0, 'local', 18, 0, 0, 0, '', 0, 0, '0000-00-00 00:00:00', 1629502273, 0, NULL, NULL, 0);
+	(2272, 'schuckenstein', 'Deathklokk', 0, '', 0, 'local', 18, 0, 0, 0, '', 0, 0, '0000-00-00 00:00:00', 1629502273, 0, NULL, NULL, 0),
+	(2273, 'Bango', 'Mank', 0, '', 0, 'local', 19, 0, 0, 0, '', 0, 0, '0000-00-00 00:00:00', 1629747468, 0, NULL, NULL, 0),
+	(2274, 'Bango1', 'Kler', 0, '', 0, 'local', 20, 0, 0, 0, '', 0, 0, '0000-00-00 00:00:00', 1629804326, 0, NULL, NULL, 0);
 /*!40000 ALTER TABLE `account` ENABLE KEYS */;
 
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;

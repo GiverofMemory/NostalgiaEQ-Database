@@ -30,7 +30,7 @@ CREATE TABLE IF NOT EXISTS `starting_items` (
   PRIMARY KEY (`id`,`race`)
 ) ENGINE=InnoDB AUTO_INCREMENT=1105 DEFAULT CHARSET=latin1;
 
--- Dumping data for table peq.starting_items: ~0 rows (approximately)
+-- Dumping data for table peq.starting_items: ~231 rows (approximately)
 /*!40000 ALTER TABLE `starting_items` DISABLE KEYS */;
 INSERT INTO `starting_items` (`id`, `race`, `class`, `deityid`, `zoneid`, `itemid`, `item_charges`, `gm`, `slot`, `min_expansion`, `max_expansion`, `content_flags`, `content_flags_disabled`) VALUES
 	(1, 1, 0, 201, 0, 9982, 1, 0, -1, 0, 0, NULL, NULL),

@@ -21,7 +21,7 @@ CREATE TABLE IF NOT EXISTS `character_memmed_spells` (
   KEY `id` (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
--- Dumping data for table peq.character_memmed_spells: ~11,549 rows (approximately)
+-- Dumping data for table peq.character_memmed_spells: ~11,556 rows (approximately)
 /*!40000 ALTER TABLE `character_memmed_spells` DISABLE KEYS */;
 INSERT INTO `character_memmed_spells` (`id`, `slot_id`, `spell_id`) VALUES
 	(1, 0, 2621),
@@ -11538,6 +11538,7 @@ INSERT INTO `character_memmed_spells` (`id`, `slot_id`, `spell_id`) VALUES
 	(7091, 4, 590),
 	(7092, 0, 1776),
 	(7092, 1, 261),
+	(7092, 3, 252),
 	(7094, 0, 26),
 	(7094, 1, 239),
 	(7094, 7, 242),
@@ -11573,7 +11574,13 @@ INSERT INTO `character_memmed_spells` (`id`, `slot_id`, `spell_id`) VALUES
 	(7119, 6, 278),
 	(7120, 7, 700),
 	(7133, 0, 341),
-	(7133, 7, 288);
+	(7133, 7, 288),
+	(7138, 0, 341),
+	(7138, 7, 288),
+	(7140, 0, 200),
+	(7140, 7, 202),
+	(7141, 0, 341),
+	(7141, 7, 288);
 /*!40000 ALTER TABLE `character_memmed_spells` ENABLE KEYS */;
 
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;

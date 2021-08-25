@@ -22,7 +22,7 @@ CREATE TABLE IF NOT EXISTS `rule_values` (
   KEY `ruleset_id` (`ruleset_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
--- Dumping data for table peq.rule_values: ~576 rows (approximately)
+-- Dumping data for table peq.rule_values: ~584 rows (approximately)
 /*!40000 ALTER TABLE `rule_values` DISABLE KEYS */;
 INSERT INTO `rule_values` (`ruleset_id`, `rule_name`, `rule_value`, `notes`) VALUES
 	(1, 'AA:ExpPerPoint', '23976503', 'Amount of experience per AA. Is the same as the amount of experience to go from level 51 to level 52'),
@@ -189,7 +189,7 @@ INSERT INTO `rule_values` (`ruleset_id`, `rule_name`, `rule_value`, `notes`) VAL
 	(1, 'Character:TrollCommonTongue', '95', 'Starting value for Common Tongue for Trolls'),
 	(1, 'Character:UnmemSpellsOnDeath', 'true', 'Setting whether at death all memorized Spells are forgotten'),
 	(1, 'Character:UseDeathExpLossMult', 'true', 'Setting to control whether DeathExpLossMultiplier or the code default is used: (Level x Level / 18.0) x 12000'),
-	(1, 'Character:UseNewStatsWindow', 'true', 'Setting whether the new Stats window, which displays all information, should be used'),
+	(1, 'Character:UseNewStatsWindow', 'false', 'Setting whether the new Stats window, which displays all information, should be used'),
 	(1, 'Character:UseNoJunkFishing', 'FALSE', 'Disregards junk items when fishing'),
 	(1, 'Character:UseOldBindWound', 'true', 'Uses the original bind wound behavior'),
 	(1, 'Character:UseOldClassExpPenalties', 'true', 'Setting this to true will enable old class experience penalties for Paladin, SK, Ranger, Bard, Monk, Wizard, Enchanter, Magician, and Necromancer, as well as the bonus for Rogues and Warriors'),
@@ -337,7 +337,7 @@ INSERT INTO `rule_values` (`ruleset_id`, `rule_name`, `rule_value`, `notes`) VAL
 	(1, 'GM:MinStatusToLevelTarget', '100', 'Minimum required status to set the level of a player'),
 	(1, 'GM:MinStatusToSummonItem', '250', 'Minimum required status to summon items'),
 	(1, 'GM:MinStatusToZoneAnywhere', '250', 'Minimum required status to zone anywhere'),
-	(1, 'Guild:PlayerCreationAllowed', 'true', 'Allow players to create a guild using the window in Underfoot+'),
+	(1, 'Guild:PlayerCreationAllowed', 'false', 'Allow players to create a guild using the window in Underfoot+'),
 	(1, 'Guild:PlayerCreationLimit', '1', 'Only allow use of the UF+ window if the account has < than this number of guild leaders on it'),
 	(1, 'Guild:PlayerCreationRequiredLevel', '1', 'Required level of the player attempting to create the guild'),
 	(1, 'Guild:PlayerCreationRequiredStatus', '0', 'Required status to create a guild'),
@@ -387,12 +387,12 @@ INSERT INTO `rule_values` (`ruleset_id`, `rule_name`, `rule_value`, `notes`) VAL
 	(1, 'Mercs:SuspendIntervalS', '10', 'Time interval for merc suspend command (seconds)'),
 	(1, 'Mercs:UpkeepIntervalMS', '180000', 'Time interval for merc upkeep (milliseconds)'),
 	(1, 'Network:ClientDataRate', '0', 'KB / sec, 0.0 disabled'),
-	(1, 'Network:CompressZoneStream', 'TRUE', 'Setting whether the zone stream should be compressed for transmission'),
+	(1, 'Network:CompressZoneStream', 'FALSE', 'Setting whether the zone stream should be compressed for transmission'),
 	(1, 'Network:ResendDelayBaseMS', '100', 'Base delay for resending data in EQStreamManager (milliseconds)'),
 	(1, 'Network:ResendDelayFactor', '1.5000000000000', 'Multiplier for the base delay when resending data in EQStreamManager'),
 	(1, 'Network:ResendDelayMaxMS', '5000', 'Maximum timespan between two send retries (milliseconds)'),
 	(1, 'Network:ResendDelayMinMS', '100', 'Minimum timespan between two send retries (milliseconds)'),
-	(1, 'NPC:AnimalsOpenDoors', 'true', 'Determines or not whether animals open doors or not when they approach them'),
+	(1, 'NPC:AnimalsOpenDoors', 'false', 'Determines or not whether animals open doors or not when they approach them'),
 	(1, 'NPC:BuffFriends', 'true', 'Setting whether NPC should buff other NPC'),
 	(1, 'NPC:CorpseUnlockTimer', '150000', 'Time after which corpses are unlocked for everyone to loot (milliseconds)'),
 	(1, 'NPC:EmptyNPCCorpseDecayTimeMS', '6000', 'NPC corpse decay time, if no items are left on the corpse (milliseconds)'),
@@ -423,8 +423,8 @@ INSERT INTO `rule_values` (`ruleset_id`, `rule_name`, `rule_value`, `notes`) VAL
 	(1, 'Pathing:Fear', 'true', 'Enable pathing for fear'),
 	(1, 'Pathing:Find', 'false', 'Enable pathing for FindPerson requests from the client'),
 	(1, 'Pathing:MaxNavmeshNodes', '4092', 'Maximum navmesh nodes in a traversable path'),
-	(1, 'Pathing:NavmeshStepSize', '30.0000000000000', 'Step size for the movement manager'),
-	(1, 'Pathing:ShortMovementUpdateRange', '130.0f', 'Range for short movement updates'),
+	(1, 'Pathing:NavmeshStepSize', '100.0f', 'Step size for the movement manager'),
+	(1, 'Pathing:ShortMovementUpdateRange', '600.0f', 'Range for short movement updates'),
 	(1, 'Pets:AttackCommandRange', '250.0000000000000', 'Range at which a pet will respond to attack commands'),
 	(1, 'Pets:CanTakeNoDrop', 'false', 'Setting whether anyone can give no-drop items to pets'),
 	(1, 'Pets:LivelikeBreakCharmOnInvis', 'true', 'Default: true will break charm on any type of invis (hide/ivu/iva/etc) false will only break if the pet can not see you (ex. you have an undead pet and cast IVU'),
@@ -449,7 +449,7 @@ INSERT INTO `rule_values` (`ruleset_id`, `rule_name`, `rule_value`, `notes`) VAL
 	(1, 'QueryServ:PlayerLogTrades', 'true', 'Log player trades'),
 	(1, 'QueryServ:PlayerLogTradeSkillEvents', 'false', 'Log player tradeskill transactions'),
 	(1, 'QueryServ:PlayerLogZone', 'false', 'Log player zone events'),
-	(1, 'Range:Anims', '300', 'The packet range in which begin cast messages are sent'),
+	(1, 'Range:Anims', '600', 'The packet range in which begin cast messages are sent'),
 	(1, 'Range:BeginCast', '200', 'The packet range in which begin cast messages are sent'),
 	(1, 'Range:ClientPositionUpdates', '600', 'Distance in which the own changed position is communicated to other clients'),
 	(1, 'Range:CriticalDamage', '150', 'The packet range in which critical hit messages are sent'),
@@ -581,7 +581,7 @@ INSERT INTO `rule_values` (`ruleset_id`, `rule_name`, `rule_value`, `notes`) VAL
 	(1, 'World:PVPMinLevel', '0', 'Minimum level to pvp'),
 	(1, 'World:PVPSettings', '0', 'Sets the PVP settings for the server. 1=Rallos Zek RuleSet, 2=Tallon/Vallon Zek Ruleset, 4=Sullon Zek Ruleset, 6=Discord Ruleset, anything above 6 is the Discord Ruleset without the no-drop restrictions removed. NOTE: edit IsAttackAllowed in Zone-table to accomodate for these rules'),
 	(1, 'World:SoFStartZoneID', '-1', 'Sets the Starting Zone for SoF Clients separate from Titanium Clients (-1 is disabled)'),
-	(1, 'World:StartZoneSameAsBindOnCreation', 'true', 'Should the start zone always be the same location as your bind?'),
+	(1, 'World:StartZoneSameAsBindOnCreation', 'false', 'Should the start zone always be the same location as your bind?'),
 	(1, 'World:TellQueueSize', '20', 'Maximum tell queue size'),
 	(1, 'World:TitaniumStartZoneID', '-1', 'Sets the Starting Zone for Titanium Clients (-1 is disabled). Replaces the old method'),
 	(1, 'World:TutorialZoneID', '22', 'Zone ID of the tutorial'),
