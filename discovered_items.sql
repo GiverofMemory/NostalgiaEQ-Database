@@ -21,7 +21,7 @@ CREATE TABLE IF NOT EXISTS `discovered_items` (
   PRIMARY KEY (`item_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
--- Dumping data for table peq.discovered_items: ~5,157 rows (approximately)
+-- Dumping data for table peq.discovered_items: ~5,155 rows (approximately)
 /*!40000 ALTER TABLE `discovered_items` DISABLE KEYS */;
 INSERT INTO `discovered_items` (`item_id`, `char_name`, `discovered_date`, `account_status`) VALUES
 	(1001, 'Bewm', 1536973612, 0),
@@ -4413,6 +4413,8 @@ INSERT INTO `discovered_items` (`item_id`, `char_name`, `discovered_date`, `acco
 	(18700, 'Quipoliz', 1626283547, 0),
 	(18704, 'Poppa', 1542089308, 0),
 	(18711, 'Serothil', 1542513037, 0),
+	(18713, 'Lofyhaga', 1629925338, 255),
+	(18736, 'Esazodrude', 1629925442, 255),
 	(18742, 'Dragaa', 1537408663, 0),
 	(18748, 'Jerry', 1536973333, 0),
 	(18751, 'Helifux', 1538026420, 0),
@@ -5102,6 +5104,7 @@ INSERT INTO `discovered_items` (`item_id`, `char_name`, `discovered_date`, `acco
 	(30365, 'Whytho', 1539242014, 0),
 	(30366, 'Faye', 1538340168, 0),
 	(30367, 'Ashalan', 1542509373, 0),
+	(30431, 'Giverof', 1630103868, 255),
 	(30450, 'Telaport', 1538519335, 0),
 	(30979, 'Dwelyn', 1537041676, 0),
 	(30980, 'Hidin', 1536980627, 0),

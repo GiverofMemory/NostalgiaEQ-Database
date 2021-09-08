@@ -25,7 +25,7 @@ CREATE TABLE IF NOT EXISTS `eqtime` (
 -- Dumping data for table peq.eqtime: ~0 rows (approximately)
 /*!40000 ALTER TABLE `eqtime` DISABLE KEYS */;
 INSERT INTO `eqtime` (`minute`, `hour`, `day`, `month`, `year`, `realtime`) VALUES
-	(22, 6, 22, 12, 3894, 1629880289);
+	(5, 21, 19, 10, 3895, 1631076362);
 /*!40000 ALTER TABLE `eqtime` ENABLE KEYS */;
 
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;

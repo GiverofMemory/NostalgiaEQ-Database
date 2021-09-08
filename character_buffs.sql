@@ -35,7 +35,7 @@ CREATE TABLE IF NOT EXISTS `character_buffs` (
   KEY `character_id` (`character_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
--- Dumping data for table peq.character_buffs: ~3,978 rows (approximately)
+-- Dumping data for table peq.character_buffs: ~3,975 rows (approximately)
 /*!40000 ALTER TABLE `character_buffs` DISABLE KEYS */;
 INSERT INTO `character_buffs` (`character_id`, `slot_id`, `spell_id`, `caster_level`, `caster_name`, `ticsremaining`, `counters`, `numhits`, `melee_rune`, `magic_rune`, `persistent`, `dot_rune`, `caston_x`, `caston_y`, `caston_z`, `ExtraDIChance`, `instrument_mod`) VALUES
 	(2, 0, 1214, 50, 'Plastic', 1442, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10),
@@ -4002,6 +4002,7 @@ INSERT INTO `character_buffs` (`character_id`, `slot_id`, `spell_id`, `caster_le
 	(7089, 0, 1391, 50, 'Mercyy', 262, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10),
 	(7089, 2, 67, 50, 'Mercyy', 345, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10),
 	(7091, 0, 66, 34, 'Zandelm', 446, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10),
+	(7092, 0, 1776, 60, 'Giverof', 162, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10),
 	(7094, 0, 1391, 50, '', 285, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10),
 	(7094, 1, 26, 9, 'Mercykiller', 232, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10),
 	(7101, 0, 278, 19, 'Noxe', 84, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10),
@@ -4013,9 +4014,8 @@ INSERT INTO `character_buffs` (`character_id`, `slot_id`, `spell_id`, `caster_le
 	(7116, 0, 1776, 49, 'Dehulosh', 354, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10),
 	(7133, 0, 288, 1, 'Deathklokk', 67, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10),
 	(7138, 0, 288, 1, 'Lustria', 70, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10),
-	(7139, 0, 202, 1, 'Kler', 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10),
-	(7140, 0, 202, 1, 'Kler', 110, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10),
-	(7141, 0, 288, 1, 'Nero', 22, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10);
+	(7139, 0, 202, 3, 'Kler', 141, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10),
+	(7192, 0, 288, 3, 'Karm', 170, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10);
 /*!40000 ALTER TABLE `character_buffs` ENABLE KEYS */;
 
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;

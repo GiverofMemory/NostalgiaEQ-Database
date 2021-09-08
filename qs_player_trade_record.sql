@@ -29,7 +29,7 @@ CREATE TABLE IF NOT EXISTS `qs_player_trade_record` (
   `char2_cp` int(11) DEFAULT '0',
   `char2_items` mediumint(7) DEFAULT '0',
   PRIMARY KEY (`trade_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=6380 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=6381 DEFAULT CHARSET=utf8;
 
 -- Dumping data for table peq.qs_player_trade_record: ~6,332 rows (approximately)
 /*!40000 ALTER TABLE `qs_player_trade_record` DISABLE KEYS */;
@@ -6412,7 +6412,8 @@ INSERT INTO `qs_player_trade_record` (`trade_id`, `time`, `char1_id`, `char1_pp`
 	(6376, '2021-07-17 02:21:29', 7091, 0, 0, 0, 0, 0, 7088, 0, 0, 0, 0, 1),
 	(6377, '2021-07-17 02:22:54', 7088, 0, 0, 0, 0, 1, 7091, 0, 0, 0, 0, 0),
 	(6378, '2021-07-17 02:23:53', 7088, 0, 0, 0, 0, 2, 7091, 0, 0, 0, 0, 0),
-	(6379, '2021-07-17 02:24:41', 7091, 0, 0, 0, 0, 0, 7088, 0, 0, 0, 0, 1);
+	(6379, '2021-07-17 02:24:41', 7091, 0, 0, 0, 0, 0, 7088, 0, 0, 0, 0, 1),
+	(6380, '2021-08-25 08:31:07', 7139, 0, 0, 0, 0, 1, 7140, 0, 0, 0, 0, 0);
 /*!40000 ALTER TABLE `qs_player_trade_record` ENABLE KEYS */;
 
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;

@@ -28,9 +28,9 @@ CREATE TABLE IF NOT EXISTS `starting_items` (
   `content_flags` varchar(100) DEFAULT NULL,
   `content_flags_disabled` varchar(100) DEFAULT NULL,
   PRIMARY KEY (`id`,`race`)
-) ENGINE=InnoDB AUTO_INCREMENT=1113 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=1114 DEFAULT CHARSET=latin1;
 
--- Dumping data for table peq.starting_items: ~233 rows (approximately)
+-- Dumping data for table peq.starting_items: ~231 rows (approximately)
 /*!40000 ALTER TABLE `starting_items` DISABLE KEYS */;
 INSERT INTO `starting_items` (`id`, `race`, `class`, `deityid`, `zoneid`, `itemid`, `item_charges`, `gm`, `slot`, `min_expansion`, `max_expansion`, `content_flags`, `content_flags_disabled`) VALUES
 	(1, 1, 0, 201, 0, 9982, 1, 0, -1, 0, 0, NULL, NULL),
@@ -265,7 +265,8 @@ INSERT INTO `starting_items` (`id`, `race`, `class`, `deityid`, `zoneid`, `itemi
 	(1038, 3, 3, 210, 0, 31512, 1, 0, -1, 0, 0, NULL, NULL),
 	(1039, 0, 0, 0, 0, 18700, 1, 0, -1, 0, 0, NULL, NULL),
 	(1111, 1, 2, 208, 8, 18735, 1, 0, -1, 0, 0, NULL, NULL),
-	(1112, 1, 2, 204, 8, 18736, 1, 0, -1, 0, 0, NULL, NULL);
+	(1112, 1, 2, 204, 8, 18736, 1, 0, -1, 0, 0, NULL, NULL),
+	(1113, 1, 2, 212, 1, 18714, 1, 0, -1, 0, 0, NULL, NULL);
 /*!40000 ALTER TABLE `starting_items` ENABLE KEYS */;
 
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;

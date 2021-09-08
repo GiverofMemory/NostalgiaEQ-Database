@@ -71989,7 +71989,10 @@ INSERT INTO `qs_merchant_transaction_record_entries` (`event_id`, `char_slot`, `
 	(71952, 26, 13006, 20, 0, 0, 0, 0, 0),
 	(71953, 27, 13009, 20, 0, 0, 0, 0, 0),
 	(71954, 28, 13009, 20, 0, 0, 0, 0, 0),
-	(71955, 29, 15239, 1, 0, 0, 0, 0, 0);
+	(71955, 29, 15239, 1, 0, 0, 0, 0, 0),
+	(71956, 27, 5013, 1, 0, 0, 0, 0, 0),
+	(71957, 28, 13753, 1, 0, 0, 0, 0, 0),
+	(71958, 25, 13782, 4, 0, 0, 0, 0, 0);
 /*!40000 ALTER TABLE `qs_merchant_transaction_record_entries` ENABLE KEYS */;
 
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
